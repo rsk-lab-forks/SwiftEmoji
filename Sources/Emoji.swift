@@ -9,22 +9,18 @@ public final class Emoji : EmojiData {
     /// Pattern that matches a single Emoji character, including combining marks and sequences.
     ///
     public static var SingleEmojiPattern:String = {
-        // The "emoji" group needs to be followed by a special character to be rendered like emoji.
-        let emojiVariants = "(?:(?:\(EmojiPatterns.joined(separator: "|")))\\uFE0F)"
+        let emoji = EmojiPatterns.joined(separator: "|")
         
         // Emoji can be followed by optional combining marks. The standard says only keycaps and
         // backslash are likely to be supported.
         let combiningMarks = "[\\u20E3\\u20E0]"
         
-        // "Presentation" characters are rendered as emoji by default and need no variant.
-        let emojiPresentation = "\(EmojiPresentationPatterns.joined(separator: "|"))"
-        
-        // Some other emoji are sequences of characters, joined with 'Zero Width Joiner' characters.
+        // Some emoji are sequences of characters, joined with 'Zero Width Joiner' characters.
         // We want the longest match, so we sort these in reverse order.
         let zwjSequences = ZWJSequencePatterns.reversed().joined(separator: "|")
         let otherSequences = SequencePatterns.joined(separator: "|")
         
-        return "(?:(?:\(zwjSequences)|\(otherSequences)|\(emojiVariants)|\(emojiPresentation))\(combiningMarks)?)"
+        return "(?:(?:\(zwjSequences)|\(otherSequences)|\(emoji))\(combiningMarks)?)"
     }()
     
     /// A regular expression that matches any emoji character. Useful for plucking individual emoji
@@ -86,5 +82,4 @@ public final class Emoji : EmojiData {
         let firstMatch = PureEmojiAndWhitespaceRegex.rangeOfFirstMatch(in: string, options:[], range:range)
         return firstMatch.location != NSNotFound
     }
-    
 }
