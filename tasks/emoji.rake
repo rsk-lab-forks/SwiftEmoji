@@ -6,66 +6,40 @@ namespace :emoji do
 
   desc %{Generates swift sources from Unicode Emoji data files.}
   task :generate_sources => :environment do
-    data_path = File.join($ROOT_DIR, "tasks", "emoji", "emoji-data.txt")
-    data = Emoji.parse_entries(data_path)
-    
     sequences_path = File.join($ROOT_DIR, "tasks", "emoji", "emoji-sequences.txt")
     sequences = Emoji.parse_entries(sequences_path)
 
     zwj_sequences_path = File.join($ROOT_DIR, "tasks", "emoji", "emoji-zwj-sequences.txt")
     zwj_sequences = Emoji.parse_entries(zwj_sequences_path)
     
-    emoji_entries = data.select { |e| e.property == "Emoji" }
-    emoji__presentation_entries = data.select { |e| e.property == "Emoji_Presentation" }
-    modifier_entries = data.select { |e| e.property == "Emoji_Modifier" }
-    modifier_bases = data.select { |e| e.property == "Emoji_Modifier_Base" }
+    test_path =  File.join($ROOT_DIR, "tasks", "emoji", "emoji-test.txt")
+    test = Emoji.parse_entries(test_path)
+    
+    emoji = test + sequences - (test & sequences)
+    emoji = emoji + zwj_sequences - (emoji & zwj_sequences)
     
     swift_source_code = <<-SWIFT
 //
 // DO NOT EDIT. This file was auto-generated from the Unicode data files located at:
 //
-//    http://www.unicode.org/Public/emoji/3.0/
+//    https://www.unicode.org/Public/emoji/11.0/
 //
 // To regenerate it, use the rake tasks in the SwiftEmoji project.
+//
 
 ///
 /// A Swift-ified version of Unicode's Emoji data files, located at:
 ///
-///   http://www.unicode.org/Public/emoji/3.0/
+///   https://www.unicode.org/Public/emoji/11.0/
 ///
 public class EmojiData {
     
     ///
-    /// Patterns that match characters in the "Emoji" group. Note that characters in this group are
-    /// (confusingly) not rendered as Emoji by default. They must be followed by the U+FE0F (variant
-    /// selector) character to be rendered as Emoji.
-    /// 
+    /// Patterns that match emoji forms, excluding emoji sequences and Zero-Width-Joiner (ZWJ)
+    /// sequences, which should be in keyboards and which should also be displayed/processed.
+    ///
     public static let EmojiPatterns:[String] = [
-        #{Emoji::Entry.to_swift_array_entries(emoji_entries).join("\n        ")}
-    ]
-
-    ///
-    /// Patterns that match characters in the "Emoji Presentation" group. These characters are
-    /// rendered as Emoji by default, and do not need a variant selector, unlike `EmojiPatterns`.
-    ///
-    public static let EmojiPresentationPatterns:[String] = [
-        #{Emoji::Entry.to_swift_array_entries(emoji__presentation_entries).join("\n        ")}
-    ]
-  
-    ///
-    /// Patterns that match "Emoji_Modifier_Base" characters, which are those that can be modified
-    /// by "Emoji_Modifier" (skintone) characters.
-    ///
-    public static let ModifierBasePatterns:[String] = [
-        #{Emoji::Entry.to_swift_array_entries(modifier_bases).join("\n        ")}
-    ]
-    
-    ///
-    /// Patterns that match "Emoji_Modifier" characters (Skin Tones, aka. Fitzpatrick Modifiers).
-    /// These modifiers follow the characters in the "Emoji_Modifier_Base" group.
-    ///
-    public static let ModifierPatterns:[String] = [
-        #{Emoji::Entry.to_swift_array_entries(modifier_entries).join("\n        ")}
+        #{Emoji::Entry.to_swift_array_entries(emoji).join("\n        ")}
     ]
     
     ///
@@ -76,7 +50,7 @@ public class EmojiData {
     public static let SequencePatterns:[String] = [
         #{Emoji::Entry.to_swift_array_entries(sequences).join("\n        ")}
     ]
-
+    
     ///
     /// Patterns that match Zero-Width-Joiner (ZWJ) sequences used for "family" characters like
     /// "👨‍👩‍👧‍👧".
@@ -84,13 +58,11 @@ public class EmojiData {
     public static let ZWJSequencePatterns:[String] = [
         #{Emoji::Entry.to_swift_array_entries(zwj_sequences).join("\n        ")}
     ]
-  
-    internal init() {
-      // prevent instantiation.
-    }
     
+    private init() {
+        // Prevent instantiation.
+    }
 }
-  
 SWIFT
     
     source_file = File.join($ROOT_DIR, "Sources", "EmojiData.swift")
@@ -111,11 +83,10 @@ module Emoji
       f.each_line do |line|
         match = line.match(/^\s*([^#]+?)\s*(;\s*([^#]+)\s*)?\#(.*)$/)
         if match != nil
-          range = match[1]
-          property = match[3]
+          codepoints = match[1]
           comment = match[4]
           
-          entries << Emoji::Entry.new(range, property, comment)
+          entries << Emoji::Entry.new(codepoints, comment)
         end
       end
     end
@@ -135,13 +106,10 @@ module Emoji
   
   class Entry
     
-    attr_reader :codepoints, :property, :comment
+    attr_reader :codepoints, :comment
     
-    def initialize(codepoints, property, comment)
+    def initialize(codepoints, comment)
       @codepoints = codepoints.strip
-      if property != nil
-        @property = property.strip
-      end
       @comment = comment.strip
     end
     
@@ -150,17 +118,12 @@ module Emoji
       pattern = parts.map do |p|
         if p =~ /^([a-f0-9]+)$/i
           Emoji.hex_code_to_escape($1)
-        elsif p =~ /^([a-f0-9]+)\.\.([a-f0-9]+)$/i
-          start_code = Emoji.hex_code_to_escape($1)
-          end_code = Emoji.hex_code_to_escape($2)
-          
-          "[#{start_code}-#{end_code}]"
         else
-          abort "Unknown line: #{codepoints}"  
+          abort "Unknown line: #{codepoints}"
         end
       end.join("")
       
-      return pattern      
+      return pattern
     end
     
     def self.to_swift_array_entries(entries)
@@ -175,7 +138,22 @@ module Emoji
       patterns
     end
     
+    def ==(other)
+      other.class == self.class && other.state == self.state
+    end
+    
+    alias_method :eql?, :==
+    
+    def hash
+      self.state.hash
+    end
+    
+    protected
+    
+    def state
+      [@codepoints]
+    end
+    
   end
   
 end
-
