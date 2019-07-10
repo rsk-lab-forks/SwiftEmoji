@@ -32,7 +32,7 @@ public final class Emoji : EmojiData {
     
     /// Pattern that matches one or more emoji characters in a row.
     public static var MultiEmojiPattern:String = {
-        return "(?:\(SingleEmojiPattern)+)"
+        return "(?:\(SingleEmojiPattern)++)"
     }()
     
     /// Matches one or more emoji characters in a row.
