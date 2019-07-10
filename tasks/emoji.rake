@@ -6,23 +6,27 @@ namespace :emoji do
 
   desc %{Generates swift sources from Unicode Emoji data files.}
   task :generate_sources => :environment do
-    sequences_path = File.join($ROOT_DIR, "tasks", "emoji", "emoji-sequences.txt")
-    sequences = Emoji.parse_entries(sequences_path)
-
     zwj_sequences_path = File.join($ROOT_DIR, "tasks", "emoji", "emoji-zwj-sequences.txt")
     zwj_sequences = Emoji.parse_entries(zwj_sequences_path)
+    
+    variation_sequences_path = File.join($ROOT_DIR, "tasks", "emoji", "emoji-variation-sequences.txt")
+    variation_sequences = Emoji.parse_entries(variation_sequences_path)
+    
+    other_sequences_path = File.join($ROOT_DIR, "tasks", "emoji", "emoji-sequences.txt")
+    other_sequences = Emoji.parse_entries(other_sequences_path)
     
     test_path =  File.join($ROOT_DIR, "tasks", "emoji", "emoji-test.txt")
     test = Emoji.parse_entries(test_path)
     
-    emoji = test + sequences - (test & sequences)
-    emoji = emoji + zwj_sequences - (emoji & zwj_sequences)
+    other_sequences = other_sequences.select { |e| e.type_field.start_with?("Basic_Emoji") == false }
+    
+    emoji = test - zwj_sequences - variation_sequences - other_sequences
     
     swift_source_code = <<-SWIFT
 //
 // DO NOT EDIT. This file was auto-generated from the Unicode data files located at:
 //
-//    https://www.unicode.org/Public/emoji/11.0/
+//    https://www.unicode.org/Public/emoji/12.0/
 //
 // To regenerate it, use the rake tasks in the SwiftEmoji project.
 //
@@ -30,32 +34,39 @@ namespace :emoji do
 ///
 /// A Swift-ified version of Unicode's Emoji data files, located at:
 ///
-///   https://www.unicode.org/Public/emoji/11.0/
+///   https://www.unicode.org/Public/emoji/12.0/
 ///
 public class EmojiData {
     
     ///
-    /// Patterns that match emoji forms, excluding emoji sequences and Zero-Width-Joiner (ZWJ)
-    /// sequences, which should be in keyboards and which should also be displayed/processed.
+    /// Patterns that match emoji forms, excluding Zero-Width-Joiner (ZWJ), variation and
+    /// other sequences.
     ///
     public static let EmojiPatterns:[String] = [
         #{Emoji::Entry.to_swift_array_entries(emoji).join("\n        ")}
     ]
     
     ///
-    /// Patterns that match emoji sequences. This includes keycap characters, flags, and skintone
+    /// Patterns that match other sequences. This includes keycap characters, flags, and skintone
     /// variants, but not Zero-Width-Joiner (ZWJ) sequences used for "family" characters like
     /// "👨‍👩‍👧‍👧".
     ///
-    public static let SequencePatterns:[String] = [
-        #{Emoji::Entry.to_swift_array_entries(sequences).join("\n        ")}
+    public static let OtherSequencesPatterns:[String] = [
+        #{Emoji::Entry.to_swift_array_entries(other_sequences).join("\n        ")}
+    ]
+    
+    ///
+    /// Patterns that match variation sequences.
+    ///
+    public static let VariationSequencesPatterns:[String] = [
+        #{Emoji::Entry.to_swift_array_entries(variation_sequences).join("\n        ")}
     ]
     
     ///
     /// Patterns that match Zero-Width-Joiner (ZWJ) sequences used for "family" characters like
     /// "👨‍👩‍👧‍👧".
     ///
-    public static let ZWJSequencePatterns:[String] = [
+    public static let ZWJSequencesPatterns:[String] = [
         #{Emoji::Entry.to_swift_array_entries(zwj_sequences).join("\n        ")}
     ]
     
@@ -84,9 +95,10 @@ module Emoji
         match = line.match(/^\s*([^#]+?)\s*(;\s*([^#]+)\s*)?\#(.*)$/)
         if match != nil
           codepoints = match[1]
+          type_field = match[3]
           comment = match[4]
           
-          entries << Emoji::Entry.new(codepoints, comment)
+          entries << Emoji::Entry.new(codepoints, type_field, comment)
         end
       end
     end
@@ -106,10 +118,13 @@ module Emoji
   
   class Entry
     
-    attr_reader :codepoints, :comment
+    attr_reader :codepoints, :type_field, :comment
     
-    def initialize(codepoints, comment)
+    def initialize(codepoints, type_field, comment)
       @codepoints = codepoints.strip
+      if type_field != nil
+        @type_field = type_field.strip
+      end
       @comment = comment.strip
     end
     
@@ -118,6 +133,11 @@ module Emoji
       pattern = parts.map do |p|
         if p =~ /^([a-f0-9]+)$/i
           Emoji.hex_code_to_escape($1)
+        elsif p =~ /^([a-f0-9]+)\.\.([a-f0-9]+)$/i
+          start_code = Emoji.hex_code_to_escape($1)
+          end_code = Emoji.hex_code_to_escape($2)
+
+          "[#{start_code}-#{end_code}]"
         else
           abort "Unknown line: #{codepoints}"
         end
