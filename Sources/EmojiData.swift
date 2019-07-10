@@ -1,7 +1,7 @@
 //
 // DO NOT EDIT. This file was auto-generated from the Unicode data files located at:
 //
-//    https://www.unicode.org/Public/emoji/11.0/
+//    https://www.unicode.org/Public/emoji/12.0/
 //
 // To regenerate it, use the rake tasks in the SwiftEmoji project.
 //
@@ -9,13 +9,13 @@
 ///
 /// A Swift-ified version of Unicode's Emoji data files, located at:
 ///
-///   https://www.unicode.org/Public/emoji/11.0/
+///   https://www.unicode.org/Public/emoji/12.0/
 ///
 public class EmojiData {
     
     ///
-    /// Patterns that match emoji forms, excluding emoji sequences and Zero-Width-Joiner (ZWJ)
-    /// sequences, which should be in keyboards and which should also be displayed/processed.
+    /// Patterns that match emoji forms, excluding Zero-Width-Joiner (ZWJ), variation and
+    /// other sequences.
     ///
     public static let EmojiPatterns:[String] = [
         "\\u0023\\u20E3",    // #⃣ keycap: #
@@ -31,19 +31,13 @@ public class EmojiData {
         "\\u0038\\u20E3",    // 8⃣ keycap: 8
         "\\u0039\\u20E3",    // 9⃣ keycap: 9
         "\\u00A9",    // © copyright
-        "\\u00A9\\uFE0F",    // ©️ copyright
         "\\u00AE",    // ® registered
-        "\\u00AE\\uFE0F",    // ®️ registered
         "\\U0001F004",    // 🀄 mahjong red dragon
         "\\U0001F0CF",    // 🃏 joker
         "\\U0001F170",    // 🅰 A button (blood type)
-        "\\U0001F170\\uFE0F",    // 🅰️ A button (blood type)
         "\\U0001F171",    // 🅱 B button (blood type)
-        "\\U0001F171\\uFE0F",    // 🅱️ B button (blood type)
         "\\U0001F17E",    // 🅾 O button (blood type)
-        "\\U0001F17E\\uFE0F",    // 🅾️ O button (blood type)
         "\\U0001F17F",    // 🅿 P button
-        "\\U0001F17F\\uFE0F",    // 🅿️ P button
         "\\U0001F18E",    // 🆎 AB button (blood type)
         "\\U0001F191",    // 🆑 CL button
         "\\U0001F192",    // 🆒 COOL button
@@ -57,7 +51,6 @@ public class EmojiData {
         "\\U0001F19A",    // 🆚 VS button
         "\\U0001F201",    // 🈁 Japanese “here” button
         "\\U0001F202",    // 🈂 Japanese “service charge” button
-        "\\U0001F202\\uFE0F",    // 🈂️ Japanese “service charge” button
         "\\U0001F21A",    // 🈚 Japanese “free of charge” button
         "\\U0001F22F",    // 🈯 Japanese “reserved” button
         "\\U0001F232",    // 🈲 Japanese “prohibited” button
@@ -66,7 +59,6 @@ public class EmojiData {
         "\\U0001F235",    // 🈵 Japanese “no vacancy” button
         "\\U0001F236",    // 🈶 Japanese “not free of charge” button
         "\\U0001F237",    // 🈷 Japanese “monthly amount” button
-        "\\U0001F237\\uFE0F",    // 🈷️ Japanese “monthly amount” button
         "\\U0001F238",    // 🈸 Japanese “application” button
         "\\U0001F239",    // 🈹 Japanese “discount” button
         "\\U0001F23A",    // 🈺 Japanese “open for business” button
@@ -106,25 +98,15 @@ public class EmojiData {
         "\\U0001F31F",    // 🌟 glowing star
         "\\U0001F320",    // 🌠 shooting star
         "\\U0001F321",    // 🌡 thermometer
-        "\\U0001F321\\uFE0F",    // 🌡️ thermometer
         "\\U0001F324",    // 🌤 sun behind small cloud
-        "\\U0001F324\\uFE0F",    // 🌤️ sun behind small cloud
         "\\U0001F325",    // 🌥 sun behind large cloud
-        "\\U0001F325\\uFE0F",    // 🌥️ sun behind large cloud
         "\\U0001F326",    // 🌦 sun behind rain cloud
-        "\\U0001F326\\uFE0F",    // 🌦️ sun behind rain cloud
         "\\U0001F327",    // 🌧 cloud with rain
-        "\\U0001F327\\uFE0F",    // 🌧️ cloud with rain
         "\\U0001F328",    // 🌨 cloud with snow
-        "\\U0001F328\\uFE0F",    // 🌨️ cloud with snow
         "\\U0001F329",    // 🌩 cloud with lightning
-        "\\U0001F329\\uFE0F",    // 🌩️ cloud with lightning
         "\\U0001F32A",    // 🌪 tornado
-        "\\U0001F32A\\uFE0F",    // 🌪️ tornado
         "\\U0001F32B",    // 🌫 fog
-        "\\U0001F32B\\uFE0F",    // 🌫️ fog
         "\\U0001F32C",    // 🌬 wind face
-        "\\U0001F32C\\uFE0F",    // 🌬️ wind face
         "\\U0001F32D",    // 🌭 hot dog
         "\\U0001F32E",    // 🌮 taco
         "\\U0001F32F",    // 🌯 burrito
@@ -135,7 +117,6 @@ public class EmojiData {
         "\\U0001F334",    // 🌴 palm tree
         "\\U0001F335",    // 🌵 cactus
         "\\U0001F336",    // 🌶 hot pepper
-        "\\U0001F336\\uFE0F",    // 🌶️ hot pepper
         "\\U0001F337",    // 🌷 tulip
         "\\U0001F338",    // 🌸 cherry blossom
         "\\U0001F339",    // 🌹 rose
@@ -207,7 +188,6 @@ public class EmojiData {
         "\\U0001F37B",    // 🍻 clinking beer mugs
         "\\U0001F37C",    // 🍼 baby bottle
         "\\U0001F37D",    // 🍽 fork and knife with plate
-        "\\U0001F37D\\uFE0F",    // 🍽️ fork and knife with plate
         "\\U0001F37E",    // 🍾 bottle with popping cork
         "\\U0001F37F",    // 🍿 popcorn
         "\\U0001F380",    // 🎀 ribbon
@@ -228,22 +208,15 @@ public class EmojiData {
         "\\U0001F38F",    // 🎏 carp streamer
         "\\U0001F390",    // 🎐 wind chime
         "\\U0001F391",    // 🎑 moon viewing ceremony
-        "\\U0001F392",    // 🎒 school backpack
+        "\\U0001F392",    // 🎒 backpack
         "\\U0001F393",    // 🎓 graduation cap
         "\\U0001F396",    // 🎖 military medal
-        "\\U0001F396\\uFE0F",    // 🎖️ military medal
         "\\U0001F397",    // 🎗 reminder ribbon
-        "\\U0001F397\\uFE0F",    // 🎗️ reminder ribbon
         "\\U0001F399",    // 🎙 studio microphone
-        "\\U0001F399\\uFE0F",    // 🎙️ studio microphone
         "\\U0001F39A",    // 🎚 level slider
-        "\\U0001F39A\\uFE0F",    // 🎚️ level slider
         "\\U0001F39B",    // 🎛 control knobs
-        "\\U0001F39B\\uFE0F",    // 🎛️ control knobs
         "\\U0001F39E",    // 🎞 film frames
-        "\\U0001F39E\\uFE0F",    // 🎞️ film frames
         "\\U0001F39F",    // 🎟 admission tickets
-        "\\U0001F39F\\uFE0F",    // 🎟️ admission tickets
         "\\U0001F3A0",    // 🎠 carousel horse
         "\\U0001F3A1",    // 🎡 ferris wheel
         "\\U0001F3A2",    // 🎢 roller coaster
@@ -338,7 +311,6 @@ public class EmojiData {
         "\\U0001F3CB\\u200D\\u2640\\uFE0F",    // 🏋‍♀️ woman lifting weights
         "\\U0001F3CB\\u200D\\u2642",    // 🏋‍♂ man lifting weights
         "\\U0001F3CB\\u200D\\u2642\\uFE0F",    // 🏋‍♂️ man lifting weights
-        "\\U0001F3CB\\uFE0F",    // 🏋️ person lifting weights
         "\\U0001F3CB\\uFE0F\\u200D\\u2640",    // 🏋️‍♀ woman lifting weights
         "\\U0001F3CB\\uFE0F\\u200D\\u2642",    // 🏋️‍♂ man lifting weights
         "\\U0001F3CC",    // 🏌 person golfing
@@ -356,42 +328,27 @@ public class EmojiData {
         "\\U0001F3CC\\u200D\\u2640\\uFE0F",    // 🏌‍♀️ woman golfing
         "\\U0001F3CC\\u200D\\u2642",    // 🏌‍♂ man golfing
         "\\U0001F3CC\\u200D\\u2642\\uFE0F",    // 🏌‍♂️ man golfing
-        "\\U0001F3CC\\uFE0F",    // 🏌️ person golfing
         "\\U0001F3CC\\uFE0F\\u200D\\u2640",    // 🏌️‍♀ woman golfing
         "\\U0001F3CC\\uFE0F\\u200D\\u2642",    // 🏌️‍♂ man golfing
         "\\U0001F3CD",    // 🏍 motorcycle
-        "\\U0001F3CD\\uFE0F",    // 🏍️ motorcycle
         "\\U0001F3CE",    // 🏎 racing car
-        "\\U0001F3CE\\uFE0F",    // 🏎️ racing car
         "\\U0001F3CF",    // 🏏 cricket game
         "\\U0001F3D0",    // 🏐 volleyball
         "\\U0001F3D1",    // 🏑 field hockey
         "\\U0001F3D2",    // 🏒 ice hockey
         "\\U0001F3D3",    // 🏓 ping pong
         "\\U0001F3D4",    // 🏔 snow-capped mountain
-        "\\U0001F3D4\\uFE0F",    // 🏔️ snow-capped mountain
         "\\U0001F3D5",    // 🏕 camping
-        "\\U0001F3D5\\uFE0F",    // 🏕️ camping
         "\\U0001F3D6",    // 🏖 beach with umbrella
-        "\\U0001F3D6\\uFE0F",    // 🏖️ beach with umbrella
         "\\U0001F3D7",    // 🏗 building construction
-        "\\U0001F3D7\\uFE0F",    // 🏗️ building construction
         "\\U0001F3D8",    // 🏘 houses
-        "\\U0001F3D8\\uFE0F",    // 🏘️ houses
         "\\U0001F3D9",    // 🏙 cityscape
-        "\\U0001F3D9\\uFE0F",    // 🏙️ cityscape
         "\\U0001F3DA",    // 🏚 derelict house
-        "\\U0001F3DA\\uFE0F",    // 🏚️ derelict house
         "\\U0001F3DB",    // 🏛 classical building
-        "\\U0001F3DB\\uFE0F",    // 🏛️ classical building
         "\\U0001F3DC",    // 🏜 desert
-        "\\U0001F3DC\\uFE0F",    // 🏜️ desert
         "\\U0001F3DD",    // 🏝 desert island
-        "\\U0001F3DD\\uFE0F",    // 🏝️ desert island
         "\\U0001F3DE",    // 🏞 national park
-        "\\U0001F3DE\\uFE0F",    // 🏞️ national park
         "\\U0001F3DF",    // 🏟 stadium
-        "\\U0001F3DF\\uFE0F",    // 🏟️ stadium
         "\\U0001F3E0",    // 🏠 house
         "\\U0001F3E1",    // 🏡 house with garden
         "\\U0001F3E2",    // 🏢 office building
@@ -411,13 +368,10 @@ public class EmojiData {
         "\\U0001F3F0",    // 🏰 castle
         "\\U0001F3F3",    // 🏳 white flag
         "\\U0001F3F3\\u200D\\U0001F308",    // 🏳‍🌈 rainbow flag
-        "\\U0001F3F3\\uFE0F",    // 🏳️ white flag
         "\\U0001F3F4",    // 🏴 black flag
         "\\U0001F3F4\\u200D\\u2620",    // 🏴‍☠ pirate flag
         "\\U0001F3F5",    // 🏵 rosette
-        "\\U0001F3F5\\uFE0F",    // 🏵️ rosette
         "\\U0001F3F7",    // 🏷 label
-        "\\U0001F3F7\\uFE0F",    // 🏷️ label
         "\\U0001F3F8",    // 🏸 badminton
         "\\U0001F3F9",    // 🏹 bow and arrow
         "\\U0001F3FA",    // 🏺 amphora
@@ -482,20 +436,18 @@ public class EmojiData {
         "\\U0001F435",    // 🐵 monkey face
         "\\U0001F436",    // 🐶 dog face
         "\\U0001F437",    // 🐷 pig face
-        "\\U0001F438",    // 🐸 frog face
-        "\\U0001F439",    // 🐹 hamster face
-        "\\U0001F43A",    // 🐺 wolf face
-        "\\U0001F43B",    // 🐻 bear face
-        "\\U0001F43C",    // 🐼 panda face
+        "\\U0001F438",    // 🐸 frog
+        "\\U0001F439",    // 🐹 hamster
+        "\\U0001F43A",    // 🐺 wolf
+        "\\U0001F43B",    // 🐻 bear
+        "\\U0001F43C",    // 🐼 panda
         "\\U0001F43D",    // 🐽 pig nose
         "\\U0001F43E",    // 🐾 paw prints
         "\\U0001F43F",    // 🐿 chipmunk
-        "\\U0001F43F\\uFE0F",    // 🐿️ chipmunk
         "\\U0001F440",    // 👀 eyes
         "\\U0001F441",    // 👁 eye
         "\\U0001F441\\u200D\\U0001F5E8",    // 👁‍🗨 eye in speech bubble
         "\\U0001F441\\u200D\\U0001F5E8\\uFE0F",    // 👁‍🗨️ eye in speech bubble
-        "\\U0001F441\\uFE0F",    // 👁️ eye
         "\\U0001F441\\uFE0F\\u200D\\U0001F5E8",    // 👁️‍🗨 eye in speech bubble
         "\\U0001F442",    // 👂 ear
         "\\U0001F443",    // 👃 nose
@@ -580,9 +532,9 @@ public class EmojiData {
         "\\U0001F469\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468",    // 👩‍❤‍💋‍👨 kiss: woman, man
         "\\U0001F469\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469",    // 👩‍❤‍💋‍👩 kiss: woman, woman
         "\\U0001F46A",    // 👪 family
-        "\\U0001F46B",    // 👫 man and woman holding hands
-        "\\U0001F46C",    // 👬 two men holding hands
-        "\\U0001F46D",    // 👭 two women holding hands
+        "\\U0001F46B",    // 👫 woman and man holding hands
+        "\\U0001F46C",    // 👬 men holding hands
+        "\\U0001F46D",    // 👭 women holding hands
         "\\U0001F46E",    // 👮 police officer
         "\\U0001F46E\\U0001F3FB\\u200D\\u2640",    // 👮🏻‍♀ woman police officer: light skin tone
         "\\U0001F46E\\U0001F3FB\\u200D\\u2642",    // 👮🏻‍♂ man police officer: light skin tone
@@ -600,19 +552,19 @@ public class EmojiData {
         "\\U0001F46F\\u200D\\u2640",    // 👯‍♀ women with bunny ears
         "\\U0001F46F\\u200D\\u2642",    // 👯‍♂ men with bunny ears
         "\\U0001F470",    // 👰 bride with veil
-        "\\U0001F471",    // 👱 blond-haired person
-        "\\U0001F471\\U0001F3FB\\u200D\\u2640",    // 👱🏻‍♀ blond-haired woman: light skin tone
-        "\\U0001F471\\U0001F3FB\\u200D\\u2642",    // 👱🏻‍♂ blond-haired man: light skin tone
-        "\\U0001F471\\U0001F3FC\\u200D\\u2640",    // 👱🏼‍♀ blond-haired woman: medium-light skin tone
-        "\\U0001F471\\U0001F3FC\\u200D\\u2642",    // 👱🏼‍♂ blond-haired man: medium-light skin tone
-        "\\U0001F471\\U0001F3FD\\u200D\\u2640",    // 👱🏽‍♀ blond-haired woman: medium skin tone
-        "\\U0001F471\\U0001F3FD\\u200D\\u2642",    // 👱🏽‍♂ blond-haired man: medium skin tone
-        "\\U0001F471\\U0001F3FE\\u200D\\u2640",    // 👱🏾‍♀ blond-haired woman: medium-dark skin tone
-        "\\U0001F471\\U0001F3FE\\u200D\\u2642",    // 👱🏾‍♂ blond-haired man: medium-dark skin tone
-        "\\U0001F471\\U0001F3FF\\u200D\\u2640",    // 👱🏿‍♀ blond-haired woman: dark skin tone
-        "\\U0001F471\\U0001F3FF\\u200D\\u2642",    // 👱🏿‍♂ blond-haired man: dark skin tone
-        "\\U0001F471\\u200D\\u2640",    // 👱‍♀ blond-haired woman
-        "\\U0001F471\\u200D\\u2642",    // 👱‍♂ blond-haired man
+        "\\U0001F471",    // 👱 person: blond hair
+        "\\U0001F471\\U0001F3FB\\u200D\\u2640",    // 👱🏻‍♀ woman: light skin tone, blond hair
+        "\\U0001F471\\U0001F3FB\\u200D\\u2642",    // 👱🏻‍♂ man: light skin tone, blond hair
+        "\\U0001F471\\U0001F3FC\\u200D\\u2640",    // 👱🏼‍♀ woman: medium-light skin tone, blond hair
+        "\\U0001F471\\U0001F3FC\\u200D\\u2642",    // 👱🏼‍♂ man: medium-light skin tone, blond hair
+        "\\U0001F471\\U0001F3FD\\u200D\\u2640",    // 👱🏽‍♀ woman: medium skin tone, blond hair
+        "\\U0001F471\\U0001F3FD\\u200D\\u2642",    // 👱🏽‍♂ man: medium skin tone, blond hair
+        "\\U0001F471\\U0001F3FE\\u200D\\u2640",    // 👱🏾‍♀ woman: medium-dark skin tone, blond hair
+        "\\U0001F471\\U0001F3FE\\u200D\\u2642",    // 👱🏾‍♂ man: medium-dark skin tone, blond hair
+        "\\U0001F471\\U0001F3FF\\u200D\\u2640",    // 👱🏿‍♀ woman: dark skin tone, blond hair
+        "\\U0001F471\\U0001F3FF\\u200D\\u2642",    // 👱🏿‍♂ man: dark skin tone, blond hair
+        "\\U0001F471\\u200D\\u2640",    // 👱‍♀ woman: blond hair
+        "\\U0001F471\\u200D\\u2642",    // 👱‍♂ man: blond hair
         "\\U0001F472",    // 👲 man with Chinese cap
         "\\U0001F473",    // 👳 person wearing turban
         "\\U0001F473\\U0001F3FB\\u200D\\u2640",    // 👳🏻‍♀ woman wearing turban: light skin tone
@@ -825,7 +777,6 @@ public class EmojiData {
         "\\U0001F4FB",    // 📻 radio
         "\\U0001F4FC",    // 📼 videocassette
         "\\U0001F4FD",    // 📽 film projector
-        "\\U0001F4FD\\uFE0F",    // 📽️ film projector
         "\\U0001F4FF",    // 📿 prayer beads
         "\\U0001F500",    // 🔀 shuffle tracks button
         "\\U0001F501",    // 🔁 repeat button
@@ -890,9 +841,7 @@ public class EmojiData {
         "\\U0001F53C",    // 🔼 upwards button
         "\\U0001F53D",    // 🔽 downwards button
         "\\U0001F549",    // 🕉 om
-        "\\U0001F549\\uFE0F",    // 🕉️ om
         "\\U0001F54A",    // 🕊 dove
-        "\\U0001F54A\\uFE0F",    // 🕊️ dove
         "\\U0001F54B",    // 🕋 kaaba
         "\\U0001F54C",    // 🕌 mosque
         "\\U0001F54D",    // 🕍 synagogue
@@ -922,13 +871,9 @@ public class EmojiData {
         "\\U0001F566",    // 🕦 eleven-thirty
         "\\U0001F567",    // 🕧 twelve-thirty
         "\\U0001F56F",    // 🕯 candle
-        "\\U0001F56F\\uFE0F",    // 🕯️ candle
         "\\U0001F570",    // 🕰 mantelpiece clock
-        "\\U0001F570\\uFE0F",    // 🕰️ mantelpiece clock
         "\\U0001F573",    // 🕳 hole
-        "\\U0001F573\\uFE0F",    // 🕳️ hole
         "\\U0001F574",    // 🕴 man in suit levitating
-        "\\U0001F574\\uFE0F",    // 🕴️ man in suit levitating
         "\\U0001F575",    // 🕵 detective
         "\\U0001F575\\U0001F3FB\\u200D\\u2640",    // 🕵🏻‍♀ woman detective: light skin tone
         "\\U0001F575\\U0001F3FB\\u200D\\u2642",    // 🕵🏻‍♂ man detective: light skin tone
@@ -944,73 +889,42 @@ public class EmojiData {
         "\\U0001F575\\u200D\\u2640\\uFE0F",    // 🕵‍♀️ woman detective
         "\\U0001F575\\u200D\\u2642",    // 🕵‍♂ man detective
         "\\U0001F575\\u200D\\u2642\\uFE0F",    // 🕵‍♂️ man detective
-        "\\U0001F575\\uFE0F",    // 🕵️ detective
         "\\U0001F575\\uFE0F\\u200D\\u2640",    // 🕵️‍♀ woman detective
         "\\U0001F575\\uFE0F\\u200D\\u2642",    // 🕵️‍♂ man detective
         "\\U0001F576",    // 🕶 sunglasses
-        "\\U0001F576\\uFE0F",    // 🕶️ sunglasses
         "\\U0001F577",    // 🕷 spider
-        "\\U0001F577\\uFE0F",    // 🕷️ spider
         "\\U0001F578",    // 🕸 spider web
-        "\\U0001F578\\uFE0F",    // 🕸️ spider web
         "\\U0001F579",    // 🕹 joystick
-        "\\U0001F579\\uFE0F",    // 🕹️ joystick
         "\\U0001F57A",    // 🕺 man dancing
         "\\U0001F587",    // 🖇 linked paperclips
-        "\\U0001F587\\uFE0F",    // 🖇️ linked paperclips
         "\\U0001F58A",    // 🖊 pen
-        "\\U0001F58A\\uFE0F",    // 🖊️ pen
         "\\U0001F58B",    // 🖋 fountain pen
-        "\\U0001F58B\\uFE0F",    // 🖋️ fountain pen
         "\\U0001F58C",    // 🖌 paintbrush
-        "\\U0001F58C\\uFE0F",    // 🖌️ paintbrush
         "\\U0001F58D",    // 🖍 crayon
-        "\\U0001F58D\\uFE0F",    // 🖍️ crayon
         "\\U0001F590",    // 🖐 hand with fingers splayed
-        "\\U0001F590\\uFE0F",    // 🖐️ hand with fingers splayed
         "\\U0001F595",    // 🖕 middle finger
         "\\U0001F596",    // 🖖 vulcan salute
         "\\U0001F5A4",    // 🖤 black heart
         "\\U0001F5A5",    // 🖥 desktop computer
-        "\\U0001F5A5\\uFE0F",    // 🖥️ desktop computer
         "\\U0001F5A8",    // 🖨 printer
-        "\\U0001F5A8\\uFE0F",    // 🖨️ printer
         "\\U0001F5B1",    // 🖱 computer mouse
-        "\\U0001F5B1\\uFE0F",    // 🖱️ computer mouse
         "\\U0001F5B2",    // 🖲 trackball
-        "\\U0001F5B2\\uFE0F",    // 🖲️ trackball
         "\\U0001F5BC",    // 🖼 framed picture
-        "\\U0001F5BC\\uFE0F",    // 🖼️ framed picture
         "\\U0001F5C2",    // 🗂 card index dividers
-        "\\U0001F5C2\\uFE0F",    // 🗂️ card index dividers
         "\\U0001F5C3",    // 🗃 card file box
-        "\\U0001F5C3\\uFE0F",    // 🗃️ card file box
         "\\U0001F5C4",    // 🗄 file cabinet
-        "\\U0001F5C4\\uFE0F",    // 🗄️ file cabinet
         "\\U0001F5D1",    // 🗑 wastebasket
-        "\\U0001F5D1\\uFE0F",    // 🗑️ wastebasket
         "\\U0001F5D2",    // 🗒 spiral notepad
-        "\\U0001F5D2\\uFE0F",    // 🗒️ spiral notepad
         "\\U0001F5D3",    // 🗓 spiral calendar
-        "\\U0001F5D3\\uFE0F",    // 🗓️ spiral calendar
         "\\U0001F5DC",    // 🗜 clamp
-        "\\U0001F5DC\\uFE0F",    // 🗜️ clamp
         "\\U0001F5DD",    // 🗝 old key
-        "\\U0001F5DD\\uFE0F",    // 🗝️ old key
         "\\U0001F5DE",    // 🗞 rolled-up newspaper
-        "\\U0001F5DE\\uFE0F",    // 🗞️ rolled-up newspaper
         "\\U0001F5E1",    // 🗡 dagger
-        "\\U0001F5E1\\uFE0F",    // 🗡️ dagger
         "\\U0001F5E3",    // 🗣 speaking head
-        "\\U0001F5E3\\uFE0F",    // 🗣️ speaking head
         "\\U0001F5E8",    // 🗨 left speech bubble
-        "\\U0001F5E8\\uFE0F",    // 🗨️ left speech bubble
         "\\U0001F5EF",    // 🗯 right anger bubble
-        "\\U0001F5EF\\uFE0F",    // 🗯️ right anger bubble
         "\\U0001F5F3",    // 🗳 ballot box with ballot
-        "\\U0001F5F3\\uFE0F",    // 🗳️ ballot box with ballot
         "\\U0001F5FA",    // 🗺 world map
-        "\\U0001F5FA\\uFE0F",    // 🗺️ world map
         "\\U0001F5FB",    // 🗻 mount fuji
         "\\U0001F5FC",    // 🗼 Tokyo tower
         "\\U0001F5FD",    // 🗽 Statue of Liberty
@@ -1072,15 +986,15 @@ public class EmojiData {
         "\\U0001F635",    // 😵 dizzy face
         "\\U0001F636",    // 😶 face without mouth
         "\\U0001F637",    // 😷 face with medical mask
-        "\\U0001F638",    // 😸 grinning cat face with smiling eyes
-        "\\U0001F639",    // 😹 cat face with tears of joy
-        "\\U0001F63A",    // 😺 grinning cat face
-        "\\U0001F63B",    // 😻 smiling cat face with heart-eyes
-        "\\U0001F63C",    // 😼 cat face with wry smile
-        "\\U0001F63D",    // 😽 kissing cat face
-        "\\U0001F63E",    // 😾 pouting cat face
-        "\\U0001F63F",    // 😿 crying cat face
-        "\\U0001F640",    // 🙀 weary cat face
+        "\\U0001F638",    // 😸 grinning cat with smiling eyes
+        "\\U0001F639",    // 😹 cat with tears of joy
+        "\\U0001F63A",    // 😺 grinning cat
+        "\\U0001F63B",    // 😻 smiling cat with heart-eyes
+        "\\U0001F63C",    // 😼 cat with wry smile
+        "\\U0001F63D",    // 😽 kissing cat
+        "\\U0001F63E",    // 😾 pouting cat
+        "\\U0001F63F",    // 😿 crying cat
+        "\\U0001F640",    // 🙀 weary cat
         "\\U0001F641",    // 🙁 slightly frowning face
         "\\U0001F642",    // 🙂 slightly smiling face
         "\\U0001F643",    // 🙃 upside-down face
@@ -1287,50 +1201,54 @@ public class EmojiData {
         "\\U0001F6C4",    // 🛄 baggage claim
         "\\U0001F6C5",    // 🛅 left luggage
         "\\U0001F6CB",    // 🛋 couch and lamp
-        "\\U0001F6CB\\uFE0F",    // 🛋️ couch and lamp
         "\\U0001F6CC",    // 🛌 person in bed
         "\\U0001F6CD",    // 🛍 shopping bags
-        "\\U0001F6CD\\uFE0F",    // 🛍️ shopping bags
         "\\U0001F6CE",    // 🛎 bellhop bell
-        "\\U0001F6CE\\uFE0F",    // 🛎️ bellhop bell
         "\\U0001F6CF",    // 🛏 bed
-        "\\U0001F6CF\\uFE0F",    // 🛏️ bed
         "\\U0001F6D0",    // 🛐 place of worship
         "\\U0001F6D1",    // 🛑 stop sign
         "\\U0001F6D2",    // 🛒 shopping cart
+        "\\U0001F6D5",    // 🛕 hindu temple
         "\\U0001F6E0",    // 🛠 hammer and wrench
-        "\\U0001F6E0\\uFE0F",    // 🛠️ hammer and wrench
         "\\U0001F6E1",    // 🛡 shield
-        "\\U0001F6E1\\uFE0F",    // 🛡️ shield
         "\\U0001F6E2",    // 🛢 oil drum
-        "\\U0001F6E2\\uFE0F",    // 🛢️ oil drum
         "\\U0001F6E3",    // 🛣 motorway
-        "\\U0001F6E3\\uFE0F",    // 🛣️ motorway
         "\\U0001F6E4",    // 🛤 railway track
-        "\\U0001F6E4\\uFE0F",    // 🛤️ railway track
         "\\U0001F6E5",    // 🛥 motor boat
-        "\\U0001F6E5\\uFE0F",    // 🛥️ motor boat
         "\\U0001F6E9",    // 🛩 small airplane
-        "\\U0001F6E9\\uFE0F",    // 🛩️ small airplane
         "\\U0001F6EB",    // 🛫 airplane departure
         "\\U0001F6EC",    // 🛬 airplane arrival
         "\\U0001F6F0",    // 🛰 satellite
-        "\\U0001F6F0\\uFE0F",    // 🛰️ satellite
         "\\U0001F6F3",    // 🛳 passenger ship
-        "\\U0001F6F3\\uFE0F",    // 🛳️ passenger ship
         "\\U0001F6F4",    // 🛴 kick scooter
         "\\U0001F6F5",    // 🛵 motor scooter
         "\\U0001F6F6",    // 🛶 canoe
         "\\U0001F6F7",    // 🛷 sled
         "\\U0001F6F8",    // 🛸 flying saucer
         "\\U0001F6F9",    // 🛹 skateboard
+        "\\U0001F6FA",    // 🛺 auto rickshaw
+        "\\U0001F7E0",    // 🟠 orange circle
+        "\\U0001F7E1",    // 🟡 yellow circle
+        "\\U0001F7E2",    // 🟢 green circle
+        "\\U0001F7E3",    // 🟣 purple circle
+        "\\U0001F7E4",    // 🟤 brown circle
+        "\\U0001F7E5",    // 🟥 red square
+        "\\U0001F7E6",    // 🟦 blue square
+        "\\U0001F7E7",    // 🟧 orange square
+        "\\U0001F7E8",    // 🟨 yellow square
+        "\\U0001F7E9",    // 🟩 green square
+        "\\U0001F7EA",    // 🟪 purple square
+        "\\U0001F7EB",    // 🟫 brown square
+        "\\U0001F90D",    // 🤍 white heart
+        "\\U0001F90E",    // 🤎 brown heart
+        "\\U0001F90F",    // 🤏 pinching hand
         "\\U0001F910",    // 🤐 zipper-mouth face
         "\\U0001F911",    // 🤑 money-mouth face
         "\\U0001F912",    // 🤒 face with thermometer
         "\\U0001F913",    // 🤓 nerd face
         "\\U0001F914",    // 🤔 thinking face
         "\\U0001F915",    // 🤕 face with head-bandage
-        "\\U0001F916",    // 🤖 robot face
+        "\\U0001F916",    // 🤖 robot
         "\\U0001F917",    // 🤗 hugging face
         "\\U0001F918",    // 🤘 sign of the horns
         "\\U0001F919",    // 🤙 call me hand
@@ -1444,6 +1362,7 @@ public class EmojiData {
         "\\U0001F93E\\U0001F3FF\\u200D\\u2642",    // 🤾🏿‍♂ man playing handball: dark skin tone
         "\\U0001F93E\\u200D\\u2640",    // 🤾‍♀ woman playing handball
         "\\U0001F93E\\u200D\\u2642",    // 🤾‍♂ man playing handball
+        "\\U0001F93F",    // 🤿 diving mask
         "\\U0001F940",    // 🥀 wilted flower
         "\\U0001F941",    // 🥁 drum
         "\\U0001F942",    // 🥂 clinking glasses
@@ -1491,27 +1410,29 @@ public class EmojiData {
         "\\U0001F96D",    // 🥭 mango
         "\\U0001F96E",    // 🥮 moon cake
         "\\U0001F96F",    // 🥯 bagel
-        "\\U0001F970",    // 🥰 smiling face with 3 hearts
+        "\\U0001F970",    // 🥰 smiling face with hearts
+        "\\U0001F971",    // 🥱 yawning face
         "\\U0001F973",    // 🥳 partying face
         "\\U0001F974",    // 🥴 woozy face
         "\\U0001F975",    // 🥵 hot face
         "\\U0001F976",    // 🥶 cold face
         "\\U0001F97A",    // 🥺 pleading face
+        "\\U0001F97B",    // 🥻 sari
         "\\U0001F97C",    // 🥼 lab coat
         "\\U0001F97D",    // 🥽 goggles
         "\\U0001F97E",    // 🥾 hiking boot
-        "\\U0001F97F",    // 🥿 woman’s flat shoe
+        "\\U0001F97F",    // 🥿 flat shoe
         "\\U0001F980",    // 🦀 crab
-        "\\U0001F981",    // 🦁 lion face
+        "\\U0001F981",    // 🦁 lion
         "\\U0001F982",    // 🦂 scorpion
         "\\U0001F983",    // 🦃 turkey
-        "\\U0001F984",    // 🦄 unicorn face
+        "\\U0001F984",    // 🦄 unicorn
         "\\U0001F985",    // 🦅 eagle
         "\\U0001F986",    // 🦆 duck
         "\\U0001F987",    // 🦇 bat
         "\\U0001F988",    // 🦈 shark
         "\\U0001F989",    // 🦉 owl
-        "\\U0001F98A",    // 🦊 fox face
+        "\\U0001F98A",    // 🦊 fox
         "\\U0001F98B",    // 🦋 butterfly
         "\\U0001F98C",    // 🦌 deer
         "\\U0001F98D",    // 🦍 gorilla
@@ -1536,10 +1457,18 @@ public class EmojiData {
         "\\U0001F9A0",    // 🦠 microbe
         "\\U0001F9A1",    // 🦡 badger
         "\\U0001F9A2",    // 🦢 swan
-        "\\U0001F9B0",    // 🦰 red-haired
-        "\\U0001F9B1",    // 🦱 curly-haired
+        "\\U0001F9A5",    // 🦥 sloth
+        "\\U0001F9A6",    // 🦦 otter
+        "\\U0001F9A7",    // 🦧 orangutan
+        "\\U0001F9A8",    // 🦨 skunk
+        "\\U0001F9A9",    // 🦩 flamingo
+        "\\U0001F9AA",    // 🦪 oyster
+        "\\U0001F9AE",    // 🦮 guide dog
+        "\\U0001F9AF",    // 🦯 probing cane
+        "\\U0001F9B0",    // 🦰 red hair
+        "\\U0001F9B1",    // 🦱 curly hair
         "\\U0001F9B2",    // 🦲 bald
-        "\\U0001F9B3",    // 🦳 white-haired
+        "\\U0001F9B3",    // 🦳 white hair
         "\\U0001F9B4",    // 🦴 bone
         "\\U0001F9B5",    // 🦵 leg
         "\\U0001F9B6",    // 🦶 foot
@@ -1570,14 +1499,67 @@ public class EmojiData {
         "\\U0001F9B9\\U0001F3FF\\u200D\\u2642",    // 🦹🏿‍♂ man supervillain: dark skin tone
         "\\U0001F9B9\\u200D\\u2640",    // 🦹‍♀ woman supervillain
         "\\U0001F9B9\\u200D\\u2642",    // 🦹‍♂ man supervillain
+        "\\U0001F9BA",    // 🦺 safety vest
+        "\\U0001F9BB",    // 🦻 ear with hearing aid
+        "\\U0001F9BC",    // 🦼 motorized wheelchair
+        "\\U0001F9BD",    // 🦽 manual wheelchair
+        "\\U0001F9BE",    // 🦾 mechanical arm
+        "\\U0001F9BF",    // 🦿 mechanical leg
         "\\U0001F9C0",    // 🧀 cheese wedge
         "\\U0001F9C1",    // 🧁 cupcake
         "\\U0001F9C2",    // 🧂 salt
+        "\\U0001F9C3",    // 🧃 beverage box
+        "\\U0001F9C4",    // 🧄 garlic
+        "\\U0001F9C5",    // 🧅 onion
+        "\\U0001F9C6",    // 🧆 falafel
+        "\\U0001F9C7",    // 🧇 waffle
+        "\\U0001F9C8",    // 🧈 butter
+        "\\U0001F9C9",    // 🧉 mate
+        "\\U0001F9CA",    // 🧊 ice cube
+        "\\U0001F9CD",    // 🧍 person standing
+        "\\U0001F9CD\\U0001F3FB\\u200D\\u2640",    // 🧍🏻‍♀ woman standing: light skin tone
+        "\\U0001F9CD\\U0001F3FB\\u200D\\u2642",    // 🧍🏻‍♂ man standing: light skin tone
+        "\\U0001F9CD\\U0001F3FC\\u200D\\u2640",    // 🧍🏼‍♀ woman standing: medium-light skin tone
+        "\\U0001F9CD\\U0001F3FC\\u200D\\u2642",    // 🧍🏼‍♂ man standing: medium-light skin tone
+        "\\U0001F9CD\\U0001F3FD\\u200D\\u2640",    // 🧍🏽‍♀ woman standing: medium skin tone
+        "\\U0001F9CD\\U0001F3FD\\u200D\\u2642",    // 🧍🏽‍♂ man standing: medium skin tone
+        "\\U0001F9CD\\U0001F3FE\\u200D\\u2640",    // 🧍🏾‍♀ woman standing: medium-dark skin tone
+        "\\U0001F9CD\\U0001F3FE\\u200D\\u2642",    // 🧍🏾‍♂ man standing: medium-dark skin tone
+        "\\U0001F9CD\\U0001F3FF\\u200D\\u2640",    // 🧍🏿‍♀ woman standing: dark skin tone
+        "\\U0001F9CD\\U0001F3FF\\u200D\\u2642",    // 🧍🏿‍♂ man standing: dark skin tone
+        "\\U0001F9CD\\u200D\\u2640",    // 🧍‍♀ woman standing
+        "\\U0001F9CD\\u200D\\u2642",    // 🧍‍♂ man standing
+        "\\U0001F9CE",    // 🧎 person kneeling
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2640",    // 🧎🏻‍♀ woman kneeling: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2642",    // 🧎🏻‍♂ man kneeling: light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2640",    // 🧎🏼‍♀ woman kneeling: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2642",    // 🧎🏼‍♂ man kneeling: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2640",    // 🧎🏽‍♀ woman kneeling: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2642",    // 🧎🏽‍♂ man kneeling: medium skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2640",    // 🧎🏾‍♀ woman kneeling: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2642",    // 🧎🏾‍♂ man kneeling: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2640",    // 🧎🏿‍♀ woman kneeling: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2642",    // 🧎🏿‍♂ man kneeling: dark skin tone
+        "\\U0001F9CE\\u200D\\u2640",    // 🧎‍♀ woman kneeling
+        "\\U0001F9CE\\u200D\\u2642",    // 🧎‍♂ man kneeling
+        "\\U0001F9CF",    // 🧏 deaf person
+        "\\U0001F9CF\\U0001F3FB\\u200D\\u2640",    // 🧏🏻‍♀ deaf woman: light skin tone
+        "\\U0001F9CF\\U0001F3FB\\u200D\\u2642",    // 🧏🏻‍♂ deaf man: light skin tone
+        "\\U0001F9CF\\U0001F3FC\\u200D\\u2640",    // 🧏🏼‍♀ deaf woman: medium-light skin tone
+        "\\U0001F9CF\\U0001F3FC\\u200D\\u2642",    // 🧏🏼‍♂ deaf man: medium-light skin tone
+        "\\U0001F9CF\\U0001F3FD\\u200D\\u2640",    // 🧏🏽‍♀ deaf woman: medium skin tone
+        "\\U0001F9CF\\U0001F3FD\\u200D\\u2642",    // 🧏🏽‍♂ deaf man: medium skin tone
+        "\\U0001F9CF\\U0001F3FE\\u200D\\u2640",    // 🧏🏾‍♀ deaf woman: medium-dark skin tone
+        "\\U0001F9CF\\U0001F3FE\\u200D\\u2642",    // 🧏🏾‍♂ deaf man: medium-dark skin tone
+        "\\U0001F9CF\\U0001F3FF\\u200D\\u2640",    // 🧏🏿‍♀ deaf woman: dark skin tone
+        "\\U0001F9CF\\U0001F3FF\\u200D\\u2642",    // 🧏🏿‍♂ deaf man: dark skin tone
+        "\\U0001F9CF\\u200D\\u2640",    // 🧏‍♀ deaf woman
+        "\\U0001F9CF\\u200D\\u2642",    // 🧏‍♂ deaf man
         "\\U0001F9D0",    // 🧐 face with monocle
-        "\\U0001F9D1",    // 🧑 adult
+        "\\U0001F9D1",    // 🧑 person
         "\\U0001F9D2",    // 🧒 child
-        "\\U0001F9D3",    // 🧓 older adult
-        "\\U0001F9D4",    // 🧔 bearded person
+        "\\U0001F9D3",    // 🧓 older person
+        "\\U0001F9D4",    // 🧔 man: beard
         "\\U0001F9D5",    // 🧕 woman with headscarf
         "\\U0001F9D6",    // 🧖 person in steamy room
         "\\U0001F9D6\\U0001F3FB\\u200D\\u2640",    // 🧖🏻‍♀ woman in steamy room: light skin tone
@@ -1698,7 +1680,7 @@ public class EmojiData {
         "\\U0001F9E6",    // 🧦 socks
         "\\U0001F9E7",    // 🧧 red envelope
         "\\U0001F9E8",    // 🧨 firecracker
-        "\\U0001F9E9",    // 🧩 jigsaw
+        "\\U0001F9E9",    // 🧩 puzzle piece
         "\\U0001F9EA",    // 🧪 test tube
         "\\U0001F9EB",    // 🧫 petri dish
         "\\U0001F9EC",    // 🧬 dna
@@ -1706,7 +1688,7 @@ public class EmojiData {
         "\\U0001F9EE",    // 🧮 abacus
         "\\U0001F9EF",    // 🧯 fire extinguisher
         "\\U0001F9F0",    // 🧰 toolbox
-        "\\U0001F9F1",    // 🧱 bricks
+        "\\U0001F9F1",    // 🧱 brick
         "\\U0001F9F2",    // 🧲 magnet
         "\\U0001F9F3",    // 🧳 luggage
         "\\U0001F9F4",    // 🧴 lotion bottle
@@ -1721,118 +1703,84 @@ public class EmojiData {
         "\\U0001F9FD",    // 🧽 sponge
         "\\U0001F9FE",    // 🧾 receipt
         "\\U0001F9FF",    // 🧿 nazar amulet
+        "\\U0001FA70",    // 🩰 ballet shoes
+        "\\U0001FA71",    // 🩱 one-piece swimsuit
+        "\\U0001FA72",    // 🩲 swim brief
+        "\\U0001FA73",    // 🩳 shorts
+        "\\U0001FA78",    // 🩸 drop of blood
+        "\\U0001FA79",    // 🩹 adhesive bandage
+        "\\U0001FA7A",    // 🩺 stethoscope
+        "\\U0001FA80",    // 🪀 yo-yo
+        "\\U0001FA81",    // 🪁 kite
+        "\\U0001FA82",    // 🪂 parachute
+        "\\U0001FA90",    // 🪐 ringed planet
+        "\\U0001FA91",    // 🪑 chair
+        "\\U0001FA92",    // 🪒 razor
+        "\\U0001FA93",    // 🪓 axe
+        "\\U0001FA94",    // 🪔 diya lamp
+        "\\U0001FA95",    // 🪕 banjo
         "\\u203C",    // ‼ double exclamation mark
-        "\\u203C\\uFE0F",    // ‼️ double exclamation mark
         "\\u2049",    // ⁉ exclamation question mark
-        "\\u2049\\uFE0F",    // ⁉️ exclamation question mark
         "\\u2122",    // ™ trade mark
-        "\\u2122\\uFE0F",    // ™️ trade mark
         "\\u2139",    // ℹ information
-        "\\u2139\\uFE0F",    // ℹ️ information
         "\\u2194",    // ↔ left-right arrow
-        "\\u2194\\uFE0F",    // ↔️ left-right arrow
         "\\u2195",    // ↕ up-down arrow
-        "\\u2195\\uFE0F",    // ↕️ up-down arrow
         "\\u2196",    // ↖ up-left arrow
-        "\\u2196\\uFE0F",    // ↖️ up-left arrow
         "\\u2197",    // ↗ up-right arrow
-        "\\u2197\\uFE0F",    // ↗️ up-right arrow
         "\\u2198",    // ↘ down-right arrow
-        "\\u2198\\uFE0F",    // ↘️ down-right arrow
         "\\u2199",    // ↙ down-left arrow
-        "\\u2199\\uFE0F",    // ↙️ down-left arrow
         "\\u21A9",    // ↩ right arrow curving left
-        "\\u21A9\\uFE0F",    // ↩️ right arrow curving left
         "\\u21AA",    // ↪ left arrow curving right
-        "\\u21AA\\uFE0F",    // ↪️ left arrow curving right
         "\\u231A",    // ⌚ watch
         "\\u231B",    // ⌛ hourglass done
         "\\u2328",    // ⌨ keyboard
-        "\\u2328\\uFE0F",    // ⌨️ keyboard
         "\\u23CF",    // ⏏ eject button
-        "\\u23CF\\uFE0F",    // ⏏️ eject button
         "\\u23E9",    // ⏩ fast-forward button
         "\\u23EA",    // ⏪ fast reverse button
         "\\u23EB",    // ⏫ fast up button
         "\\u23EC",    // ⏬ fast down button
         "\\u23ED",    // ⏭ next track button
-        "\\u23ED\\uFE0F",    // ⏭️ next track button
         "\\u23EE",    // ⏮ last track button
-        "\\u23EE\\uFE0F",    // ⏮️ last track button
         "\\u23EF",    // ⏯ play or pause button
-        "\\u23EF\\uFE0F",    // ⏯️ play or pause button
         "\\u23F0",    // ⏰ alarm clock
         "\\u23F1",    // ⏱ stopwatch
-        "\\u23F1\\uFE0F",    // ⏱️ stopwatch
         "\\u23F2",    // ⏲ timer clock
-        "\\u23F2\\uFE0F",    // ⏲️ timer clock
         "\\u23F3",    // ⏳ hourglass not done
         "\\u23F8",    // ⏸ pause button
-        "\\u23F8\\uFE0F",    // ⏸️ pause button
         "\\u23F9",    // ⏹ stop button
-        "\\u23F9\\uFE0F",    // ⏹️ stop button
         "\\u23FA",    // ⏺ record button
-        "\\u23FA\\uFE0F",    // ⏺️ record button
         "\\u24C2",    // Ⓜ circled M
-        "\\u24C2\\uFE0F",    // Ⓜ️ circled M
         "\\u25AA",    // ▪ black small square
-        "\\u25AA\\uFE0F",    // ▪️ black small square
         "\\u25AB",    // ▫ white small square
-        "\\u25AB\\uFE0F",    // ▫️ white small square
         "\\u25B6",    // ▶ play button
-        "\\u25B6\\uFE0F",    // ▶️ play button
         "\\u25C0",    // ◀ reverse button
-        "\\u25C0\\uFE0F",    // ◀️ reverse button
         "\\u25FB",    // ◻ white medium square
-        "\\u25FB\\uFE0F",    // ◻️ white medium square
         "\\u25FC",    // ◼ black medium square
-        "\\u25FC\\uFE0F",    // ◼️ black medium square
         "\\u25FD",    // ◽ white medium-small square
         "\\u25FE",    // ◾ black medium-small square
         "\\u2600",    // ☀ sun
-        "\\u2600\\uFE0F",    // ☀️ sun
         "\\u2601",    // ☁ cloud
-        "\\u2601\\uFE0F",    // ☁️ cloud
         "\\u2602",    // ☂ umbrella
-        "\\u2602\\uFE0F",    // ☂️ umbrella
         "\\u2603",    // ☃ snowman
-        "\\u2603\\uFE0F",    // ☃️ snowman
         "\\u2604",    // ☄ comet
-        "\\u2604\\uFE0F",    // ☄️ comet
         "\\u260E",    // ☎ telephone
-        "\\u260E\\uFE0F",    // ☎️ telephone
-        "\\u2611",    // ☑ ballot box with check
-        "\\u2611\\uFE0F",    // ☑️ ballot box with check
+        "\\u2611",    // ☑ check box with check
         "\\u2614",    // ☔ umbrella with rain drops
         "\\u2615",    // ☕ hot beverage
         "\\u2618",    // ☘ shamrock
-        "\\u2618\\uFE0F",    // ☘️ shamrock
         "\\u261D",    // ☝ index pointing up
-        "\\u261D\\uFE0F",    // ☝️ index pointing up
         "\\u2620",    // ☠ skull and crossbones
-        "\\u2620\\uFE0F",    // ☠️ skull and crossbones
         "\\u2622",    // ☢ radioactive
-        "\\u2622\\uFE0F",    // ☢️ radioactive
         "\\u2623",    // ☣ biohazard
-        "\\u2623\\uFE0F",    // ☣️ biohazard
         "\\u2626",    // ☦ orthodox cross
-        "\\u2626\\uFE0F",    // ☦️ orthodox cross
         "\\u262A",    // ☪ star and crescent
-        "\\u262A\\uFE0F",    // ☪️ star and crescent
         "\\u262E",    // ☮ peace symbol
-        "\\u262E\\uFE0F",    // ☮️ peace symbol
         "\\u262F",    // ☯ yin yang
-        "\\u262F\\uFE0F",    // ☯️ yin yang
         "\\u2638",    // ☸ wheel of dharma
-        "\\u2638\\uFE0F",    // ☸️ wheel of dharma
         "\\u2639",    // ☹ frowning face
-        "\\u2639\\uFE0F",    // ☹️ frowning face
         "\\u263A",    // ☺ smiling face
-        "\\u263A\\uFE0F",    // ☺️ smiling face
         "\\u2640",    // ♀ female sign
-        "\\u2640\\uFE0F",    // ♀️ female sign
         "\\u2642",    // ♂ male sign
-        "\\u2642\\uFE0F",    // ♂️ male sign
         "\\u2648",    // ♈ Aries
         "\\u2649",    // ♉ Taurus
         "\\u264A",    // ♊ Gemini
@@ -1846,78 +1794,49 @@ public class EmojiData {
         "\\u2652",    // ♒ Aquarius
         "\\u2653",    // ♓ Pisces
         "\\u265F",    // ♟ chess pawn
-        "\\u265F\\uFE0F",    // ♟️ chess pawn
         "\\u2660",    // ♠ spade suit
-        "\\u2660\\uFE0F",    // ♠️ spade suit
         "\\u2663",    // ♣ club suit
-        "\\u2663\\uFE0F",    // ♣️ club suit
         "\\u2665",    // ♥ heart suit
-        "\\u2665\\uFE0F",    // ♥️ heart suit
         "\\u2666",    // ♦ diamond suit
-        "\\u2666\\uFE0F",    // ♦️ diamond suit
         "\\u2668",    // ♨ hot springs
-        "\\u2668\\uFE0F",    // ♨️ hot springs
         "\\u267B",    // ♻ recycling symbol
-        "\\u267B\\uFE0F",    // ♻️ recycling symbol
         "\\u267E",    // ♾ infinity
-        "\\u267E\\uFE0F",    // ♾️ infinity
         "\\u267F",    // ♿ wheelchair symbol
         "\\u2692",    // ⚒ hammer and pick
-        "\\u2692\\uFE0F",    // ⚒️ hammer and pick
         "\\u2693",    // ⚓ anchor
         "\\u2694",    // ⚔ crossed swords
-        "\\u2694\\uFE0F",    // ⚔️ crossed swords
         "\\u2695",    // ⚕ medical symbol
-        "\\u2695\\uFE0F",    // ⚕️ medical symbol
         "\\u2696",    // ⚖ balance scale
-        "\\u2696\\uFE0F",    // ⚖️ balance scale
         "\\u2697",    // ⚗ alembic
-        "\\u2697\\uFE0F",    // ⚗️ alembic
         "\\u2699",    // ⚙ gear
-        "\\u2699\\uFE0F",    // ⚙️ gear
         "\\u269B",    // ⚛ atom symbol
-        "\\u269B\\uFE0F",    // ⚛️ atom symbol
         "\\u269C",    // ⚜ fleur-de-lis
-        "\\u269C\\uFE0F",    // ⚜️ fleur-de-lis
         "\\u26A0",    // ⚠ warning
-        "\\u26A0\\uFE0F",    // ⚠️ warning
         "\\u26A1",    // ⚡ high voltage
         "\\u26AA",    // ⚪ white circle
         "\\u26AB",    // ⚫ black circle
         "\\u26B0",    // ⚰ coffin
-        "\\u26B0\\uFE0F",    // ⚰️ coffin
         "\\u26B1",    // ⚱ funeral urn
-        "\\u26B1\\uFE0F",    // ⚱️ funeral urn
         "\\u26BD",    // ⚽ soccer ball
         "\\u26BE",    // ⚾ baseball
         "\\u26C4",    // ⛄ snowman without snow
         "\\u26C5",    // ⛅ sun behind cloud
         "\\u26C8",    // ⛈ cloud with lightning and rain
-        "\\u26C8\\uFE0F",    // ⛈️ cloud with lightning and rain
         "\\u26CE",    // ⛎ Ophiuchus
         "\\u26CF",    // ⛏ pick
-        "\\u26CF\\uFE0F",    // ⛏️ pick
         "\\u26D1",    // ⛑ rescue worker’s helmet
-        "\\u26D1\\uFE0F",    // ⛑️ rescue worker’s helmet
         "\\u26D3",    // ⛓ chains
-        "\\u26D3\\uFE0F",    // ⛓️ chains
         "\\u26D4",    // ⛔ no entry
         "\\u26E9",    // ⛩ shinto shrine
-        "\\u26E9\\uFE0F",    // ⛩️ shinto shrine
         "\\u26EA",    // ⛪ church
         "\\u26F0",    // ⛰ mountain
-        "\\u26F0\\uFE0F",    // ⛰️ mountain
         "\\u26F1",    // ⛱ umbrella on ground
-        "\\u26F1\\uFE0F",    // ⛱️ umbrella on ground
         "\\u26F2",    // ⛲ fountain
         "\\u26F3",    // ⛳ flag in hole
         "\\u26F4",    // ⛴ ferry
-        "\\u26F4\\uFE0F",    // ⛴️ ferry
         "\\u26F5",    // ⛵ sailboat
         "\\u26F7",    // ⛷ skier
-        "\\u26F7\\uFE0F",    // ⛷️ skier
         "\\u26F8",    // ⛸ ice skate
-        "\\u26F8\\uFE0F",    // ⛸️ ice skate
         "\\u26F9",    // ⛹ person bouncing ball
         "\\u26F9\\U0001F3FB\\u200D\\u2640",    // ⛹🏻‍♀ woman bouncing ball: light skin tone
         "\\u26F9\\U0001F3FB\\u200D\\u2642",    // ⛹🏻‍♂ man bouncing ball: light skin tone
@@ -1933,92 +1852,64 @@ public class EmojiData {
         "\\u26F9\\u200D\\u2640\\uFE0F",    // ⛹‍♀️ woman bouncing ball
         "\\u26F9\\u200D\\u2642",    // ⛹‍♂ man bouncing ball
         "\\u26F9\\u200D\\u2642\\uFE0F",    // ⛹‍♂️ man bouncing ball
-        "\\u26F9\\uFE0F",    // ⛹️ person bouncing ball
         "\\u26F9\\uFE0F\\u200D\\u2640",    // ⛹️‍♀ woman bouncing ball
         "\\u26F9\\uFE0F\\u200D\\u2642",    // ⛹️‍♂ man bouncing ball
         "\\u26FA",    // ⛺ tent
         "\\u26FD",    // ⛽ fuel pump
         "\\u2702",    // ✂ scissors
-        "\\u2702\\uFE0F",    // ✂️ scissors
-        "\\u2705",    // ✅ white heavy check mark
+        "\\u2705",    // ✅ check mark button
         "\\u2708",    // ✈ airplane
-        "\\u2708\\uFE0F",    // ✈️ airplane
         "\\u2709",    // ✉ envelope
-        "\\u2709\\uFE0F",    // ✉️ envelope
         "\\u270A",    // ✊ raised fist
         "\\u270B",    // ✋ raised hand
         "\\u270C",    // ✌ victory hand
-        "\\u270C\\uFE0F",    // ✌️ victory hand
         "\\u270D",    // ✍ writing hand
-        "\\u270D\\uFE0F",    // ✍️ writing hand
         "\\u270F",    // ✏ pencil
-        "\\u270F\\uFE0F",    // ✏️ pencil
         "\\u2712",    // ✒ black nib
-        "\\u2712\\uFE0F",    // ✒️ black nib
-        "\\u2714",    // ✔ heavy check mark
-        "\\u2714\\uFE0F",    // ✔️ heavy check mark
-        "\\u2716",    // ✖ heavy multiplication x
-        "\\u2716\\uFE0F",    // ✖️ heavy multiplication x
+        "\\u2714",    // ✔ check mark
+        "\\u2716",    // ✖ multiplication sign
         "\\u271D",    // ✝ latin cross
-        "\\u271D\\uFE0F",    // ✝️ latin cross
         "\\u2721",    // ✡ star of David
-        "\\u2721\\uFE0F",    // ✡️ star of David
         "\\u2728",    // ✨ sparkles
         "\\u2733",    // ✳ eight-spoked asterisk
-        "\\u2733\\uFE0F",    // ✳️ eight-spoked asterisk
         "\\u2734",    // ✴ eight-pointed star
-        "\\u2734\\uFE0F",    // ✴️ eight-pointed star
         "\\u2744",    // ❄ snowflake
-        "\\u2744\\uFE0F",    // ❄️ snowflake
         "\\u2747",    // ❇ sparkle
-        "\\u2747\\uFE0F",    // ❇️ sparkle
         "\\u274C",    // ❌ cross mark
         "\\u274E",    // ❎ cross mark button
         "\\u2753",    // ❓ question mark
         "\\u2754",    // ❔ white question mark
         "\\u2755",    // ❕ white exclamation mark
         "\\u2757",    // ❗ exclamation mark
-        "\\u2763",    // ❣ heavy heart exclamation
-        "\\u2763\\uFE0F",    // ❣️ heavy heart exclamation
+        "\\u2763",    // ❣ heart exclamation
         "\\u2764",    // ❤ red heart
-        "\\u2764\\uFE0F",    // ❤️ red heart
-        "\\u2795",    // ➕ heavy plus sign
-        "\\u2796",    // ➖ heavy minus sign
-        "\\u2797",    // ➗ heavy division sign
+        "\\u2795",    // ➕ plus sign
+        "\\u2796",    // ➖ minus sign
+        "\\u2797",    // ➗ division sign
         "\\u27A1",    // ➡ right arrow
-        "\\u27A1\\uFE0F",    // ➡️ right arrow
         "\\u27B0",    // ➰ curly loop
         "\\u27BF",    // ➿ double curly loop
         "\\u2934",    // ⤴ right arrow curving up
-        "\\u2934\\uFE0F",    // ⤴️ right arrow curving up
         "\\u2935",    // ⤵ right arrow curving down
-        "\\u2935\\uFE0F",    // ⤵️ right arrow curving down
         "\\u2B05",    // ⬅ left arrow
-        "\\u2B05\\uFE0F",    // ⬅️ left arrow
         "\\u2B06",    // ⬆ up arrow
-        "\\u2B06\\uFE0F",    // ⬆️ up arrow
         "\\u2B07",    // ⬇ down arrow
-        "\\u2B07\\uFE0F",    // ⬇️ down arrow
         "\\u2B1B",    // ⬛ black large square
         "\\u2B1C",    // ⬜ white large square
         "\\u2B50",    // ⭐ star
-        "\\u2B55",    // ⭕ heavy large circle
+        "\\u2B55",    // ⭕ hollow red circle
         "\\u3030",    // 〰 wavy dash
-        "\\u3030\\uFE0F",    // 〰️ wavy dash
         "\\u303D",    // 〽 part alternation mark
-        "\\u303D\\uFE0F",    // 〽️ part alternation mark
         "\\u3297",    // ㊗ Japanese “congratulations” button
-        "\\u3297\\uFE0F",    // ㊗️ Japanese “congratulations” button
-        "\\u3299",    // ㊙ Japanese “secret” button
-        "\\u3299\\uFE0F"     // ㊙️ Japanese “secret” button
+        "\\u3299"     // ㊙ Japanese “secret” button
     ]
     
     ///
-    /// Patterns that match emoji sequences. This includes keycap characters, flags, and skintone
+    /// Patterns that match other sequences. This includes keycap characters, flags, and skintone
     /// variants, but not Zero-Width-Joiner (ZWJ) sequences used for "family" characters like
     /// "👨‍👩‍👧‍👧".
     ///
-    public static let SequencePatterns:[String] = [
+    public static let OtherSequencesPatterns:[String] = [
         "\\u0023\\uFE0F\\u20E3",    // 3.0  [1] (#️⃣)
         "\\u002A\\uFE0F\\u20E3",    // 3.0  [1] (*️⃣)
         "\\u0030\\uFE0F\\u20E3",    // 3.0  [1] (0️⃣)
@@ -2417,6 +2308,21 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FD",    // 8.0  [1] (👩🏽)
         "\\U0001F469\\U0001F3FE",    // 8.0  [1] (👩🏾)
         "\\U0001F469\\U0001F3FF",    // 8.0  [1] (👩🏿)
+        "\\U0001F46B\\U0001F3FB",    // 8.0  [1] (👫🏻)
+        "\\U0001F46B\\U0001F3FC",    // 8.0  [1] (👫🏼)
+        "\\U0001F46B\\U0001F3FD",    // 8.0  [1] (👫🏽)
+        "\\U0001F46B\\U0001F3FE",    // 8.0  [1] (👫🏾)
+        "\\U0001F46B\\U0001F3FF",    // 8.0  [1] (👫🏿)
+        "\\U0001F46C\\U0001F3FB",    // 8.0  [1] (👬🏻)
+        "\\U0001F46C\\U0001F3FC",    // 8.0  [1] (👬🏼)
+        "\\U0001F46C\\U0001F3FD",    // 8.0  [1] (👬🏽)
+        "\\U0001F46C\\U0001F3FE",    // 8.0  [1] (👬🏾)
+        "\\U0001F46C\\U0001F3FF",    // 8.0  [1] (👬🏿)
+        "\\U0001F46D\\U0001F3FB",    // 8.0  [1] (👭🏻)
+        "\\U0001F46D\\U0001F3FC",    // 8.0  [1] (👭🏼)
+        "\\U0001F46D\\U0001F3FD",    // 8.0  [1] (👭🏽)
+        "\\U0001F46D\\U0001F3FE",    // 8.0  [1] (👭🏾)
+        "\\U0001F46D\\U0001F3FF",    // 8.0  [1] (👭🏿)
         "\\U0001F46E\\U0001F3FB",    // 8.0  [1] (👮🏻)
         "\\U0001F46E\\U0001F3FC",    // 8.0  [1] (👮🏼)
         "\\U0001F46E\\U0001F3FD",    // 8.0  [1] (👮🏽)
@@ -2607,6 +2513,11 @@ public class EmojiData {
         "\\U0001F6CC\\U0001F3FD",    // 8.0  [1] (🛌🏽)
         "\\U0001F6CC\\U0001F3FE",    // 8.0  [1] (🛌🏾)
         "\\U0001F6CC\\U0001F3FF",    // 8.0  [1] (🛌🏿)
+        "\\U0001F90F\\U0001F3FB",    // 12.0  [1] (🤏🏻)
+        "\\U0001F90F\\U0001F3FC",    // 12.0  [1] (🤏🏼)
+        "\\U0001F90F\\U0001F3FD",    // 12.0  [1] (🤏🏽)
+        "\\U0001F90F\\U0001F3FE",    // 12.0  [1] (🤏🏾)
+        "\\U0001F90F\\U0001F3FF",    // 12.0  [1] (🤏🏿)
         "\\U0001F918\\U0001F3FB",    // 8.0  [1] (🤘🏻)
         "\\U0001F918\\U0001F3FC",    // 8.0  [1] (🤘🏼)
         "\\U0001F918\\U0001F3FD",    // 8.0  [1] (🤘🏽)
@@ -2727,6 +2638,26 @@ public class EmojiData {
         "\\U0001F9B9\\U0001F3FD",    // 11.0  [1] (🦹🏽)
         "\\U0001F9B9\\U0001F3FE",    // 11.0  [1] (🦹🏾)
         "\\U0001F9B9\\U0001F3FF",    // 11.0  [1] (🦹🏿)
+        "\\U0001F9BB\\U0001F3FB",    // 12.0  [1] (🦻🏻)
+        "\\U0001F9BB\\U0001F3FC",    // 12.0  [1] (🦻🏼)
+        "\\U0001F9BB\\U0001F3FD",    // 12.0  [1] (🦻🏽)
+        "\\U0001F9BB\\U0001F3FE",    // 12.0  [1] (🦻🏾)
+        "\\U0001F9BB\\U0001F3FF",    // 12.0  [1] (🦻🏿)
+        "\\U0001F9CD\\U0001F3FB",    // 12.0  [1] (🧍🏻)
+        "\\U0001F9CD\\U0001F3FC",    // 12.0  [1] (🧍🏼)
+        "\\U0001F9CD\\U0001F3FD",    // 12.0  [1] (🧍🏽)
+        "\\U0001F9CD\\U0001F3FE",    // 12.0  [1] (🧍🏾)
+        "\\U0001F9CD\\U0001F3FF",    // 12.0  [1] (🧍🏿)
+        "\\U0001F9CE\\U0001F3FB",    // 12.0  [1] (🧎🏻)
+        "\\U0001F9CE\\U0001F3FC",    // 12.0  [1] (🧎🏼)
+        "\\U0001F9CE\\U0001F3FD",    // 12.0  [1] (🧎🏽)
+        "\\U0001F9CE\\U0001F3FE",    // 12.0  [1] (🧎🏾)
+        "\\U0001F9CE\\U0001F3FF",    // 12.0  [1] (🧎🏿)
+        "\\U0001F9CF\\U0001F3FB",    // 12.0  [1] (🧏🏻)
+        "\\U0001F9CF\\U0001F3FC",    // 12.0  [1] (🧏🏼)
+        "\\U0001F9CF\\U0001F3FD",    // 12.0  [1] (🧏🏽)
+        "\\U0001F9CF\\U0001F3FE",    // 12.0  [1] (🧏🏾)
+        "\\U0001F9CF\\U0001F3FF",    // 12.0  [1] (🧏🏿)
         "\\U0001F9D1\\U0001F3FB",    // 10.0  [1] (🧑🏻)
         "\\U0001F9D1\\U0001F3FC",    // 10.0  [1] (🧑🏼)
         "\\U0001F9D1\\U0001F3FD",    // 10.0  [1] (🧑🏽)
@@ -2825,10 +2756,722 @@ public class EmojiData {
     ]
     
     ///
+    /// Patterns that match variation sequences.
+    ///
+    public static let VariationSequencesPatterns:[String] = [
+        "\\u0023\\uFE0E",    // (1.1) NUMBER SIGN
+        "\\u0023\\uFE0F",    // (1.1) NUMBER SIGN
+        "\\u002A\\uFE0E",    // (1.1) ASTERISK
+        "\\u002A\\uFE0F",    // (1.1) ASTERISK
+        "\\u0030\\uFE0E",    // (1.1) DIGIT ZERO
+        "\\u0030\\uFE0F",    // (1.1) DIGIT ZERO
+        "\\u0031\\uFE0E",    // (1.1) DIGIT ONE
+        "\\u0031\\uFE0F",    // (1.1) DIGIT ONE
+        "\\u0032\\uFE0E",    // (1.1) DIGIT TWO
+        "\\u0032\\uFE0F",    // (1.1) DIGIT TWO
+        "\\u0033\\uFE0E",    // (1.1) DIGIT THREE
+        "\\u0033\\uFE0F",    // (1.1) DIGIT THREE
+        "\\u0034\\uFE0E",    // (1.1) DIGIT FOUR
+        "\\u0034\\uFE0F",    // (1.1) DIGIT FOUR
+        "\\u0035\\uFE0E",    // (1.1) DIGIT FIVE
+        "\\u0035\\uFE0F",    // (1.1) DIGIT FIVE
+        "\\u0036\\uFE0E",    // (1.1) DIGIT SIX
+        "\\u0036\\uFE0F",    // (1.1) DIGIT SIX
+        "\\u0037\\uFE0E",    // (1.1) DIGIT SEVEN
+        "\\u0037\\uFE0F",    // (1.1) DIGIT SEVEN
+        "\\u0038\\uFE0E",    // (1.1) DIGIT EIGHT
+        "\\u0038\\uFE0F",    // (1.1) DIGIT EIGHT
+        "\\u0039\\uFE0E",    // (1.1) DIGIT NINE
+        "\\u0039\\uFE0F",    // (1.1) DIGIT NINE
+        "\\u00A9\\uFE0E",    // (1.1) COPYRIGHT SIGN
+        "\\u00A9\\uFE0F",    // (1.1) COPYRIGHT SIGN
+        "\\u00AE\\uFE0E",    // (1.1) REGISTERED SIGN
+        "\\u00AE\\uFE0F",    // (1.1) REGISTERED SIGN
+        "\\U0001F004\\uFE0E",    // (5.1) MAHJONG TILE RED DRAGON
+        "\\U0001F004\\uFE0F",    // (5.1) MAHJONG TILE RED DRAGON
+        "\\U0001F170\\uFE0E",    // (6.0) NEGATIVE SQUARED LATIN CAPITAL LETTER A
+        "\\U0001F170\\uFE0F",    // (6.0) NEGATIVE SQUARED LATIN CAPITAL LETTER A
+        "\\U0001F171\\uFE0E",    // (6.0) NEGATIVE SQUARED LATIN CAPITAL LETTER B
+        "\\U0001F171\\uFE0F",    // (6.0) NEGATIVE SQUARED LATIN CAPITAL LETTER B
+        "\\U0001F17E\\uFE0E",    // (6.0) NEGATIVE SQUARED LATIN CAPITAL LETTER O
+        "\\U0001F17E\\uFE0F",    // (6.0) NEGATIVE SQUARED LATIN CAPITAL LETTER O
+        "\\U0001F17F\\uFE0E",    // (5.2) NEGATIVE SQUARED LATIN CAPITAL LETTER P
+        "\\U0001F17F\\uFE0F",    // (5.2) NEGATIVE SQUARED LATIN CAPITAL LETTER P
+        "\\U0001F202\\uFE0E",    // (6.0) SQUARED KATAKANA SA
+        "\\U0001F202\\uFE0F",    // (6.0) SQUARED KATAKANA SA
+        "\\U0001F21A\\uFE0E",    // (5.2) SQUARED CJK UNIFIED IDEOGRAPH-7121
+        "\\U0001F21A\\uFE0F",    // (5.2) SQUARED CJK UNIFIED IDEOGRAPH-7121
+        "\\U0001F22F\\uFE0E",    // (5.2) SQUARED CJK UNIFIED IDEOGRAPH-6307
+        "\\U0001F22F\\uFE0F",    // (5.2) SQUARED CJK UNIFIED IDEOGRAPH-6307
+        "\\U0001F237\\uFE0E",    // (6.0) SQUARED CJK UNIFIED IDEOGRAPH-6708
+        "\\U0001F237\\uFE0F",    // (6.0) SQUARED CJK UNIFIED IDEOGRAPH-6708
+        "\\U0001F30D\\uFE0E",    // (6.0) EARTH GLOBE EUROPE-AFRICA
+        "\\U0001F30D\\uFE0F",    // (6.0) EARTH GLOBE EUROPE-AFRICA
+        "\\U0001F30E\\uFE0E",    // (6.0) EARTH GLOBE AMERICAS
+        "\\U0001F30E\\uFE0F",    // (6.0) EARTH GLOBE AMERICAS
+        "\\U0001F30F\\uFE0E",    // (6.0) EARTH GLOBE ASIA-AUSTRALIA
+        "\\U0001F30F\\uFE0F",    // (6.0) EARTH GLOBE ASIA-AUSTRALIA
+        "\\U0001F315\\uFE0E",    // (6.0) FULL MOON SYMBOL
+        "\\U0001F315\\uFE0F",    // (6.0) FULL MOON SYMBOL
+        "\\U0001F31C\\uFE0E",    // (6.0) LAST QUARTER MOON WITH FACE
+        "\\U0001F31C\\uFE0F",    // (6.0) LAST QUARTER MOON WITH FACE
+        "\\U0001F321\\uFE0E",    // (7.0) THERMOMETER
+        "\\U0001F321\\uFE0F",    // (7.0) THERMOMETER
+        "\\U0001F324\\uFE0E",    // (7.0) WHITE SUN WITH SMALL CLOUD
+        "\\U0001F324\\uFE0F",    // (7.0) WHITE SUN WITH SMALL CLOUD
+        "\\U0001F325\\uFE0E",    // (7.0) WHITE SUN BEHIND CLOUD
+        "\\U0001F325\\uFE0F",    // (7.0) WHITE SUN BEHIND CLOUD
+        "\\U0001F326\\uFE0E",    // (7.0) WHITE SUN BEHIND CLOUD WITH RAIN
+        "\\U0001F326\\uFE0F",    // (7.0) WHITE SUN BEHIND CLOUD WITH RAIN
+        "\\U0001F327\\uFE0E",    // (7.0) CLOUD WITH RAIN
+        "\\U0001F327\\uFE0F",    // (7.0) CLOUD WITH RAIN
+        "\\U0001F328\\uFE0E",    // (7.0) CLOUD WITH SNOW
+        "\\U0001F328\\uFE0F",    // (7.0) CLOUD WITH SNOW
+        "\\U0001F329\\uFE0E",    // (7.0) CLOUD WITH LIGHTNING
+        "\\U0001F329\\uFE0F",    // (7.0) CLOUD WITH LIGHTNING
+        "\\U0001F32A\\uFE0E",    // (7.0) CLOUD WITH TORNADO
+        "\\U0001F32A\\uFE0F",    // (7.0) CLOUD WITH TORNADO
+        "\\U0001F32B\\uFE0E",    // (7.0) FOG
+        "\\U0001F32B\\uFE0F",    // (7.0) FOG
+        "\\U0001F32C\\uFE0E",    // (7.0) WIND BLOWING FACE
+        "\\U0001F32C\\uFE0F",    // (7.0) WIND BLOWING FACE
+        "\\U0001F336\\uFE0E",    // (7.0) HOT PEPPER
+        "\\U0001F336\\uFE0F",    // (7.0) HOT PEPPER
+        "\\U0001F378\\uFE0E",    // (6.0) COCKTAIL GLASS
+        "\\U0001F378\\uFE0F",    // (6.0) COCKTAIL GLASS
+        "\\U0001F37D\\uFE0E",    // (7.0) FORK AND KNIFE WITH PLATE
+        "\\U0001F37D\\uFE0F",    // (7.0) FORK AND KNIFE WITH PLATE
+        "\\U0001F393\\uFE0E",    // (6.0) GRADUATION CAP
+        "\\U0001F393\\uFE0F",    // (6.0) GRADUATION CAP
+        "\\U0001F396\\uFE0E",    // (7.0) MILITARY MEDAL
+        "\\U0001F396\\uFE0F",    // (7.0) MILITARY MEDAL
+        "\\U0001F397\\uFE0E",    // (7.0) REMINDER RIBBON
+        "\\U0001F397\\uFE0F",    // (7.0) REMINDER RIBBON
+        "\\U0001F399\\uFE0E",    // (7.0) STUDIO MICROPHONE
+        "\\U0001F399\\uFE0F",    // (7.0) STUDIO MICROPHONE
+        "\\U0001F39A\\uFE0E",    // (7.0) LEVEL SLIDER
+        "\\U0001F39A\\uFE0F",    // (7.0) LEVEL SLIDER
+        "\\U0001F39B\\uFE0E",    // (7.0) CONTROL KNOBS
+        "\\U0001F39B\\uFE0F",    // (7.0) CONTROL KNOBS
+        "\\U0001F39E\\uFE0E",    // (7.0) FILM FRAMES
+        "\\U0001F39E\\uFE0F",    // (7.0) FILM FRAMES
+        "\\U0001F39F\\uFE0E",    // (7.0) ADMISSION TICKETS
+        "\\U0001F39F\\uFE0F",    // (7.0) ADMISSION TICKETS
+        "\\U0001F3A7\\uFE0E",    // (6.0) HEADPHONE
+        "\\U0001F3A7\\uFE0F",    // (6.0) HEADPHONE
+        "\\U0001F3AC\\uFE0E",    // (6.0) CLAPPER BOARD
+        "\\U0001F3AC\\uFE0F",    // (6.0) CLAPPER BOARD
+        "\\U0001F3AD\\uFE0E",    // (6.0) PERFORMING ARTS
+        "\\U0001F3AD\\uFE0F",    // (6.0) PERFORMING ARTS
+        "\\U0001F3AE\\uFE0E",    // (6.0) VIDEO GAME
+        "\\U0001F3AE\\uFE0F",    // (6.0) VIDEO GAME
+        "\\U0001F3C2\\uFE0E",    // (6.0) SNOWBOARDER
+        "\\U0001F3C2\\uFE0F",    // (6.0) SNOWBOARDER
+        "\\U0001F3C4\\uFE0E",    // (6.0) SURFER
+        "\\U0001F3C4\\uFE0F",    // (6.0) SURFER
+        "\\U0001F3C6\\uFE0E",    // (6.0) TROPHY
+        "\\U0001F3C6\\uFE0F",    // (6.0) TROPHY
+        "\\U0001F3CA\\uFE0E",    // (6.0) SWIMMER
+        "\\U0001F3CA\\uFE0F",    // (6.0) SWIMMER
+        "\\U0001F3CB\\uFE0E",    // (7.0) WEIGHT LIFTER
+        "\\U0001F3CB\\uFE0F",    // (7.0) WEIGHT LIFTER
+        "\\U0001F3CC\\uFE0E",    // (7.0) GOLFER
+        "\\U0001F3CC\\uFE0F",    // (7.0) GOLFER
+        "\\U0001F3CD\\uFE0E",    // (7.0) RACING MOTORCYCLE
+        "\\U0001F3CD\\uFE0F",    // (7.0) RACING MOTORCYCLE
+        "\\U0001F3CE\\uFE0E",    // (7.0) RACING CAR
+        "\\U0001F3CE\\uFE0F",    // (7.0) RACING CAR
+        "\\U0001F3D4\\uFE0E",    // (7.0) SNOW CAPPED MOUNTAIN
+        "\\U0001F3D4\\uFE0F",    // (7.0) SNOW CAPPED MOUNTAIN
+        "\\U0001F3D5\\uFE0E",    // (7.0) CAMPING
+        "\\U0001F3D5\\uFE0F",    // (7.0) CAMPING
+        "\\U0001F3D6\\uFE0E",    // (7.0) BEACH WITH UMBRELLA
+        "\\U0001F3D6\\uFE0F",    // (7.0) BEACH WITH UMBRELLA
+        "\\U0001F3D7\\uFE0E",    // (7.0) BUILDING CONSTRUCTION
+        "\\U0001F3D7\\uFE0F",    // (7.0) BUILDING CONSTRUCTION
+        "\\U0001F3D8\\uFE0E",    // (7.0) HOUSE BUILDINGS
+        "\\U0001F3D8\\uFE0F",    // (7.0) HOUSE BUILDINGS
+        "\\U0001F3D9\\uFE0E",    // (7.0) CITYSCAPE
+        "\\U0001F3D9\\uFE0F",    // (7.0) CITYSCAPE
+        "\\U0001F3DA\\uFE0E",    // (7.0) DERELICT HOUSE BUILDING
+        "\\U0001F3DA\\uFE0F",    // (7.0) DERELICT HOUSE BUILDING
+        "\\U0001F3DB\\uFE0E",    // (7.0) CLASSICAL BUILDING
+        "\\U0001F3DB\\uFE0F",    // (7.0) CLASSICAL BUILDING
+        "\\U0001F3DC\\uFE0E",    // (7.0) DESERT
+        "\\U0001F3DC\\uFE0F",    // (7.0) DESERT
+        "\\U0001F3DD\\uFE0E",    // (7.0) DESERT ISLAND
+        "\\U0001F3DD\\uFE0F",    // (7.0) DESERT ISLAND
+        "\\U0001F3DE\\uFE0E",    // (7.0) NATIONAL PARK
+        "\\U0001F3DE\\uFE0F",    // (7.0) NATIONAL PARK
+        "\\U0001F3DF\\uFE0E",    // (7.0) STADIUM
+        "\\U0001F3DF\\uFE0F",    // (7.0) STADIUM
+        "\\U0001F3E0\\uFE0E",    // (6.0) HOUSE BUILDING
+        "\\U0001F3E0\\uFE0F",    // (6.0) HOUSE BUILDING
+        "\\U0001F3ED\\uFE0E",    // (6.0) FACTORY
+        "\\U0001F3ED\\uFE0F",    // (6.0) FACTORY
+        "\\U0001F3F3\\uFE0E",    // (7.0) WAVING WHITE FLAG
+        "\\U0001F3F3\\uFE0F",    // (7.0) WAVING WHITE FLAG
+        "\\U0001F3F5\\uFE0E",    // (7.0) ROSETTE
+        "\\U0001F3F5\\uFE0F",    // (7.0) ROSETTE
+        "\\U0001F3F7\\uFE0E",    // (7.0) LABEL
+        "\\U0001F3F7\\uFE0F",    // (7.0) LABEL
+        "\\U0001F408\\uFE0E",    // (6.0) CAT
+        "\\U0001F408\\uFE0F",    // (6.0) CAT
+        "\\U0001F415\\uFE0E",    // (6.0) DOG
+        "\\U0001F415\\uFE0F",    // (6.0) DOG
+        "\\U0001F41F\\uFE0E",    // (6.0) FISH
+        "\\U0001F41F\\uFE0F",    // (6.0) FISH
+        "\\U0001F426\\uFE0E",    // (6.0) BIRD
+        "\\U0001F426\\uFE0F",    // (6.0) BIRD
+        "\\U0001F43F\\uFE0E",    // (7.0) CHIPMUNK
+        "\\U0001F43F\\uFE0F",    // (7.0) CHIPMUNK
+        "\\U0001F441\\uFE0E",    // (7.0) EYE
+        "\\U0001F441\\uFE0F",    // (7.0) EYE
+        "\\U0001F442\\uFE0E",    // (6.0) EAR
+        "\\U0001F442\\uFE0F",    // (6.0) EAR
+        "\\U0001F446\\uFE0E",    // (6.0) WHITE UP POINTING BACKHAND INDEX
+        "\\U0001F446\\uFE0F",    // (6.0) WHITE UP POINTING BACKHAND INDEX
+        "\\U0001F447\\uFE0E",    // (6.0) WHITE DOWN POINTING BACKHAND INDEX
+        "\\U0001F447\\uFE0F",    // (6.0) WHITE DOWN POINTING BACKHAND INDEX
+        "\\U0001F448\\uFE0E",    // (6.0) WHITE LEFT POINTING BACKHAND INDEX
+        "\\U0001F448\\uFE0F",    // (6.0) WHITE LEFT POINTING BACKHAND INDEX
+        "\\U0001F449\\uFE0E",    // (6.0) WHITE RIGHT POINTING BACKHAND INDEX
+        "\\U0001F449\\uFE0F",    // (6.0) WHITE RIGHT POINTING BACKHAND INDEX
+        "\\U0001F44D\\uFE0E",    // (6.0) THUMBS UP SIGN
+        "\\U0001F44D\\uFE0F",    // (6.0) THUMBS UP SIGN
+        "\\U0001F44E\\uFE0E",    // (6.0) THUMBS DOWN SIGN
+        "\\U0001F44E\\uFE0F",    // (6.0) THUMBS DOWN SIGN
+        "\\U0001F453\\uFE0E",    // (6.0) EYEGLASSES
+        "\\U0001F453\\uFE0F",    // (6.0) EYEGLASSES
+        "\\U0001F46A\\uFE0E",    // (6.0) FAMILY
+        "\\U0001F46A\\uFE0F",    // (6.0) FAMILY
+        "\\U0001F47D\\uFE0E",    // (6.0) EXTRATERRESTRIAL ALIEN
+        "\\U0001F47D\\uFE0F",    // (6.0) EXTRATERRESTRIAL ALIEN
+        "\\U0001F4A3\\uFE0E",    // (6.0) BOMB
+        "\\U0001F4A3\\uFE0F",    // (6.0) BOMB
+        "\\U0001F4B0\\uFE0E",    // (6.0) MONEY BAG
+        "\\U0001F4B0\\uFE0F",    // (6.0) MONEY BAG
+        "\\U0001F4B3\\uFE0E",    // (6.0) CREDIT CARD
+        "\\U0001F4B3\\uFE0F",    // (6.0) CREDIT CARD
+        "\\U0001F4BB\\uFE0E",    // (6.0) PERSONAL COMPUTER
+        "\\U0001F4BB\\uFE0F",    // (6.0) PERSONAL COMPUTER
+        "\\U0001F4BF\\uFE0E",    // (6.0) OPTICAL DISC
+        "\\U0001F4BF\\uFE0F",    // (6.0) OPTICAL DISC
+        "\\U0001F4CB\\uFE0E",    // (6.0) CLIPBOARD
+        "\\U0001F4CB\\uFE0F",    // (6.0) CLIPBOARD
+        "\\U0001F4DA\\uFE0E",    // (6.0) BOOKS
+        "\\U0001F4DA\\uFE0F",    // (6.0) BOOKS
+        "\\U0001F4DF\\uFE0E",    // (6.0) PAGER
+        "\\U0001F4DF\\uFE0F",    // (6.0) PAGER
+        "\\U0001F4E4\\uFE0E",    // (6.0) OUTBOX TRAY
+        "\\U0001F4E4\\uFE0F",    // (6.0) OUTBOX TRAY
+        "\\U0001F4E5\\uFE0E",    // (6.0) INBOX TRAY
+        "\\U0001F4E5\\uFE0F",    // (6.0) INBOX TRAY
+        "\\U0001F4E6\\uFE0E",    // (6.0) PACKAGE
+        "\\U0001F4E6\\uFE0F",    // (6.0) PACKAGE
+        "\\U0001F4EA\\uFE0E",    // (6.0) CLOSED MAILBOX WITH LOWERED FLAG
+        "\\U0001F4EA\\uFE0F",    // (6.0) CLOSED MAILBOX WITH LOWERED FLAG
+        "\\U0001F4EB\\uFE0E",    // (6.0) CLOSED MAILBOX WITH RAISED FLAG
+        "\\U0001F4EB\\uFE0F",    // (6.0) CLOSED MAILBOX WITH RAISED FLAG
+        "\\U0001F4EC\\uFE0E",    // (6.0) OPEN MAILBOX WITH RAISED FLAG
+        "\\U0001F4EC\\uFE0F",    // (6.0) OPEN MAILBOX WITH RAISED FLAG
+        "\\U0001F4ED\\uFE0E",    // (6.0) OPEN MAILBOX WITH LOWERED FLAG
+        "\\U0001F4ED\\uFE0F",    // (6.0) OPEN MAILBOX WITH LOWERED FLAG
+        "\\U0001F4F7\\uFE0E",    // (6.0) CAMERA
+        "\\U0001F4F7\\uFE0F",    // (6.0) CAMERA
+        "\\U0001F4F9\\uFE0E",    // (6.0) VIDEO CAMERA
+        "\\U0001F4F9\\uFE0F",    // (6.0) VIDEO CAMERA
+        "\\U0001F4FA\\uFE0E",    // (6.0) TELEVISION
+        "\\U0001F4FA\\uFE0F",    // (6.0) TELEVISION
+        "\\U0001F4FB\\uFE0E",    // (6.0) RADIO
+        "\\U0001F4FB\\uFE0F",    // (6.0) RADIO
+        "\\U0001F4FD\\uFE0E",    // (7.0) FILM PROJECTOR
+        "\\U0001F4FD\\uFE0F",    // (7.0) FILM PROJECTOR
+        "\\U0001F508\\uFE0E",    // (6.0) SPEAKER
+        "\\U0001F508\\uFE0F",    // (6.0) SPEAKER
+        "\\U0001F50D\\uFE0E",    // (6.0) LEFT-POINTING MAGNIFYING GLASS
+        "\\U0001F50D\\uFE0F",    // (6.0) LEFT-POINTING MAGNIFYING GLASS
+        "\\U0001F512\\uFE0E",    // (6.0) LOCK
+        "\\U0001F512\\uFE0F",    // (6.0) LOCK
+        "\\U0001F513\\uFE0E",    // (6.0) OPEN LOCK
+        "\\U0001F513\\uFE0F",    // (6.0) OPEN LOCK
+        "\\U0001F549\\uFE0E",    // (7.0) OM SYMBOL
+        "\\U0001F549\\uFE0F",    // (7.0) OM SYMBOL
+        "\\U0001F54A\\uFE0E",    // (7.0) DOVE OF PEACE
+        "\\U0001F54A\\uFE0F",    // (7.0) DOVE OF PEACE
+        "\\U0001F550\\uFE0E",    // (6.0) CLOCK FACE ONE OCLOCK
+        "\\U0001F550\\uFE0F",    // (6.0) CLOCK FACE ONE OCLOCK
+        "\\U0001F551\\uFE0E",    // (6.0) CLOCK FACE TWO OCLOCK
+        "\\U0001F551\\uFE0F",    // (6.0) CLOCK FACE TWO OCLOCK
+        "\\U0001F552\\uFE0E",    // (6.0) CLOCK FACE THREE OCLOCK
+        "\\U0001F552\\uFE0F",    // (6.0) CLOCK FACE THREE OCLOCK
+        "\\U0001F553\\uFE0E",    // (6.0) CLOCK FACE FOUR OCLOCK
+        "\\U0001F553\\uFE0F",    // (6.0) CLOCK FACE FOUR OCLOCK
+        "\\U0001F554\\uFE0E",    // (6.0) CLOCK FACE FIVE OCLOCK
+        "\\U0001F554\\uFE0F",    // (6.0) CLOCK FACE FIVE OCLOCK
+        "\\U0001F555\\uFE0E",    // (6.0) CLOCK FACE SIX OCLOCK
+        "\\U0001F555\\uFE0F",    // (6.0) CLOCK FACE SIX OCLOCK
+        "\\U0001F556\\uFE0E",    // (6.0) CLOCK FACE SEVEN OCLOCK
+        "\\U0001F556\\uFE0F",    // (6.0) CLOCK FACE SEVEN OCLOCK
+        "\\U0001F557\\uFE0E",    // (6.0) CLOCK FACE EIGHT OCLOCK
+        "\\U0001F557\\uFE0F",    // (6.0) CLOCK FACE EIGHT OCLOCK
+        "\\U0001F558\\uFE0E",    // (6.0) CLOCK FACE NINE OCLOCK
+        "\\U0001F558\\uFE0F",    // (6.0) CLOCK FACE NINE OCLOCK
+        "\\U0001F559\\uFE0E",    // (6.0) CLOCK FACE TEN OCLOCK
+        "\\U0001F559\\uFE0F",    // (6.0) CLOCK FACE TEN OCLOCK
+        "\\U0001F55A\\uFE0E",    // (6.0) CLOCK FACE ELEVEN OCLOCK
+        "\\U0001F55A\\uFE0F",    // (6.0) CLOCK FACE ELEVEN OCLOCK
+        "\\U0001F55B\\uFE0E",    // (6.0) CLOCK FACE TWELVE OCLOCK
+        "\\U0001F55B\\uFE0F",    // (6.0) CLOCK FACE TWELVE OCLOCK
+        "\\U0001F55C\\uFE0E",    // (6.0) CLOCK FACE ONE-THIRTY
+        "\\U0001F55C\\uFE0F",    // (6.0) CLOCK FACE ONE-THIRTY
+        "\\U0001F55D\\uFE0E",    // (6.0) CLOCK FACE TWO-THIRTY
+        "\\U0001F55D\\uFE0F",    // (6.0) CLOCK FACE TWO-THIRTY
+        "\\U0001F55E\\uFE0E",    // (6.0) CLOCK FACE THREE-THIRTY
+        "\\U0001F55E\\uFE0F",    // (6.0) CLOCK FACE THREE-THIRTY
+        "\\U0001F55F\\uFE0E",    // (6.0) CLOCK FACE FOUR-THIRTY
+        "\\U0001F55F\\uFE0F",    // (6.0) CLOCK FACE FOUR-THIRTY
+        "\\U0001F560\\uFE0E",    // (6.0) CLOCK FACE FIVE-THIRTY
+        "\\U0001F560\\uFE0F",    // (6.0) CLOCK FACE FIVE-THIRTY
+        "\\U0001F561\\uFE0E",    // (6.0) CLOCK FACE SIX-THIRTY
+        "\\U0001F561\\uFE0F",    // (6.0) CLOCK FACE SIX-THIRTY
+        "\\U0001F562\\uFE0E",    // (6.0) CLOCK FACE SEVEN-THIRTY
+        "\\U0001F562\\uFE0F",    // (6.0) CLOCK FACE SEVEN-THIRTY
+        "\\U0001F563\\uFE0E",    // (6.0) CLOCK FACE EIGHT-THIRTY
+        "\\U0001F563\\uFE0F",    // (6.0) CLOCK FACE EIGHT-THIRTY
+        "\\U0001F564\\uFE0E",    // (6.0) CLOCK FACE NINE-THIRTY
+        "\\U0001F564\\uFE0F",    // (6.0) CLOCK FACE NINE-THIRTY
+        "\\U0001F565\\uFE0E",    // (6.0) CLOCK FACE TEN-THIRTY
+        "\\U0001F565\\uFE0F",    // (6.0) CLOCK FACE TEN-THIRTY
+        "\\U0001F566\\uFE0E",    // (6.0) CLOCK FACE ELEVEN-THIRTY
+        "\\U0001F566\\uFE0F",    // (6.0) CLOCK FACE ELEVEN-THIRTY
+        "\\U0001F567\\uFE0E",    // (6.0) CLOCK FACE TWELVE-THIRTY
+        "\\U0001F567\\uFE0F",    // (6.0) CLOCK FACE TWELVE-THIRTY
+        "\\U0001F56F\\uFE0E",    // (7.0) CANDLE
+        "\\U0001F56F\\uFE0F",    // (7.0) CANDLE
+        "\\U0001F570\\uFE0E",    // (7.0) MANTELPIECE CLOCK
+        "\\U0001F570\\uFE0F",    // (7.0) MANTELPIECE CLOCK
+        "\\U0001F573\\uFE0E",    // (7.0) HOLE
+        "\\U0001F573\\uFE0F",    // (7.0) HOLE
+        "\\U0001F574\\uFE0E",    // (7.0) MAN IN BUSINESS SUIT LEVITATING
+        "\\U0001F574\\uFE0F",    // (7.0) MAN IN BUSINESS SUIT LEVITATING
+        "\\U0001F575\\uFE0E",    // (7.0) SLEUTH OR SPY
+        "\\U0001F575\\uFE0F",    // (7.0) SLEUTH OR SPY
+        "\\U0001F576\\uFE0E",    // (7.0) DARK SUNGLASSES
+        "\\U0001F576\\uFE0F",    // (7.0) DARK SUNGLASSES
+        "\\U0001F577\\uFE0E",    // (7.0) SPIDER
+        "\\U0001F577\\uFE0F",    // (7.0) SPIDER
+        "\\U0001F578\\uFE0E",    // (7.0) SPIDER WEB
+        "\\U0001F578\\uFE0F",    // (7.0) SPIDER WEB
+        "\\U0001F579\\uFE0E",    // (7.0) JOYSTICK
+        "\\U0001F579\\uFE0F",    // (7.0) JOYSTICK
+        "\\U0001F587\\uFE0E",    // (7.0) LINKED PAPERCLIPS
+        "\\U0001F587\\uFE0F",    // (7.0) LINKED PAPERCLIPS
+        "\\U0001F58A\\uFE0E",    // (7.0) LOWER LEFT BALLPOINT PEN
+        "\\U0001F58A\\uFE0F",    // (7.0) LOWER LEFT BALLPOINT PEN
+        "\\U0001F58B\\uFE0E",    // (7.0) LOWER LEFT FOUNTAIN PEN
+        "\\U0001F58B\\uFE0F",    // (7.0) LOWER LEFT FOUNTAIN PEN
+        "\\U0001F58C\\uFE0E",    // (7.0) LOWER LEFT PAINTBRUSH
+        "\\U0001F58C\\uFE0F",    // (7.0) LOWER LEFT PAINTBRUSH
+        "\\U0001F58D\\uFE0E",    // (7.0) LOWER LEFT CRAYON
+        "\\U0001F58D\\uFE0F",    // (7.0) LOWER LEFT CRAYON
+        "\\U0001F590\\uFE0E",    // (7.0) RAISED HAND WITH FINGERS SPLAYED
+        "\\U0001F590\\uFE0F",    // (7.0) RAISED HAND WITH FINGERS SPLAYED
+        "\\U0001F5A5\\uFE0E",    // (7.0) DESKTOP COMPUTER
+        "\\U0001F5A5\\uFE0F",    // (7.0) DESKTOP COMPUTER
+        "\\U0001F5A8\\uFE0E",    // (7.0) PRINTER
+        "\\U0001F5A8\\uFE0F",    // (7.0) PRINTER
+        "\\U0001F5B1\\uFE0E",    // (7.0) THREE BUTTON MOUSE
+        "\\U0001F5B1\\uFE0F",    // (7.0) THREE BUTTON MOUSE
+        "\\U0001F5B2\\uFE0E",    // (7.0) TRACKBALL
+        "\\U0001F5B2\\uFE0F",    // (7.0) TRACKBALL
+        "\\U0001F5BC\\uFE0E",    // (7.0) FRAME WITH PICTURE
+        "\\U0001F5BC\\uFE0F",    // (7.0) FRAME WITH PICTURE
+        "\\U0001F5C2\\uFE0E",    // (7.0) CARD INDEX DIVIDERS
+        "\\U0001F5C2\\uFE0F",    // (7.0) CARD INDEX DIVIDERS
+        "\\U0001F5C3\\uFE0E",    // (7.0) CARD FILE BOX
+        "\\U0001F5C3\\uFE0F",    // (7.0) CARD FILE BOX
+        "\\U0001F5C4\\uFE0E",    // (7.0) FILE CABINET
+        "\\U0001F5C4\\uFE0F",    // (7.0) FILE CABINET
+        "\\U0001F5D1\\uFE0E",    // (7.0) WASTEBASKET
+        "\\U0001F5D1\\uFE0F",    // (7.0) WASTEBASKET
+        "\\U0001F5D2\\uFE0E",    // (7.0) SPIRAL NOTE PAD
+        "\\U0001F5D2\\uFE0F",    // (7.0) SPIRAL NOTE PAD
+        "\\U0001F5D3\\uFE0E",    // (7.0) SPIRAL CALENDAR PAD
+        "\\U0001F5D3\\uFE0F",    // (7.0) SPIRAL CALENDAR PAD
+        "\\U0001F5DC\\uFE0E",    // (7.0) COMPRESSION
+        "\\U0001F5DC\\uFE0F",    // (7.0) COMPRESSION
+        "\\U0001F5DD\\uFE0E",    // (7.0) OLD KEY
+        "\\U0001F5DD\\uFE0F",    // (7.0) OLD KEY
+        "\\U0001F5DE\\uFE0E",    // (7.0) ROLLED-UP NEWSPAPER
+        "\\U0001F5DE\\uFE0F",    // (7.0) ROLLED-UP NEWSPAPER
+        "\\U0001F5E1\\uFE0E",    // (7.0) DAGGER KNIFE
+        "\\U0001F5E1\\uFE0F",    // (7.0) DAGGER KNIFE
+        "\\U0001F5E3\\uFE0E",    // (7.0) SPEAKING HEAD IN SILHOUETTE
+        "\\U0001F5E3\\uFE0F",    // (7.0) SPEAKING HEAD IN SILHOUETTE
+        "\\U0001F5E8\\uFE0E",    // (7.0) LEFT SPEECH BUBBLE
+        "\\U0001F5E8\\uFE0F",    // (7.0) LEFT SPEECH BUBBLE
+        "\\U0001F5EF\\uFE0E",    // (7.0) RIGHT ANGER BUBBLE
+        "\\U0001F5EF\\uFE0F",    // (7.0) RIGHT ANGER BUBBLE
+        "\\U0001F5F3\\uFE0E",    // (7.0) BALLOT BOX WITH BALLOT
+        "\\U0001F5F3\\uFE0F",    // (7.0) BALLOT BOX WITH BALLOT
+        "\\U0001F5FA\\uFE0E",    // (7.0) WORLD MAP
+        "\\U0001F5FA\\uFE0F",    // (7.0) WORLD MAP
+        "\\U0001F610\\uFE0E",    // (6.0) NEUTRAL FACE
+        "\\U0001F610\\uFE0F",    // (6.0) NEUTRAL FACE
+        "\\U0001F687\\uFE0E",    // (6.0) METRO
+        "\\U0001F687\\uFE0F",    // (6.0) METRO
+        "\\U0001F68D\\uFE0E",    // (6.0) ONCOMING BUS
+        "\\U0001F68D\\uFE0F",    // (6.0) ONCOMING BUS
+        "\\U0001F691\\uFE0E",    // (6.0) AMBULANCE
+        "\\U0001F691\\uFE0F",    // (6.0) AMBULANCE
+        "\\U0001F694\\uFE0E",    // (6.0) ONCOMING POLICE CAR
+        "\\U0001F694\\uFE0F",    // (6.0) ONCOMING POLICE CAR
+        "\\U0001F698\\uFE0E",    // (6.0) ONCOMING AUTOMOBILE
+        "\\U0001F698\\uFE0F",    // (6.0) ONCOMING AUTOMOBILE
+        "\\U0001F6AD\\uFE0E",    // (6.0) NO SMOKING SYMBOL
+        "\\U0001F6AD\\uFE0F",    // (6.0) NO SMOKING SYMBOL
+        "\\U0001F6B2\\uFE0E",    // (6.0) BICYCLE
+        "\\U0001F6B2\\uFE0F",    // (6.0) BICYCLE
+        "\\U0001F6B9\\uFE0E",    // (6.0) MENS SYMBOL
+        "\\U0001F6B9\\uFE0F",    // (6.0) MENS SYMBOL
+        "\\U0001F6BA\\uFE0E",    // (6.0) WOMENS SYMBOL
+        "\\U0001F6BA\\uFE0F",    // (6.0) WOMENS SYMBOL
+        "\\U0001F6BC\\uFE0E",    // (6.0) BABY SYMBOL
+        "\\U0001F6BC\\uFE0F",    // (6.0) BABY SYMBOL
+        "\\U0001F6CB\\uFE0E",    // (7.0) COUCH AND LAMP
+        "\\U0001F6CB\\uFE0F",    // (7.0) COUCH AND LAMP
+        "\\U0001F6CD\\uFE0E",    // (7.0) SHOPPING BAGS
+        "\\U0001F6CD\\uFE0F",    // (7.0) SHOPPING BAGS
+        "\\U0001F6CE\\uFE0E",    // (7.0) BELLHOP BELL
+        "\\U0001F6CE\\uFE0F",    // (7.0) BELLHOP BELL
+        "\\U0001F6CF\\uFE0E",    // (7.0) BED
+        "\\U0001F6CF\\uFE0F",    // (7.0) BED
+        "\\U0001F6E0\\uFE0E",    // (7.0) HAMMER AND WRENCH
+        "\\U0001F6E0\\uFE0F",    // (7.0) HAMMER AND WRENCH
+        "\\U0001F6E1\\uFE0E",    // (7.0) SHIELD
+        "\\U0001F6E1\\uFE0F",    // (7.0) SHIELD
+        "\\U0001F6E2\\uFE0E",    // (7.0) OIL DRUM
+        "\\U0001F6E2\\uFE0F",    // (7.0) OIL DRUM
+        "\\U0001F6E3\\uFE0E",    // (7.0) MOTORWAY
+        "\\U0001F6E3\\uFE0F",    // (7.0) MOTORWAY
+        "\\U0001F6E4\\uFE0E",    // (7.0) RAILWAY TRACK
+        "\\U0001F6E4\\uFE0F",    // (7.0) RAILWAY TRACK
+        "\\U0001F6E5\\uFE0E",    // (7.0) MOTOR BOAT
+        "\\U0001F6E5\\uFE0F",    // (7.0) MOTOR BOAT
+        "\\U0001F6E9\\uFE0E",    // (7.0) SMALL AIRPLANE
+        "\\U0001F6E9\\uFE0F",    // (7.0) SMALL AIRPLANE
+        "\\U0001F6F0\\uFE0E",    // (7.0) SATELLITE
+        "\\U0001F6F0\\uFE0F",    // (7.0) SATELLITE
+        "\\U0001F6F3\\uFE0E",    // (7.0) PASSENGER SHIP
+        "\\U0001F6F3\\uFE0F",    // (7.0) PASSENGER SHIP
+        "\\u203C\\uFE0E",    // (1.1) DOUBLE EXCLAMATION MARK
+        "\\u203C\\uFE0F",    // (1.1) DOUBLE EXCLAMATION MARK
+        "\\u2049\\uFE0E",    // (3.0) EXCLAMATION QUESTION MARK
+        "\\u2049\\uFE0F",    // (3.0) EXCLAMATION QUESTION MARK
+        "\\u2122\\uFE0E",    // (1.1) TRADE MARK SIGN
+        "\\u2122\\uFE0F",    // (1.1) TRADE MARK SIGN
+        "\\u2139\\uFE0E",    // (3.0) INFORMATION SOURCE
+        "\\u2139\\uFE0F",    // (3.0) INFORMATION SOURCE
+        "\\u2194\\uFE0E",    // (1.1) LEFT RIGHT ARROW
+        "\\u2194\\uFE0F",    // (1.1) LEFT RIGHT ARROW
+        "\\u2195\\uFE0E",    // (1.1) UP DOWN ARROW
+        "\\u2195\\uFE0F",    // (1.1) UP DOWN ARROW
+        "\\u2196\\uFE0E",    // (1.1) NORTH WEST ARROW
+        "\\u2196\\uFE0F",    // (1.1) NORTH WEST ARROW
+        "\\u2197\\uFE0E",    // (1.1) NORTH EAST ARROW
+        "\\u2197\\uFE0F",    // (1.1) NORTH EAST ARROW
+        "\\u2198\\uFE0E",    // (1.1) SOUTH EAST ARROW
+        "\\u2198\\uFE0F",    // (1.1) SOUTH EAST ARROW
+        "\\u2199\\uFE0E",    // (1.1) SOUTH WEST ARROW
+        "\\u2199\\uFE0F",    // (1.1) SOUTH WEST ARROW
+        "\\u21A9\\uFE0E",    // (1.1) LEFTWARDS ARROW WITH HOOK
+        "\\u21A9\\uFE0F",    // (1.1) LEFTWARDS ARROW WITH HOOK
+        "\\u21AA\\uFE0E",    // (1.1) RIGHTWARDS ARROW WITH HOOK
+        "\\u21AA\\uFE0F",    // (1.1) RIGHTWARDS ARROW WITH HOOK
+        "\\u231A\\uFE0E",    // (1.1) WATCH
+        "\\u231A\\uFE0F",    // (1.1) WATCH
+        "\\u231B\\uFE0E",    // (1.1) HOURGLASS
+        "\\u231B\\uFE0F",    // (1.1) HOURGLASS
+        "\\u2328\\uFE0E",    // (1.1) KEYBOARD
+        "\\u2328\\uFE0F",    // (1.1) KEYBOARD
+        "\\u23CF\\uFE0E",    // (4.0) EJECT SYMBOL
+        "\\u23CF\\uFE0F",    // (4.0) EJECT SYMBOL
+        "\\u23E9\\uFE0E",    // (6.0) BLACK RIGHT-POINTING DOUBLE TRIANGLE
+        "\\u23E9\\uFE0F",    // (6.0) BLACK RIGHT-POINTING DOUBLE TRIANGLE
+        "\\u23EA\\uFE0E",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE
+        "\\u23EA\\uFE0F",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE
+        "\\u23ED\\uFE0E",    // (6.0) BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
+        "\\u23ED\\uFE0F",    // (6.0) BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
+        "\\u23EE\\uFE0E",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
+        "\\u23EE\\uFE0F",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
+        "\\u23EF\\uFE0E",    // (6.0) BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR
+        "\\u23EF\\uFE0F",    // (6.0) BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR
+        "\\u23F1\\uFE0E",    // (6.0) STOPWATCH
+        "\\u23F1\\uFE0F",    // (6.0) STOPWATCH
+        "\\u23F2\\uFE0E",    // (6.0) TIMER CLOCK
+        "\\u23F2\\uFE0F",    // (6.0) TIMER CLOCK
+        "\\u23F3\\uFE0E",    // (6.0) HOURGLASS WITH FLOWING SAND
+        "\\u23F3\\uFE0F",    // (6.0) HOURGLASS WITH FLOWING SAND
+        "\\u23F8\\uFE0E",    // (7.0) DOUBLE VERTICAL BAR
+        "\\u23F8\\uFE0F",    // (7.0) DOUBLE VERTICAL BAR
+        "\\u23F9\\uFE0E",    // (7.0) BLACK SQUARE FOR STOP
+        "\\u23F9\\uFE0F",    // (7.0) BLACK SQUARE FOR STOP
+        "\\u23FA\\uFE0E",    // (7.0) BLACK CIRCLE FOR RECORD
+        "\\u23FA\\uFE0F",    // (7.0) BLACK CIRCLE FOR RECORD
+        "\\u24C2\\uFE0E",    // (1.1) CIRCLED LATIN CAPITAL LETTER M
+        "\\u24C2\\uFE0F",    // (1.1) CIRCLED LATIN CAPITAL LETTER M
+        "\\u25AA\\uFE0E",    // (1.1) BLACK SMALL SQUARE
+        "\\u25AA\\uFE0F",    // (1.1) BLACK SMALL SQUARE
+        "\\u25AB\\uFE0E",    // (1.1) WHITE SMALL SQUARE
+        "\\u25AB\\uFE0F",    // (1.1) WHITE SMALL SQUARE
+        "\\u25B6\\uFE0E",    // (1.1) BLACK RIGHT-POINTING TRIANGLE
+        "\\u25B6\\uFE0F",    // (1.1) BLACK RIGHT-POINTING TRIANGLE
+        "\\u25C0\\uFE0E",    // (1.1) BLACK LEFT-POINTING TRIANGLE
+        "\\u25C0\\uFE0F",    // (1.1) BLACK LEFT-POINTING TRIANGLE
+        "\\u25FB\\uFE0E",    // (3.2) WHITE MEDIUM SQUARE
+        "\\u25FB\\uFE0F",    // (3.2) WHITE MEDIUM SQUARE
+        "\\u25FC\\uFE0E",    // (3.2) BLACK MEDIUM SQUARE
+        "\\u25FC\\uFE0F",    // (3.2) BLACK MEDIUM SQUARE
+        "\\u25FD\\uFE0E",    // (3.2) WHITE MEDIUM SMALL SQUARE
+        "\\u25FD\\uFE0F",    // (3.2) WHITE MEDIUM SMALL SQUARE
+        "\\u25FE\\uFE0E",    // (3.2) BLACK MEDIUM SMALL SQUARE
+        "\\u25FE\\uFE0F",    // (3.2) BLACK MEDIUM SMALL SQUARE
+        "\\u2600\\uFE0E",    // (1.1) BLACK SUN WITH RAYS
+        "\\u2600\\uFE0F",    // (1.1) BLACK SUN WITH RAYS
+        "\\u2601\\uFE0E",    // (1.1) CLOUD
+        "\\u2601\\uFE0F",    // (1.1) CLOUD
+        "\\u2602\\uFE0E",    // (1.1) UMBRELLA
+        "\\u2602\\uFE0F",    // (1.1) UMBRELLA
+        "\\u2603\\uFE0E",    // (1.1) SNOWMAN
+        "\\u2603\\uFE0F",    // (1.1) SNOWMAN
+        "\\u2604\\uFE0E",    // (1.1) COMET
+        "\\u2604\\uFE0F",    // (1.1) COMET
+        "\\u260E\\uFE0E",    // (1.1) BLACK TELEPHONE
+        "\\u260E\\uFE0F",    // (1.1) BLACK TELEPHONE
+        "\\u2611\\uFE0E",    // (1.1) BALLOT BOX WITH CHECK
+        "\\u2611\\uFE0F",    // (1.1) BALLOT BOX WITH CHECK
+        "\\u2614\\uFE0E",    // (4.0) UMBRELLA WITH RAIN DROPS
+        "\\u2614\\uFE0F",    // (4.0) UMBRELLA WITH RAIN DROPS
+        "\\u2615\\uFE0E",    // (4.0) HOT BEVERAGE
+        "\\u2615\\uFE0F",    // (4.0) HOT BEVERAGE
+        "\\u2618\\uFE0E",    // (4.1) SHAMROCK
+        "\\u2618\\uFE0F",    // (4.1) SHAMROCK
+        "\\u261D\\uFE0E",    // (1.1) WHITE UP POINTING INDEX
+        "\\u261D\\uFE0F",    // (1.1) WHITE UP POINTING INDEX
+        "\\u2620\\uFE0E",    // (1.1) SKULL AND CROSSBONES
+        "\\u2620\\uFE0F",    // (1.1) SKULL AND CROSSBONES
+        "\\u2622\\uFE0E",    // (1.1) RADIOACTIVE SIGN
+        "\\u2622\\uFE0F",    // (1.1) RADIOACTIVE SIGN
+        "\\u2623\\uFE0E",    // (1.1) BIOHAZARD SIGN
+        "\\u2623\\uFE0F",    // (1.1) BIOHAZARD SIGN
+        "\\u2626\\uFE0E",    // (1.1) ORTHODOX CROSS
+        "\\u2626\\uFE0F",    // (1.1) ORTHODOX CROSS
+        "\\u262A\\uFE0E",    // (1.1) STAR AND CRESCENT
+        "\\u262A\\uFE0F",    // (1.1) STAR AND CRESCENT
+        "\\u262E\\uFE0E",    // (1.1) PEACE SYMBOL
+        "\\u262E\\uFE0F",    // (1.1) PEACE SYMBOL
+        "\\u262F\\uFE0E",    // (1.1) YIN YANG
+        "\\u262F\\uFE0F",    // (1.1) YIN YANG
+        "\\u2638\\uFE0E",    // (1.1) WHEEL OF DHARMA
+        "\\u2638\\uFE0F",    // (1.1) WHEEL OF DHARMA
+        "\\u2639\\uFE0E",    // (1.1) WHITE FROWNING FACE
+        "\\u2639\\uFE0F",    // (1.1) WHITE FROWNING FACE
+        "\\u263A\\uFE0E",    // (1.1) WHITE SMILING FACE
+        "\\u263A\\uFE0F",    // (1.1) WHITE SMILING FACE
+        "\\u2640\\uFE0E",    // (1.1) FEMALE SIGN
+        "\\u2640\\uFE0F",    // (1.1) FEMALE SIGN
+        "\\u2642\\uFE0E",    // (1.1) MALE SIGN
+        "\\u2642\\uFE0F",    // (1.1) MALE SIGN
+        "\\u2648\\uFE0E",    // (1.1) ARIES
+        "\\u2648\\uFE0F",    // (1.1) ARIES
+        "\\u2649\\uFE0E",    // (1.1) TAURUS
+        "\\u2649\\uFE0F",    // (1.1) TAURUS
+        "\\u264A\\uFE0E",    // (1.1) GEMINI
+        "\\u264A\\uFE0F",    // (1.1) GEMINI
+        "\\u264B\\uFE0E",    // (1.1) CANCER
+        "\\u264B\\uFE0F",    // (1.1) CANCER
+        "\\u264C\\uFE0E",    // (1.1) LEO
+        "\\u264C\\uFE0F",    // (1.1) LEO
+        "\\u264D\\uFE0E",    // (1.1) VIRGO
+        "\\u264D\\uFE0F",    // (1.1) VIRGO
+        "\\u264E\\uFE0E",    // (1.1) LIBRA
+        "\\u264E\\uFE0F",    // (1.1) LIBRA
+        "\\u264F\\uFE0E",    // (1.1) SCORPIUS
+        "\\u264F\\uFE0F",    // (1.1) SCORPIUS
+        "\\u2650\\uFE0E",    // (1.1) SAGITTARIUS
+        "\\u2650\\uFE0F",    // (1.1) SAGITTARIUS
+        "\\u2651\\uFE0E",    // (1.1) CAPRICORN
+        "\\u2651\\uFE0F",    // (1.1) CAPRICORN
+        "\\u2652\\uFE0E",    // (1.1) AQUARIUS
+        "\\u2652\\uFE0F",    // (1.1) AQUARIUS
+        "\\u2653\\uFE0E",    // (1.1) PISCES
+        "\\u2653\\uFE0F",    // (1.1) PISCES
+        "\\u265F\\uFE0E",    // (1.1) BLACK CHESS PAWN
+        "\\u265F\\uFE0F",    // (1.1) BLACK CHESS PAWN
+        "\\u2660\\uFE0E",    // (1.1) BLACK SPADE SUIT
+        "\\u2660\\uFE0F",    // (1.1) BLACK SPADE SUIT
+        "\\u2663\\uFE0E",    // (1.1) BLACK CLUB SUIT
+        "\\u2663\\uFE0F",    // (1.1) BLACK CLUB SUIT
+        "\\u2665\\uFE0E",    // (1.1) BLACK HEART SUIT
+        "\\u2665\\uFE0F",    // (1.1) BLACK HEART SUIT
+        "\\u2666\\uFE0E",    // (1.1) BLACK DIAMOND SUIT
+        "\\u2666\\uFE0F",    // (1.1) BLACK DIAMOND SUIT
+        "\\u2668\\uFE0E",    // (1.1) HOT SPRINGS
+        "\\u2668\\uFE0F",    // (1.1) HOT SPRINGS
+        "\\u267B\\uFE0E",    // (3.2) BLACK UNIVERSAL RECYCLING SYMBOL
+        "\\u267B\\uFE0F",    // (3.2) BLACK UNIVERSAL RECYCLING SYMBOL
+        "\\u267E\\uFE0E",    // (4.1) PERMANENT PAPER SIGN
+        "\\u267E\\uFE0F",    // (4.1) PERMANENT PAPER SIGN
+        "\\u267F\\uFE0E",    // (4.1) WHEELCHAIR SYMBOL
+        "\\u267F\\uFE0F",    // (4.1) WHEELCHAIR SYMBOL
+        "\\u2692\\uFE0E",    // (4.1) HAMMER AND PICK
+        "\\u2692\\uFE0F",    // (4.1) HAMMER AND PICK
+        "\\u2693\\uFE0E",    // (4.1) ANCHOR
+        "\\u2693\\uFE0F",    // (4.1) ANCHOR
+        "\\u2694\\uFE0E",    // (4.1) CROSSED SWORDS
+        "\\u2694\\uFE0F",    // (4.1) CROSSED SWORDS
+        "\\u2695\\uFE0E",    // (4.1) STAFF OF AESCULAPIUS
+        "\\u2695\\uFE0F",    // (4.1) STAFF OF AESCULAPIUS
+        "\\u2696\\uFE0E",    // (4.1) SCALES
+        "\\u2696\\uFE0F",    // (4.1) SCALES
+        "\\u2697\\uFE0E",    // (4.1) ALEMBIC
+        "\\u2697\\uFE0F",    // (4.1) ALEMBIC
+        "\\u2699\\uFE0E",    // (4.1) GEAR
+        "\\u2699\\uFE0F",    // (4.1) GEAR
+        "\\u269B\\uFE0E",    // (4.1) ATOM SYMBOL
+        "\\u269B\\uFE0F",    // (4.1) ATOM SYMBOL
+        "\\u269C\\uFE0E",    // (4.1) FLEUR-DE-LIS
+        "\\u269C\\uFE0F",    // (4.1) FLEUR-DE-LIS
+        "\\u26A0\\uFE0E",    // (4.0) WARNING SIGN
+        "\\u26A0\\uFE0F",    // (4.0) WARNING SIGN
+        "\\u26A1\\uFE0E",    // (4.0) HIGH VOLTAGE SIGN
+        "\\u26A1\\uFE0F",    // (4.0) HIGH VOLTAGE SIGN
+        "\\u26AA\\uFE0E",    // (4.1) MEDIUM WHITE CIRCLE
+        "\\u26AA\\uFE0F",    // (4.1) MEDIUM WHITE CIRCLE
+        "\\u26AB\\uFE0E",    // (4.1) MEDIUM BLACK CIRCLE
+        "\\u26AB\\uFE0F",    // (4.1) MEDIUM BLACK CIRCLE
+        "\\u26B0\\uFE0E",    // (4.1) COFFIN
+        "\\u26B0\\uFE0F",    // (4.1) COFFIN
+        "\\u26B1\\uFE0E",    // (4.1) FUNERAL URN
+        "\\u26B1\\uFE0F",    // (4.1) FUNERAL URN
+        "\\u26BD\\uFE0E",    // (5.2) SOCCER BALL
+        "\\u26BD\\uFE0F",    // (5.2) SOCCER BALL
+        "\\u26BE\\uFE0E",    // (5.2) BASEBALL
+        "\\u26BE\\uFE0F",    // (5.2) BASEBALL
+        "\\u26C4\\uFE0E",    // (5.2) SNOWMAN WITHOUT SNOW
+        "\\u26C4\\uFE0F",    // (5.2) SNOWMAN WITHOUT SNOW
+        "\\u26C5\\uFE0E",    // (5.2) SUN BEHIND CLOUD
+        "\\u26C5\\uFE0F",    // (5.2) SUN BEHIND CLOUD
+        "\\u26C8\\uFE0E",    // (5.2) THUNDER CLOUD AND RAIN
+        "\\u26C8\\uFE0F",    // (5.2) THUNDER CLOUD AND RAIN
+        "\\u26CF\\uFE0E",    // (5.2) PICK
+        "\\u26CF\\uFE0F",    // (5.2) PICK
+        "\\u26D1\\uFE0E",    // (5.2) HELMET WITH WHITE CROSS
+        "\\u26D1\\uFE0F",    // (5.2) HELMET WITH WHITE CROSS
+        "\\u26D3\\uFE0E",    // (5.2) CHAINS
+        "\\u26D3\\uFE0F",    // (5.2) CHAINS
+        "\\u26D4\\uFE0E",    // (5.2) NO ENTRY
+        "\\u26D4\\uFE0F",    // (5.2) NO ENTRY
+        "\\u26E9\\uFE0E",    // (5.2) SHINTO SHRINE
+        "\\u26E9\\uFE0F",    // (5.2) SHINTO SHRINE
+        "\\u26EA\\uFE0E",    // (5.2) CHURCH
+        "\\u26EA\\uFE0F",    // (5.2) CHURCH
+        "\\u26F0\\uFE0E",    // (5.2) MOUNTAIN
+        "\\u26F0\\uFE0F",    // (5.2) MOUNTAIN
+        "\\u26F1\\uFE0E",    // (5.2) UMBRELLA ON GROUND
+        "\\u26F1\\uFE0F",    // (5.2) UMBRELLA ON GROUND
+        "\\u26F2\\uFE0E",    // (5.2) FOUNTAIN
+        "\\u26F2\\uFE0F",    // (5.2) FOUNTAIN
+        "\\u26F3\\uFE0E",    // (5.2) FLAG IN HOLE
+        "\\u26F3\\uFE0F",    // (5.2) FLAG IN HOLE
+        "\\u26F4\\uFE0E",    // (5.2) FERRY
+        "\\u26F4\\uFE0F",    // (5.2) FERRY
+        "\\u26F5\\uFE0E",    // (5.2) SAILBOAT
+        "\\u26F5\\uFE0F",    // (5.2) SAILBOAT
+        "\\u26F7\\uFE0E",    // (5.2) SKIER
+        "\\u26F7\\uFE0F",    // (5.2) SKIER
+        "\\u26F8\\uFE0E",    // (5.2) ICE SKATE
+        "\\u26F8\\uFE0F",    // (5.2) ICE SKATE
+        "\\u26F9\\uFE0E",    // (5.2) PERSON WITH BALL
+        "\\u26F9\\uFE0F",    // (5.2) PERSON WITH BALL
+        "\\u26FA\\uFE0E",    // (5.2) TENT
+        "\\u26FA\\uFE0F",    // (5.2) TENT
+        "\\u26FD\\uFE0E",    // (5.2) FUEL PUMP
+        "\\u26FD\\uFE0F",    // (5.2) FUEL PUMP
+        "\\u2702\\uFE0E",    // (1.1) BLACK SCISSORS
+        "\\u2702\\uFE0F",    // (1.1) BLACK SCISSORS
+        "\\u2708\\uFE0E",    // (1.1) AIRPLANE
+        "\\u2708\\uFE0F",    // (1.1) AIRPLANE
+        "\\u2709\\uFE0E",    // (1.1) ENVELOPE
+        "\\u2709\\uFE0F",    // (1.1) ENVELOPE
+        "\\u270C\\uFE0E",    // (1.1) VICTORY HAND
+        "\\u270C\\uFE0F",    // (1.1) VICTORY HAND
+        "\\u270D\\uFE0E",    // (1.1) WRITING HAND
+        "\\u270D\\uFE0F",    // (1.1) WRITING HAND
+        "\\u270F\\uFE0E",    // (1.1) PENCIL
+        "\\u270F\\uFE0F",    // (1.1) PENCIL
+        "\\u2712\\uFE0E",    // (1.1) BLACK NIB
+        "\\u2712\\uFE0F",    // (1.1) BLACK NIB
+        "\\u2714\\uFE0E",    // (1.1) HEAVY CHECK MARK
+        "\\u2714\\uFE0F",    // (1.1) HEAVY CHECK MARK
+        "\\u2716\\uFE0E",    // (1.1) HEAVY MULTIPLICATION X
+        "\\u2716\\uFE0F",    // (1.1) HEAVY MULTIPLICATION X
+        "\\u271D\\uFE0E",    // (1.1) LATIN CROSS
+        "\\u271D\\uFE0F",    // (1.1) LATIN CROSS
+        "\\u2721\\uFE0E",    // (1.1) STAR OF DAVID
+        "\\u2721\\uFE0F",    // (1.1) STAR OF DAVID
+        "\\u2733\\uFE0E",    // (1.1) EIGHT SPOKED ASTERISK
+        "\\u2733\\uFE0F",    // (1.1) EIGHT SPOKED ASTERISK
+        "\\u2734\\uFE0E",    // (1.1) EIGHT POINTED BLACK STAR
+        "\\u2734\\uFE0F",    // (1.1) EIGHT POINTED BLACK STAR
+        "\\u2744\\uFE0E",    // (1.1) SNOWFLAKE
+        "\\u2744\\uFE0F",    // (1.1) SNOWFLAKE
+        "\\u2747\\uFE0E",    // (1.1) SPARKLE
+        "\\u2747\\uFE0F",    // (1.1) SPARKLE
+        "\\u2753\\uFE0E",    // (6.0) BLACK QUESTION MARK ORNAMENT
+        "\\u2753\\uFE0F",    // (6.0) BLACK QUESTION MARK ORNAMENT
+        "\\u2757\\uFE0E",    // (5.2) HEAVY EXCLAMATION MARK SYMBOL
+        "\\u2757\\uFE0F",    // (5.2) HEAVY EXCLAMATION MARK SYMBOL
+        "\\u2763\\uFE0E",    // (1.1) HEAVY HEART EXCLAMATION MARK ORNAMENT
+        "\\u2763\\uFE0F",    // (1.1) HEAVY HEART EXCLAMATION MARK ORNAMENT
+        "\\u2764\\uFE0E",    // (1.1) HEAVY BLACK HEART
+        "\\u2764\\uFE0F",    // (1.1) HEAVY BLACK HEART
+        "\\u27A1\\uFE0E",    // (1.1) BLACK RIGHTWARDS ARROW
+        "\\u27A1\\uFE0F",    // (1.1) BLACK RIGHTWARDS ARROW
+        "\\u2934\\uFE0E",    // (3.2) ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS
+        "\\u2934\\uFE0F",    // (3.2) ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS
+        "\\u2935\\uFE0E",    // (3.2) ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS
+        "\\u2935\\uFE0F",    // (3.2) ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS
+        "\\u2B05\\uFE0E",    // (4.0) LEFTWARDS BLACK ARROW
+        "\\u2B05\\uFE0F",    // (4.0) LEFTWARDS BLACK ARROW
+        "\\u2B06\\uFE0E",    // (4.0) UPWARDS BLACK ARROW
+        "\\u2B06\\uFE0F",    // (4.0) UPWARDS BLACK ARROW
+        "\\u2B07\\uFE0E",    // (4.0) DOWNWARDS BLACK ARROW
+        "\\u2B07\\uFE0F",    // (4.0) DOWNWARDS BLACK ARROW
+        "\\u2B1B\\uFE0E",    // (5.1) BLACK LARGE SQUARE
+        "\\u2B1B\\uFE0F",    // (5.1) BLACK LARGE SQUARE
+        "\\u2B1C\\uFE0E",    // (5.1) WHITE LARGE SQUARE
+        "\\u2B1C\\uFE0F",    // (5.1) WHITE LARGE SQUARE
+        "\\u2B50\\uFE0E",    // (5.1) WHITE MEDIUM STAR
+        "\\u2B50\\uFE0F",    // (5.1) WHITE MEDIUM STAR
+        "\\u2B55\\uFE0E",    // (5.2) HEAVY LARGE CIRCLE
+        "\\u2B55\\uFE0F",    // (5.2) HEAVY LARGE CIRCLE
+        "\\u3030\\uFE0E",    // (1.1) WAVY DASH
+        "\\u3030\\uFE0F",    // (1.1) WAVY DASH
+        "\\u303D\\uFE0E",    // (3.2) PART ALTERNATION MARK
+        "\\u303D\\uFE0F",    // (3.2) PART ALTERNATION MARK
+        "\\u3297\\uFE0E",    // (1.1) CIRCLED IDEOGRAPH CONGRATULATION
+        "\\u3297\\uFE0F",    // (1.1) CIRCLED IDEOGRAPH CONGRATULATION
+        "\\u3299\\uFE0E",    // (1.1) CIRCLED IDEOGRAPH SECRET
+        "\\u3299\\uFE0F"     // (1.1) CIRCLED IDEOGRAPH SECRET
+    ]
+    
+    ///
     /// Patterns that match Zero-Width-Joiner (ZWJ) sequences used for "family" characters like
     /// "👨‍👩‍👧‍👧".
     ///
-    public static let ZWJSequencePatterns:[String] = [
+    public static let ZWJSequencesPatterns:[String] = [
         "\\U0001F3C3\\U0001F3FB\\u200D\\u2640\\uFE0F",    // 8.0  [1] (🏃🏻‍♀️)
         "\\U0001F3C3\\U0001F3FB\\u200D\\u2642\\uFE0F",    // 8.0  [1] (🏃🏻‍♂️)
         "\\U0001F3C3\\U0001F3FC\\u200D\\u2640\\uFE0F",    // 8.0  [1] (🏃🏼‍♀️)
@@ -2891,6 +3534,7 @@ public class EmojiData {
         "\\U0001F3CC\\uFE0F\\u200D\\u2642\\uFE0F",    // 7.0  [1] (🏌️‍♂️)
         "\\U0001F3F3\\uFE0F\\u200D\\U0001F308",    // 7.0  [1] (🏳️‍🌈)
         "\\U0001F3F4\\u200D\\u2620\\uFE0F",    // 7.0  [1] (🏴‍☠️)
+        "\\U0001F415\\u200D\\U0001F9BA",    // 12.0  [1] (🐕‍🦺)
         "\\U0001F441\\uFE0F\\u200D\\U0001F5E8\\uFE0F",    // 7.0  [1] (👁️‍🗨️)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F33E",    // 8.0  [1] (👨🏻‍🌾)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F373",    // 8.0  [1] (👨🏻‍🍳)
@@ -2905,10 +3549,13 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F52C",    // 8.0  [1] (👨🏻‍🔬)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F680",    // 8.0  [1] (👨🏻‍🚀)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F692",    // 8.0  [1] (👨🏻‍🚒)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9AF",    // 12.0  [1] (👨🏻‍🦯)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B0",    // 11.0  [1] (👨🏻‍🦰)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B1",    // 11.0  [1] (👨🏻‍🦱)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B2",    // 11.0  [1] (👨🏻‍🦲)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B3",    // 11.0  [1] (👨🏻‍🦳)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BC",    // 12.0  [1] (👨🏻‍🦼)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BD",    // 12.0  [1] (👨🏻‍🦽)
         "\\U0001F468\\U0001F3FB\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👨🏻‍⚕️)
         "\\U0001F468\\U0001F3FB\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👨🏻‍⚖️)
         "\\U0001F468\\U0001F3FB\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👨🏻‍✈️)
@@ -2925,10 +3572,14 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F52C",    // 8.0  [1] (👨🏼‍🔬)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F680",    // 8.0  [1] (👨🏼‍🚀)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F692",    // 8.0  [1] (👨🏼‍🚒)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0  [1] (👨🏼‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9AF",    // 12.0  [1] (👨🏼‍🦯)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B0",    // 11.0  [1] (👨🏼‍🦰)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B1",    // 11.0  [1] (👨🏼‍🦱)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B2",    // 11.0  [1] (👨🏼‍🦲)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B3",    // 11.0  [1] (👨🏼‍🦳)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BC",    // 12.0  [1] (👨🏼‍🦼)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BD",    // 12.0  [1] (👨🏼‍🦽)
         "\\U0001F468\\U0001F3FC\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👨🏼‍⚕️)
         "\\U0001F468\\U0001F3FC\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👨🏼‍⚖️)
         "\\U0001F468\\U0001F3FC\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👨🏼‍✈️)
@@ -2945,10 +3596,15 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F52C",    // 8.0  [1] (👨🏽‍🔬)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F680",    // 8.0  [1] (👨🏽‍🚀)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F692",    // 8.0  [1] (👨🏽‍🚒)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0  [1] (👨🏽‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // 9.0  [1] (👨🏽‍🤝‍👨🏼)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9AF",    // 12.0  [1] (👨🏽‍🦯)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B0",    // 11.0  [1] (👨🏽‍🦰)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B1",    // 11.0  [1] (👨🏽‍🦱)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B2",    // 11.0  [1] (👨🏽‍🦲)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B3",    // 11.0  [1] (👨🏽‍🦳)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BC",    // 12.0  [1] (👨🏽‍🦼)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BD",    // 12.0  [1] (👨🏽‍🦽)
         "\\U0001F468\\U0001F3FD\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👨🏽‍⚕️)
         "\\U0001F468\\U0001F3FD\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👨🏽‍⚖️)
         "\\U0001F468\\U0001F3FD\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👨🏽‍✈️)
@@ -2965,10 +3621,16 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F52C",    // 8.0  [1] (👨🏾‍🔬)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F680",    // 8.0  [1] (👨🏾‍🚀)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F692",    // 8.0  [1] (👨🏾‍🚒)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0  [1] (👨🏾‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // 9.0  [1] (👨🏾‍🤝‍👨🏼)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // 9.0  [1] (👨🏾‍🤝‍👨🏽)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9AF",    // 12.0  [1] (👨🏾‍🦯)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B0",    // 11.0  [1] (👨🏾‍🦰)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B1",    // 11.0  [1] (👨🏾‍🦱)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B2",    // 11.0  [1] (👨🏾‍🦲)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B3",    // 11.0  [1] (👨🏾‍🦳)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BC",    // 12.0  [1] (👨🏾‍🦼)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BD",    // 12.0  [1] (👨🏾‍🦽)
         "\\U0001F468\\U0001F3FE\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👨🏾‍⚕️)
         "\\U0001F468\\U0001F3FE\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👨🏾‍⚖️)
         "\\U0001F468\\U0001F3FE\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👨🏾‍✈️)
@@ -2985,10 +3647,17 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F52C",    // 8.0  [1] (👨🏿‍🔬)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F680",    // 8.0  [1] (👨🏿‍🚀)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F692",    // 8.0  [1] (👨🏿‍🚒)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0  [1] (👨🏿‍🤝‍👨🏻)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // 9.0  [1] (👨🏿‍🤝‍👨🏼)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // 9.0  [1] (👨🏿‍🤝‍👨🏽)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // 9.0  [1] (👨🏿‍🤝‍👨🏾)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9AF",    // 12.0  [1] (👨🏿‍🦯)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B0",    // 11.0  [1] (👨🏿‍🦰)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B1",    // 11.0  [1] (👨🏿‍🦱)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B2",    // 11.0  [1] (👨🏿‍🦲)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B3",    // 11.0  [1] (👨🏿‍🦳)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BC",    // 12.0  [1] (👨🏿‍🦼)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BD",    // 12.0  [1] (👨🏿‍🦽)
         "\\U0001F468\\U0001F3FF\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👨🏿‍⚕️)
         "\\U0001F468\\U0001F3FF\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👨🏿‍⚖️)
         "\\U0001F468\\U0001F3FF\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👨🏿‍✈️)
@@ -3020,10 +3689,13 @@ public class EmojiData {
         "\\U0001F468\\u200D\\U0001F52C",    // 6.0  [1] (👨‍🔬)
         "\\U0001F468\\u200D\\U0001F680",    // 6.0  [1] (👨‍🚀)
         "\\U0001F468\\u200D\\U0001F692",    // 6.0  [1] (👨‍🚒)
+        "\\U0001F468\\u200D\\U0001F9AF",    // 12.0  [1] (👨‍🦯)
         "\\U0001F468\\u200D\\U0001F9B0",    // 11.0  [1] (👨‍🦰)
         "\\U0001F468\\u200D\\U0001F9B1",    // 11.0  [1] (👨‍🦱)
         "\\U0001F468\\u200D\\U0001F9B2",    // 11.0  [1] (👨‍🦲)
         "\\U0001F468\\u200D\\U0001F9B3",    // 11.0  [1] (👨‍🦳)
+        "\\U0001F468\\u200D\\U0001F9BC",    // 12.0  [1] (👨‍🦼)
+        "\\U0001F468\\u200D\\U0001F9BD",    // 12.0  [1] (👨‍🦽)
         "\\U0001F468\\u200D\\u2695\\uFE0F",    // 6.0  [1] (👨‍⚕️)
         "\\U0001F468\\u200D\\u2696\\uFE0F",    // 6.0  [1] (👨‍⚖️)
         "\\U0001F468\\u200D\\u2708\\uFE0F",    // 6.0  [1] (👨‍✈️)
@@ -3042,10 +3714,17 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F52C",    // 8.0  [1] (👩🏻‍🔬)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F680",    // 8.0  [1] (👩🏻‍🚀)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F692",    // 8.0  [1] (👩🏻‍🚒)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // 9.0[1] (👩🏻‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // 9.0  [1] (👩🏻‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // 9.0[1] (👩🏻‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // 9.0  [1] (👩🏻‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9AF",    // 12.0  [1] (👩🏻‍🦯)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B0",    // 11.0  [1] (👩🏻‍🦰)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B1",    // 11.0  [1] (👩🏻‍🦱)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B2",    // 11.0  [1] (👩🏻‍🦲)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B3",    // 11.0  [1] (👩🏻‍🦳)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BC",    // 12.0  [1] (👩🏻‍🦼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BD",    // 12.0  [1] (👩🏻‍🦽)
         "\\U0001F469\\U0001F3FB\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👩🏻‍⚕️)
         "\\U0001F469\\U0001F3FB\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👩🏻‍⚖️)
         "\\U0001F469\\U0001F3FB\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👩🏻‍✈️)
@@ -3062,10 +3741,18 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F52C",    // 8.0  [1] (👩🏼‍🔬)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F680",    // 8.0  [1] (👩🏼‍🚀)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F692",    // 8.0  [1] (👩🏼‍🚒)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0[1] (👩🏼‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // 9.0[1] (👩🏼‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // 9.0[1] (👩🏼‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // 9.0[1] (👩🏼‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // 9.0  [1] (👩🏼‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9AF",    // 12.0  [1] (👩🏼‍🦯)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B0",    // 11.0  [1] (👩🏼‍🦰)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B1",    // 11.0  [1] (👩🏼‍🦱)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B2",    // 11.0  [1] (👩🏼‍🦲)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B3",    // 11.0  [1] (👩🏼‍🦳)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BC",    // 12.0  [1] (👩🏼‍🦼)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BD",    // 12.0  [1] (👩🏼‍🦽)
         "\\U0001F469\\U0001F3FC\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👩🏼‍⚕️)
         "\\U0001F469\\U0001F3FC\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👩🏼‍⚖️)
         "\\U0001F469\\U0001F3FC\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👩🏼‍✈️)
@@ -3082,10 +3769,19 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F52C",    // 8.0  [1] (👩🏽‍🔬)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F680",    // 8.0  [1] (👩🏽‍🚀)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F692",    // 8.0  [1] (👩🏽‍🚒)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0  [1] (👩🏽‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // 9.0[1] (👩🏽‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // 9.0[1] (👩🏽‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // 9.0  [1] (👩🏽‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // 9.0  [1] (👩🏽‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FC",    // 9.0  [1] (👩🏽‍🤝‍👩🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9AF",    // 12.0  [1] (👩🏽‍🦯)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B0",    // 11.0  [1] (👩🏽‍🦰)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B1",    // 11.0  [1] (👩🏽‍🦱)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B2",    // 11.0  [1] (👩🏽‍🦲)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B3",    // 11.0  [1] (👩🏽‍🦳)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BC",    // 12.0  [1] (👩🏽‍🦼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BD",    // 12.0  [1] (👩🏽‍🦽)
         "\\U0001F469\\U0001F3FD\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👩🏽‍⚕️)
         "\\U0001F469\\U0001F3FD\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👩🏽‍⚖️)
         "\\U0001F469\\U0001F3FD\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👩🏽‍✈️)
@@ -3102,10 +3798,20 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F52C",    // 8.0  [1] (👩🏾‍🔬)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F680",    // 8.0  [1] (👩🏾‍🚀)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F692",    // 8.0  [1] (👩🏾‍🚒)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0[1] (👩🏾‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // 9.0[1] (👩🏾‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // 9.0[1] (👩🏾‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // 9.0[1] (👩🏾‍🤝‍👨🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // 9.0  [1] (👩🏾‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FC",    // 9.0[1] (👩🏾‍🤝‍👩🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // 9.0  [1] (👩🏾‍🤝‍👩🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9AF",    // 12.0  [1] (👩🏾‍🦯)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B0",    // 11.0  [1] (👩🏾‍🦰)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B1",    // 11.0  [1] (👩🏾‍🦱)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B2",    // 11.0  [1] (👩🏾‍🦲)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B3",    // 11.0  [1] (👩🏾‍🦳)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BC",    // 12.0  [1] (👩🏾‍🦼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BD",    // 12.0  [1] (👩🏾‍🦽)
         "\\U0001F469\\U0001F3FE\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👩🏾‍⚕️)
         "\\U0001F469\\U0001F3FE\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👩🏾‍⚖️)
         "\\U0001F469\\U0001F3FE\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👩🏾‍✈️)
@@ -3122,10 +3828,21 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F52C",    // 8.0  [1] (👩🏿‍🔬)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F680",    // 8.0  [1] (👩🏿‍🚀)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F692",    // 8.0  [1] (👩🏿‍🚒)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FB",    // 9.0  [1] (👩🏿‍🤝‍👨🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FC",    // 9.0[1] (👩🏿‍🤝‍👨🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // 9.0  [1] (👩🏿‍🤝‍👨🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // 9.0[1] (👩🏿‍🤝‍👨🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FB",    // 9.0  [1] (👩🏿‍🤝‍👩🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FC",    // 9.0  [1] (👩🏿‍🤝‍👩🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // 9.0  [1] (👩🏿‍🤝‍👩🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // 9.0  [1] (👩🏿‍🤝‍👩🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9AF",    // 12.0  [1] (👩🏿‍🦯)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B0",    // 11.0  [1] (👩🏿‍🦰)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B1",    // 11.0  [1] (👩🏿‍🦱)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B2",    // 11.0  [1] (👩🏿‍🦲)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B3",    // 11.0  [1] (👩🏿‍🦳)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BC",    // 12.0  [1] (👩🏿‍🦼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BD",    // 12.0  [1] (👩🏿‍🦽)
         "\\U0001F469\\U0001F3FF\\u200D\\u2695\\uFE0F",    // 8.0  [1] (👩🏿‍⚕️)
         "\\U0001F469\\U0001F3FF\\u200D\\u2696\\uFE0F",    // 8.0  [1] (👩🏿‍⚖️)
         "\\U0001F469\\U0001F3FF\\u200D\\u2708\\uFE0F",    // 8.0  [1] (👩🏿‍✈️)
@@ -3152,10 +3869,13 @@ public class EmojiData {
         "\\U0001F469\\u200D\\U0001F52C",    // 6.0  [1] (👩‍🔬)
         "\\U0001F469\\u200D\\U0001F680",    // 6.0  [1] (👩‍🚀)
         "\\U0001F469\\u200D\\U0001F692",    // 6.0  [1] (👩‍🚒)
+        "\\U0001F469\\u200D\\U0001F9AF",    // 12.0  [1] (👩‍🦯)
         "\\U0001F469\\u200D\\U0001F9B0",    // 11.0  [1] (👩‍🦰)
         "\\U0001F469\\u200D\\U0001F9B1",    // 11.0  [1] (👩‍🦱)
         "\\U0001F469\\u200D\\U0001F9B2",    // 11.0  [1] (👩‍🦲)
         "\\U0001F469\\u200D\\U0001F9B3",    // 11.0  [1] (👩‍🦳)
+        "\\U0001F469\\u200D\\U0001F9BC",    // 12.0  [1] (👩‍🦼)
+        "\\U0001F469\\u200D\\U0001F9BD",    // 12.0  [1] (👩‍🦽)
         "\\U0001F469\\u200D\\u2695\\uFE0F",    // 6.0  [1] (👩‍⚕️)
         "\\U0001F469\\u200D\\u2696\\uFE0F",    // 6.0  [1] (👩‍⚖️)
         "\\U0001F469\\u200D\\u2708\\uFE0F",    // 6.0  [1] (👩‍✈️)
@@ -3491,6 +4211,58 @@ public class EmojiData {
         "\\U0001F9B9\\U0001F3FF\\u200D\\u2642\\uFE0F",    // 11.0  [1] (🦹🏿‍♂️)
         "\\U0001F9B9\\u200D\\u2640\\uFE0F",    // 11.0  [1] (🦹‍♀️)
         "\\U0001F9B9\\u200D\\u2642\\uFE0F",    // 11.0  [1] (🦹‍♂️)
+        "\\U0001F9CD\\U0001F3FB\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧍🏻‍♀️)
+        "\\U0001F9CD\\U0001F3FB\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧍🏻‍♂️)
+        "\\U0001F9CD\\U0001F3FC\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧍🏼‍♀️)
+        "\\U0001F9CD\\U0001F3FC\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧍🏼‍♂️)
+        "\\U0001F9CD\\U0001F3FD\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧍🏽‍♀️)
+        "\\U0001F9CD\\U0001F3FD\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧍🏽‍♂️)
+        "\\U0001F9CD\\U0001F3FE\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧍🏾‍♀️)
+        "\\U0001F9CD\\U0001F3FE\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧍🏾‍♂️)
+        "\\U0001F9CD\\U0001F3FF\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧍🏿‍♀️)
+        "\\U0001F9CD\\U0001F3FF\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧍🏿‍♂️)
+        "\\U0001F9CD\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧍‍♀️)
+        "\\U0001F9CD\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧍‍♂️)
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧎🏻‍♀️)
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧎🏻‍♂️)
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧎🏼‍♀️)
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧎🏼‍♂️)
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧎🏽‍♀️)
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧎🏽‍♂️)
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧎🏾‍♀️)
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧎🏾‍♂️)
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧎🏿‍♀️)
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧎🏿‍♂️)
+        "\\U0001F9CE\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧎‍♀️)
+        "\\U0001F9CE\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧎‍♂️)
+        "\\U0001F9CF\\U0001F3FB\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧏🏻‍♀️)
+        "\\U0001F9CF\\U0001F3FB\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧏🏻‍♂️)
+        "\\U0001F9CF\\U0001F3FC\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧏🏼‍♀️)
+        "\\U0001F9CF\\U0001F3FC\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧏🏼‍♂️)
+        "\\U0001F9CF\\U0001F3FD\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧏🏽‍♀️)
+        "\\U0001F9CF\\U0001F3FD\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧏🏽‍♂️)
+        "\\U0001F9CF\\U0001F3FE\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧏🏾‍♀️)
+        "\\U0001F9CF\\U0001F3FE\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧏🏾‍♂️)
+        "\\U0001F9CF\\U0001F3FF\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧏🏿‍♀️)
+        "\\U0001F9CF\\U0001F3FF\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧏🏿‍♂️)
+        "\\U0001F9CF\\u200D\\u2640\\uFE0F",    // 12.0  [1] (🧏‍♀️)
+        "\\U0001F9CF\\u200D\\u2642\\uFE0F",    // 12.0  [1] (🧏‍♂️)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // 10.0  [1] (🧑🏻‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // 10.0  [1] (🧑🏼‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // 10.0  [1] (🧑🏼‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // 10.0  [1] (🧑🏽‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // 10.0  [1] (🧑🏽‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // 10.0  [1] (🧑🏽‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // 10.0  [1] (🧑🏾‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // 10.0[1] (🧑🏾‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // 10.0  [1] (🧑🏾‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // 10.0  [1] (🧑🏾‍🤝‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FB",    // 10.0  [1] (🧑🏿‍🤝‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FC",    // 10.0  [1] (🧑🏿‍🤝‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FD",    // 10.0  [1] (🧑🏿‍🤝‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // 10.0  [1] (🧑🏿‍🤝‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // 10.0  [1] (🧑🏿‍🤝‍🧑🏿)
+        "\\U0001F9D1\\u200D\\U0001F91D\\u200D\\U0001F9D1",    // 10.0  [1] (🧑‍🤝‍🧑)
         "\\U0001F9D6\\U0001F3FB\\u200D\\u2640\\uFE0F",    // 10.0  [1] (🧖🏻‍♀️)
         "\\U0001F9D6\\U0001F3FB\\u200D\\u2642\\uFE0F",    // 10.0  [1] (🧖🏻‍♂️)
         "\\U0001F9D6\\U0001F3FC\\u200D\\u2640\\uFE0F",    // 10.0  [1] (🧖🏼‍♀️)

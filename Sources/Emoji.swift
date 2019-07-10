@@ -17,10 +17,11 @@ public final class Emoji : EmojiData {
         
         // Some emoji are sequences of characters, joined with 'Zero Width Joiner' characters.
         // We want the longest match, so we sort these in reverse order.
-        let zwjSequences = ZWJSequencePatterns.reversed().joined(separator: "|")
-        let otherSequences = SequencePatterns.joined(separator: "|")
+        let zwjSequences = ZWJSequencesPatterns.reversed().joined(separator: "|")
+        let variationSequences = VariationSequencesPatterns.joined(separator: "|")
+        let otherSequences = OtherSequencesPatterns.joined(separator: "|")
         
-        return "(?:(?:\(zwjSequences)|\(otherSequences)|\(emoji))\(combiningMarks)?)"
+        return "(?:(?:\(zwjSequences)|\(variationSequences)|\(otherSequences)|\(emoji))\(combiningMarks)?)"
     }()
     
     /// A regular expression that matches any emoji character. Useful for plucking individual emoji
