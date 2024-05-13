@@ -1,7 +1,7 @@
 //
 // DO NOT EDIT. This file was auto-generated from the Unicode data files located at:
 //
-//    https://www.unicode.org/Public/emoji/13.0/
+//    https://www.unicode.org/Public/emoji/15.1/
 //
 // To regenerate it, use the rake tasks in the SwiftEmoji project.
 //
@@ -9,7 +9,7 @@
 ///
 /// A Swift-ified version of Unicode's Emoji data files, located at:
 ///
-///   https://www.unicode.org/Public/emoji/13.0/
+///   https://www.unicode.org/Public/emoji/15.1/
 ///
 public class EmojiData {
     
@@ -232,7 +232,7 @@ public class EmojiData {
         "\\U0001F3AC",    // 🎬 E0.6 clapper board
         "\\U0001F3AD",    // 🎭 E0.6 performing arts
         "\\U0001F3AE",    // 🎮 E0.6 video game
-        "\\U0001F3AF",    // 🎯 E0.6 direct hit
+        "\\U0001F3AF",    // 🎯 E0.6 bullseye
         "\\U0001F3B0",    // 🎰 E0.6 slot machine
         "\\U0001F3B1",    // 🎱 E0.6 pool 8 ball
         "\\U0001F3B2",    // 🎲 E0.6 game die
@@ -254,17 +254,59 @@ public class EmojiData {
         "\\U0001F3C2",    // 🏂 E0.6 snowboarder
         "\\U0001F3C3",    // 🏃 E0.6 person running
         "\\U0001F3C3\\U0001F3FB\\u200D\\u2640",    // 🏃🏻‍♀ E4.0 woman running: light skin tone
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2640\\u200D\\u27A1",    // 🏃🏻‍♀‍➡ E15.1 woman running facing right: light skin tone
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🏃🏻‍♀‍➡️ E15.1 woman running facing right: light skin tone
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🏃🏻‍♀️‍➡ E15.1 woman running facing right: light skin tone
         "\\U0001F3C3\\U0001F3FB\\u200D\\u2642",    // 🏃🏻‍♂ E4.0 man running: light skin tone
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2642\\u200D\\u27A1",    // 🏃🏻‍♂‍➡ E15.1 man running facing right: light skin tone
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🏃🏻‍♂‍➡️ E15.1 man running facing right: light skin tone
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🏃🏻‍♂️‍➡ E15.1 man running facing right: light skin tone
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u27A1",    // 🏃🏻‍➡ E15.1 person running facing right: light skin tone
         "\\U0001F3C3\\U0001F3FC\\u200D\\u2640",    // 🏃🏼‍♀ E4.0 woman running: medium-light skin tone
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2640\\u200D\\u27A1",    // 🏃🏼‍♀‍➡ E15.1 woman running facing right: medium-light skin tone
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🏃🏼‍♀‍➡️ E15.1 woman running facing right: medium-light skin tone
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🏃🏼‍♀️‍➡ E15.1 woman running facing right: medium-light skin tone
         "\\U0001F3C3\\U0001F3FC\\u200D\\u2642",    // 🏃🏼‍♂ E4.0 man running: medium-light skin tone
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2642\\u200D\\u27A1",    // 🏃🏼‍♂‍➡ E15.1 man running facing right: medium-light skin tone
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🏃🏼‍♂‍➡️ E15.1 man running facing right: medium-light skin tone
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🏃🏼‍♂️‍➡ E15.1 man running facing right: medium-light skin tone
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u27A1",    // 🏃🏼‍➡ E15.1 person running facing right: medium-light skin tone
         "\\U0001F3C3\\U0001F3FD\\u200D\\u2640",    // 🏃🏽‍♀ E4.0 woman running: medium skin tone
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2640\\u200D\\u27A1",    // 🏃🏽‍♀‍➡ E15.1 woman running facing right: medium skin tone
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🏃🏽‍♀‍➡️ E15.1 woman running facing right: medium skin tone
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🏃🏽‍♀️‍➡ E15.1 woman running facing right: medium skin tone
         "\\U0001F3C3\\U0001F3FD\\u200D\\u2642",    // 🏃🏽‍♂ E4.0 man running: medium skin tone
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2642\\u200D\\u27A1",    // 🏃🏽‍♂‍➡ E15.1 man running facing right: medium skin tone
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🏃🏽‍♂‍➡️ E15.1 man running facing right: medium skin tone
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🏃🏽‍♂️‍➡ E15.1 man running facing right: medium skin tone
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u27A1",    // 🏃🏽‍➡ E15.1 person running facing right: medium skin tone
         "\\U0001F3C3\\U0001F3FE\\u200D\\u2640",    // 🏃🏾‍♀ E4.0 woman running: medium-dark skin tone
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2640\\u200D\\u27A1",    // 🏃🏾‍♀‍➡ E15.1 woman running facing right: medium-dark skin tone
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🏃🏾‍♀‍➡️ E15.1 woman running facing right: medium-dark skin tone
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🏃🏾‍♀️‍➡ E15.1 woman running facing right: medium-dark skin tone
         "\\U0001F3C3\\U0001F3FE\\u200D\\u2642",    // 🏃🏾‍♂ E4.0 man running: medium-dark skin tone
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2642\\u200D\\u27A1",    // 🏃🏾‍♂‍➡ E15.1 man running facing right: medium-dark skin tone
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🏃🏾‍♂‍➡️ E15.1 man running facing right: medium-dark skin tone
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🏃🏾‍♂️‍➡ E15.1 man running facing right: medium-dark skin tone
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u27A1",    // 🏃🏾‍➡ E15.1 person running facing right: medium-dark skin tone
         "\\U0001F3C3\\U0001F3FF\\u200D\\u2640",    // 🏃🏿‍♀ E4.0 woman running: dark skin tone
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2640\\u200D\\u27A1",    // 🏃🏿‍♀‍➡ E15.1 woman running facing right: dark skin tone
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🏃🏿‍♀‍➡️ E15.1 woman running facing right: dark skin tone
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🏃🏿‍♀️‍➡ E15.1 woman running facing right: dark skin tone
         "\\U0001F3C3\\U0001F3FF\\u200D\\u2642",    // 🏃🏿‍♂ E4.0 man running: dark skin tone
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2642\\u200D\\u27A1",    // 🏃🏿‍♂‍➡ E15.1 man running facing right: dark skin tone
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🏃🏿‍♂‍➡️ E15.1 man running facing right: dark skin tone
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🏃🏿‍♂️‍➡ E15.1 man running facing right: dark skin tone
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u27A1",    // 🏃🏿‍➡ E15.1 person running facing right: dark skin tone
         "\\U0001F3C3\\u200D\\u2640",    // 🏃‍♀ E4.0 woman running
+        "\\U0001F3C3\\u200D\\u2640\\u200D\\u27A1",    // 🏃‍♀‍➡ E15.1 woman running facing right
+        "\\U0001F3C3\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🏃‍♀‍➡️ E15.1 woman running facing right
+        "\\U0001F3C3\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🏃‍♀️‍➡ E15.1 woman running facing right
         "\\U0001F3C3\\u200D\\u2642",    // 🏃‍♂ E4.0 man running
+        "\\U0001F3C3\\u200D\\u2642\\u200D\\u27A1",    // 🏃‍♂‍➡ E15.1 man running facing right
+        "\\U0001F3C3\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🏃‍♂‍➡️ E15.1 man running facing right
+        "\\U0001F3C3\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🏃‍♂️‍➡ E15.1 man running facing right
+        "\\U0001F3C3\\u200D\\u27A1",    // 🏃‍➡ E15.1 person running facing right
         "\\U0001F3C4",    // 🏄 E0.6 person surfing
         "\\U0001F3C4\\U0001F3FB\\u200D\\u2640",    // 🏄🏻‍♀ E4.0 woman surfing: light skin tone
         "\\U0001F3C4\\U0001F3FB\\u200D\\u2642",    // 🏄🏻‍♂ E4.0 man surfing: light skin tone
@@ -492,42 +534,228 @@ public class EmojiData {
         "\\U0001F466",    // 👦 E0.6 boy
         "\\U0001F467",    // 👧 E0.6 girl
         "\\U0001F468",    // 👨 E0.6 man
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👨🏻‍🦯‍➡ E15.1 man with white cane facing right: light skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👨🏻‍🦼‍➡ E15.1 man in motorized wheelchair facing right: light skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👨🏻‍🦽‍➡ E15.1 man in manual wheelchair facing right: light skin tone
         "\\U0001F468\\U0001F3FB\\u200D\\u2695",    // 👨🏻‍⚕ E4.0 man health worker: light skin tone
         "\\U0001F468\\U0001F3FB\\u200D\\u2696",    // 👨🏻‍⚖ E4.0 man judge: light skin tone
         "\\U0001F468\\U0001F3FB\\u200D\\u2708",    // 👨🏻‍✈ E4.0 man pilot: light skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👨🏻‍❤‍👨🏻 E13.1 couple with heart: man, man, light skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👨🏻‍❤‍👨🏼 E13.1 couple with heart: man, man, light skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👨🏻‍❤‍👨🏽 E13.1 couple with heart: man, man, light skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👨🏻‍❤‍👨🏾 E13.1 couple with heart: man, man, light skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👨🏻‍❤‍👨🏿 E13.1 couple with heart: man, man, light skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👨🏻‍❤‍💋‍👨🏻 E13.1 kiss: man, man, light skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👨🏻‍❤‍💋‍👨🏼 E13.1 kiss: man, man, light skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👨🏻‍❤‍💋‍👨🏽 E13.1 kiss: man, man, light skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👨🏻‍❤‍💋‍👨🏾 E13.1 kiss: man, man, light skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👨🏻‍❤‍💋‍👨🏿 E13.1 kiss: man, man, light skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👨🏼‍🦯‍➡ E15.1 man with white cane facing right: medium-light skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👨🏼‍🦼‍➡ E15.1 man in motorized wheelchair facing right: medium-light skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👨🏼‍🦽‍➡ E15.1 man in manual wheelchair facing right: medium-light skin tone
         "\\U0001F468\\U0001F3FC\\u200D\\u2695",    // 👨🏼‍⚕ E4.0 man health worker: medium-light skin tone
         "\\U0001F468\\U0001F3FC\\u200D\\u2696",    // 👨🏼‍⚖ E4.0 man judge: medium-light skin tone
         "\\U0001F468\\U0001F3FC\\u200D\\u2708",    // 👨🏼‍✈ E4.0 man pilot: medium-light skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👨🏼‍❤‍👨🏻 E13.1 couple with heart: man, man, medium-light skin tone, light skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👨🏼‍❤‍👨🏼 E13.1 couple with heart: man, man, medium-light skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👨🏼‍❤‍👨🏽 E13.1 couple with heart: man, man, medium-light skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👨🏼‍❤‍👨🏾 E13.1 couple with heart: man, man, medium-light skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👨🏼‍❤‍👨🏿 E13.1 couple with heart: man, man, medium-light skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👨🏼‍❤‍💋‍👨🏻 E13.1 kiss: man, man, medium-light skin tone, light skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👨🏼‍❤‍💋‍👨🏼 E13.1 kiss: man, man, medium-light skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👨🏼‍❤‍💋‍👨🏽 E13.1 kiss: man, man, medium-light skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👨🏼‍❤‍💋‍👨🏾 E13.1 kiss: man, man, medium-light skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👨🏼‍❤‍💋‍👨🏿 E13.1 kiss: man, man, medium-light skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👨🏽‍🦯‍➡ E15.1 man with white cane facing right: medium skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👨🏽‍🦼‍➡ E15.1 man in motorized wheelchair facing right: medium skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👨🏽‍🦽‍➡ E15.1 man in manual wheelchair facing right: medium skin tone
         "\\U0001F468\\U0001F3FD\\u200D\\u2695",    // 👨🏽‍⚕ E4.0 man health worker: medium skin tone
         "\\U0001F468\\U0001F3FD\\u200D\\u2696",    // 👨🏽‍⚖ E4.0 man judge: medium skin tone
         "\\U0001F468\\U0001F3FD\\u200D\\u2708",    // 👨🏽‍✈ E4.0 man pilot: medium skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👨🏽‍❤‍👨🏻 E13.1 couple with heart: man, man, medium skin tone, light skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👨🏽‍❤‍👨🏼 E13.1 couple with heart: man, man, medium skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👨🏽‍❤‍👨🏽 E13.1 couple with heart: man, man, medium skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👨🏽‍❤‍👨🏾 E13.1 couple with heart: man, man, medium skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👨🏽‍❤‍👨🏿 E13.1 couple with heart: man, man, medium skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👨🏽‍❤‍💋‍👨🏻 E13.1 kiss: man, man, medium skin tone, light skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👨🏽‍❤‍💋‍👨🏼 E13.1 kiss: man, man, medium skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👨🏽‍❤‍💋‍👨🏽 E13.1 kiss: man, man, medium skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👨🏽‍❤‍💋‍👨🏾 E13.1 kiss: man, man, medium skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👨🏽‍❤‍💋‍👨🏿 E13.1 kiss: man, man, medium skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👨🏾‍🦯‍➡ E15.1 man with white cane facing right: medium-dark skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👨🏾‍🦼‍➡ E15.1 man in motorized wheelchair facing right: medium-dark skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👨🏾‍🦽‍➡ E15.1 man in manual wheelchair facing right: medium-dark skin tone
         "\\U0001F468\\U0001F3FE\\u200D\\u2695",    // 👨🏾‍⚕ E4.0 man health worker: medium-dark skin tone
         "\\U0001F468\\U0001F3FE\\u200D\\u2696",    // 👨🏾‍⚖ E4.0 man judge: medium-dark skin tone
         "\\U0001F468\\U0001F3FE\\u200D\\u2708",    // 👨🏾‍✈ E4.0 man pilot: medium-dark skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👨🏾‍❤‍👨🏻 E13.1 couple with heart: man, man, medium-dark skin tone, light skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👨🏾‍❤‍👨🏼 E13.1 couple with heart: man, man, medium-dark skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👨🏾‍❤‍👨🏽 E13.1 couple with heart: man, man, medium-dark skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👨🏾‍❤‍👨🏾 E13.1 couple with heart: man, man, medium-dark skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👨🏾‍❤‍👨🏿 E13.1 couple with heart: man, man, medium-dark skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👨🏾‍❤‍💋‍👨🏻 E13.1 kiss: man, man, medium-dark skin tone, light skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👨🏾‍❤‍💋‍👨🏼 E13.1 kiss: man, man, medium-dark skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👨🏾‍❤‍💋‍👨🏽 E13.1 kiss: man, man, medium-dark skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👨🏾‍❤‍💋‍👨🏾 E13.1 kiss: man, man, medium-dark skin tone
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👨🏾‍❤‍💋‍👨🏿 E13.1 kiss: man, man, medium-dark skin tone, dark skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👨🏿‍🦯‍➡ E15.1 man with white cane facing right: dark skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👨🏿‍🦼‍➡ E15.1 man in motorized wheelchair facing right: dark skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👨🏿‍🦽‍➡ E15.1 man in manual wheelchair facing right: dark skin tone
         "\\U0001F468\\U0001F3FF\\u200D\\u2695",    // 👨🏿‍⚕ E4.0 man health worker: dark skin tone
         "\\U0001F468\\U0001F3FF\\u200D\\u2696",    // 👨🏿‍⚖ E4.0 man judge: dark skin tone
         "\\U0001F468\\U0001F3FF\\u200D\\u2708",    // 👨🏿‍✈ E4.0 man pilot: dark skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👨🏿‍❤‍👨🏻 E13.1 couple with heart: man, man, dark skin tone, light skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👨🏿‍❤‍👨🏼 E13.1 couple with heart: man, man, dark skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👨🏿‍❤‍👨🏽 E13.1 couple with heart: man, man, dark skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👨🏿‍❤‍👨🏾 E13.1 couple with heart: man, man, dark skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👨🏿‍❤‍👨🏿 E13.1 couple with heart: man, man, dark skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👨🏿‍❤‍💋‍👨🏻 E13.1 kiss: man, man, dark skin tone, light skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👨🏿‍❤‍💋‍👨🏼 E13.1 kiss: man, man, dark skin tone, medium-light skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👨🏿‍❤‍💋‍👨🏽 E13.1 kiss: man, man, dark skin tone, medium skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👨🏿‍❤‍💋‍👨🏾 E13.1 kiss: man, man, dark skin tone, medium-dark skin tone
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👨🏿‍❤‍💋‍👨🏿 E13.1 kiss: man, man, dark skin tone
+        "\\U0001F468\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👨‍🦯‍➡ E15.1 man with white cane facing right
+        "\\U0001F468\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👨‍🦼‍➡ E15.1 man in motorized wheelchair facing right
+        "\\U0001F468\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👨‍🦽‍➡ E15.1 man in manual wheelchair facing right
         "\\U0001F468\\u200D\\u2695",    // 👨‍⚕ E4.0 man health worker
         "\\U0001F468\\u200D\\u2696",    // 👨‍⚖ E4.0 man judge
         "\\U0001F468\\u200D\\u2708",    // 👨‍✈ E4.0 man pilot
         "\\U0001F468\\u200D\\u2764\\u200D\\U0001F468",    // 👨‍❤‍👨 E2.0 couple with heart: man, man
         "\\U0001F468\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468",    // 👨‍❤‍💋‍👨 E2.0 kiss: man, man
         "\\U0001F469",    // 👩 E0.6 woman
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👩🏻‍🦯‍➡ E15.1 woman with white cane facing right: light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👩🏻‍🦼‍➡ E15.1 woman in motorized wheelchair facing right: light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👩🏻‍🦽‍➡ E15.1 woman in manual wheelchair facing right: light skin tone
         "\\U0001F469\\U0001F3FB\\u200D\\u2695",    // 👩🏻‍⚕ E4.0 woman health worker: light skin tone
         "\\U0001F469\\U0001F3FB\\u200D\\u2696",    // 👩🏻‍⚖ E4.0 woman judge: light skin tone
         "\\U0001F469\\U0001F3FB\\u200D\\u2708",    // 👩🏻‍✈ E4.0 woman pilot: light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👩🏻‍❤‍👨🏻 E13.1 couple with heart: woman, man, light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👩🏻‍❤‍👨🏼 E13.1 couple with heart: woman, man, light skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👩🏻‍❤‍👨🏽 E13.1 couple with heart: woman, man, light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👩🏻‍❤‍👨🏾 E13.1 couple with heart: woman, man, light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👩🏻‍❤‍👨🏿 E13.1 couple with heart: woman, man, light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FB",    // 👩🏻‍❤‍👩🏻 E13.1 couple with heart: woman, woman, light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FC",    // 👩🏻‍❤‍👩🏼 E13.1 couple with heart: woman, woman, light skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FD",    // 👩🏻‍❤‍👩🏽 E13.1 couple with heart: woman, woman, light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FE",    // 👩🏻‍❤‍👩🏾 E13.1 couple with heart: woman, woman, light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FF",    // 👩🏻‍❤‍👩🏿 E13.1 couple with heart: woman, woman, light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👩🏻‍❤‍💋‍👨🏻 E13.1 kiss: woman, man, light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👩🏻‍❤‍💋‍👨🏼 E13.1 kiss: woman, man, light skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👩🏻‍❤‍💋‍👨🏽 E13.1 kiss: woman, man, light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👩🏻‍❤‍💋‍👨🏾 E13.1 kiss: woman, man, light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👩🏻‍❤‍💋‍👨🏿 E13.1 kiss: woman, man, light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // 👩🏻‍❤‍💋‍👩🏻 E13.1 kiss: woman, woman, light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // 👩🏻‍❤‍💋‍👩🏼 E13.1 kiss: woman, woman, light skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // 👩🏻‍❤‍💋‍👩🏽 E13.1 kiss: woman, woman, light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // 👩🏻‍❤‍💋‍👩🏾 E13.1 kiss: woman, woman, light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // 👩🏻‍❤‍💋‍👩🏿 E13.1 kiss: woman, woman, light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👩🏼‍🦯‍➡ E15.1 woman with white cane facing right: medium-light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👩🏼‍🦼‍➡ E15.1 woman in motorized wheelchair facing right: medium-light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👩🏼‍🦽‍➡ E15.1 woman in manual wheelchair facing right: medium-light skin tone
         "\\U0001F469\\U0001F3FC\\u200D\\u2695",    // 👩🏼‍⚕ E4.0 woman health worker: medium-light skin tone
         "\\U0001F469\\U0001F3FC\\u200D\\u2696",    // 👩🏼‍⚖ E4.0 woman judge: medium-light skin tone
         "\\U0001F469\\U0001F3FC\\u200D\\u2708",    // 👩🏼‍✈ E4.0 woman pilot: medium-light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👩🏼‍❤‍👨🏻 E13.1 couple with heart: woman, man, medium-light skin tone, light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👩🏼‍❤‍👨🏼 E13.1 couple with heart: woman, man, medium-light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👩🏼‍❤‍👨🏽 E13.1 couple with heart: woman, man, medium-light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👩🏼‍❤‍👨🏾 E13.1 couple with heart: woman, man, medium-light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👩🏼‍❤‍👨🏿 E13.1 couple with heart: woman, man, medium-light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FB",    // 👩🏼‍❤‍👩🏻 E13.1 couple with heart: woman, woman, medium-light skin tone, light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FC",    // 👩🏼‍❤‍👩🏼 E13.1 couple with heart: woman, woman, medium-light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FD",    // 👩🏼‍❤‍👩🏽 E13.1 couple with heart: woman, woman, medium-light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FE",    // 👩🏼‍❤‍👩🏾 E13.1 couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FF",    // 👩🏼‍❤‍👩🏿 E13.1 couple with heart: woman, woman, medium-light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👩🏼‍❤‍💋‍👨🏻 E13.1 kiss: woman, man, medium-light skin tone, light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👩🏼‍❤‍💋‍👨🏼 E13.1 kiss: woman, man, medium-light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👩🏼‍❤‍💋‍👨🏽 E13.1 kiss: woman, man, medium-light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👩🏼‍❤‍💋‍👨🏾 E13.1 kiss: woman, man, medium-light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👩🏼‍❤‍💋‍👨🏿 E13.1 kiss: woman, man, medium-light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // 👩🏼‍❤‍💋‍👩🏻 E13.1 kiss: woman, woman, medium-light skin tone, light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // 👩🏼‍❤‍💋‍👩🏼 E13.1 kiss: woman, woman, medium-light skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // 👩🏼‍❤‍💋‍👩🏽 E13.1 kiss: woman, woman, medium-light skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // 👩🏼‍❤‍💋‍👩🏾 E13.1 kiss: woman, woman, medium-light skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // 👩🏼‍❤‍💋‍👩🏿 E13.1 kiss: woman, woman, medium-light skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👩🏽‍🦯‍➡ E15.1 woman with white cane facing right: medium skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👩🏽‍🦼‍➡ E15.1 woman in motorized wheelchair facing right: medium skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👩🏽‍🦽‍➡ E15.1 woman in manual wheelchair facing right: medium skin tone
         "\\U0001F469\\U0001F3FD\\u200D\\u2695",    // 👩🏽‍⚕ E4.0 woman health worker: medium skin tone
         "\\U0001F469\\U0001F3FD\\u200D\\u2696",    // 👩🏽‍⚖ E4.0 woman judge: medium skin tone
         "\\U0001F469\\U0001F3FD\\u200D\\u2708",    // 👩🏽‍✈ E4.0 woman pilot: medium skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👩🏽‍❤‍👨🏻 E13.1 couple with heart: woman, man, medium skin tone, light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👩🏽‍❤‍👨🏼 E13.1 couple with heart: woman, man, medium skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👩🏽‍❤‍👨🏽 E13.1 couple with heart: woman, man, medium skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👩🏽‍❤‍👨🏾 E13.1 couple with heart: woman, man, medium skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👩🏽‍❤‍👨🏿 E13.1 couple with heart: woman, man, medium skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FB",    // 👩🏽‍❤‍👩🏻 E13.1 couple with heart: woman, woman, medium skin tone, light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FC",    // 👩🏽‍❤‍👩🏼 E13.1 couple with heart: woman, woman, medium skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FD",    // 👩🏽‍❤‍👩🏽 E13.1 couple with heart: woman, woman, medium skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FE",    // 👩🏽‍❤‍👩🏾 E13.1 couple with heart: woman, woman, medium skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FF",    // 👩🏽‍❤‍👩🏿 E13.1 couple with heart: woman, woman, medium skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👩🏽‍❤‍💋‍👨🏻 E13.1 kiss: woman, man, medium skin tone, light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👩🏽‍❤‍💋‍👨🏼 E13.1 kiss: woman, man, medium skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👩🏽‍❤‍💋‍👨🏽 E13.1 kiss: woman, man, medium skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👩🏽‍❤‍💋‍👨🏾 E13.1 kiss: woman, man, medium skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👩🏽‍❤‍💋‍👨🏿 E13.1 kiss: woman, man, medium skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // 👩🏽‍❤‍💋‍👩🏻 E13.1 kiss: woman, woman, medium skin tone, light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // 👩🏽‍❤‍💋‍👩🏼 E13.1 kiss: woman, woman, medium skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // 👩🏽‍❤‍💋‍👩🏽 E13.1 kiss: woman, woman, medium skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // 👩🏽‍❤‍💋‍👩🏾 E13.1 kiss: woman, woman, medium skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // 👩🏽‍❤‍💋‍👩🏿 E13.1 kiss: woman, woman, medium skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👩🏾‍🦯‍➡ E15.1 woman with white cane facing right: medium-dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👩🏾‍🦼‍➡ E15.1 woman in motorized wheelchair facing right: medium-dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👩🏾‍🦽‍➡ E15.1 woman in manual wheelchair facing right: medium-dark skin tone
         "\\U0001F469\\U0001F3FE\\u200D\\u2695",    // 👩🏾‍⚕ E4.0 woman health worker: medium-dark skin tone
         "\\U0001F469\\U0001F3FE\\u200D\\u2696",    // 👩🏾‍⚖ E4.0 woman judge: medium-dark skin tone
         "\\U0001F469\\U0001F3FE\\u200D\\u2708",    // 👩🏾‍✈ E4.0 woman pilot: medium-dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👩🏾‍❤‍👨🏻 E13.1 couple with heart: woman, man, medium-dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👩🏾‍❤‍👨🏼 E13.1 couple with heart: woman, man, medium-dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👩🏾‍❤‍👨🏽 E13.1 couple with heart: woman, man, medium-dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👩🏾‍❤‍👨🏾 E13.1 couple with heart: woman, man, medium-dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👩🏾‍❤‍👨🏿 E13.1 couple with heart: woman, man, medium-dark skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FB",    // 👩🏾‍❤‍👩🏻 E13.1 couple with heart: woman, woman, medium-dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FC",    // 👩🏾‍❤‍👩🏼 E13.1 couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FD",    // 👩🏾‍❤‍👩🏽 E13.1 couple with heart: woman, woman, medium-dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FE",    // 👩🏾‍❤‍👩🏾 E13.1 couple with heart: woman, woman, medium-dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FF",    // 👩🏾‍❤‍👩🏿 E13.1 couple with heart: woman, woman, medium-dark skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👩🏾‍❤‍💋‍👨🏻 E13.1 kiss: woman, man, medium-dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👩🏾‍❤‍💋‍👨🏼 E13.1 kiss: woman, man, medium-dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👩🏾‍❤‍💋‍👨🏽 E13.1 kiss: woman, man, medium-dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👩🏾‍❤‍💋‍👨🏾 E13.1 kiss: woman, man, medium-dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👩🏾‍❤‍💋‍👨🏿 E13.1 kiss: woman, man, medium-dark skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // 👩🏾‍❤‍💋‍👩🏻 E13.1 kiss: woman, woman, medium-dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // 👩🏾‍❤‍💋‍👩🏼 E13.1 kiss: woman, woman, medium-dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // 👩🏾‍❤‍💋‍👩🏽 E13.1 kiss: woman, woman, medium-dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // 👩🏾‍❤‍💋‍👩🏾 E13.1 kiss: woman, woman, medium-dark skin tone
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // 👩🏾‍❤‍💋‍👩🏿 E13.1 kiss: woman, woman, medium-dark skin tone, dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👩🏿‍🦯‍➡ E15.1 woman with white cane facing right: dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👩🏿‍🦼‍➡ E15.1 woman in motorized wheelchair facing right: dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👩🏿‍🦽‍➡ E15.1 woman in manual wheelchair facing right: dark skin tone
         "\\U0001F469\\U0001F3FF\\u200D\\u2695",    // 👩🏿‍⚕ E4.0 woman health worker: dark skin tone
         "\\U0001F469\\U0001F3FF\\u200D\\u2696",    // 👩🏿‍⚖ E4.0 woman judge: dark skin tone
         "\\U0001F469\\U0001F3FF\\u200D\\u2708",    // 👩🏿‍✈ E4.0 woman pilot: dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FB",    // 👩🏿‍❤‍👨🏻 E13.1 couple with heart: woman, man, dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FC",    // 👩🏿‍❤‍👨🏼 E13.1 couple with heart: woman, man, dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FD",    // 👩🏿‍❤‍👨🏽 E13.1 couple with heart: woman, man, dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FE",    // 👩🏿‍❤‍👨🏾 E13.1 couple with heart: woman, man, dark skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F468\\U0001F3FF",    // 👩🏿‍❤‍👨🏿 E13.1 couple with heart: woman, man, dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FB",    // 👩🏿‍❤‍👩🏻 E13.1 couple with heart: woman, woman, dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FC",    // 👩🏿‍❤‍👩🏼 E13.1 couple with heart: woman, woman, dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FD",    // 👩🏿‍❤‍👩🏽 E13.1 couple with heart: woman, woman, dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FE",    // 👩🏿‍❤‍👩🏾 E13.1 couple with heart: woman, woman, dark skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F469\\U0001F3FF",    // 👩🏿‍❤‍👩🏿 E13.1 couple with heart: woman, woman, dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // 👩🏿‍❤‍💋‍👨🏻 E13.1 kiss: woman, man, dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // 👩🏿‍❤‍💋‍👨🏼 E13.1 kiss: woman, man, dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // 👩🏿‍❤‍💋‍👨🏽 E13.1 kiss: woman, man, dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // 👩🏿‍❤‍💋‍👨🏾 E13.1 kiss: woman, man, dark skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // 👩🏿‍❤‍💋‍👨🏿 E13.1 kiss: woman, man, dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // 👩🏿‍❤‍💋‍👩🏻 E13.1 kiss: woman, woman, dark skin tone, light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // 👩🏿‍❤‍💋‍👩🏼 E13.1 kiss: woman, woman, dark skin tone, medium-light skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // 👩🏿‍❤‍💋‍👩🏽 E13.1 kiss: woman, woman, dark skin tone, medium skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // 👩🏿‍❤‍💋‍👩🏾 E13.1 kiss: woman, woman, dark skin tone, medium-dark skin tone
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // 👩🏿‍❤‍💋‍👩🏿 E13.1 kiss: woman, woman, dark skin tone
+        "\\U0001F469\\u200D\\U0001F9AF\\u200D\\u27A1",    // 👩‍🦯‍➡ E15.1 woman with white cane facing right
+        "\\U0001F469\\u200D\\U0001F9BC\\u200D\\u27A1",    // 👩‍🦼‍➡ E15.1 woman in motorized wheelchair facing right
+        "\\U0001F469\\u200D\\U0001F9BD\\u200D\\u27A1",    // 👩‍🦽‍➡ E15.1 woman in manual wheelchair facing right
         "\\U0001F469\\u200D\\u2695",    // 👩‍⚕ E4.0 woman health worker
         "\\U0001F469\\u200D\\u2696",    // 👩‍⚖ E4.0 woman judge
         "\\U0001F469\\u200D\\u2708",    // 👩‍✈ E4.0 woman pilot
@@ -703,7 +931,7 @@ public class EmojiData {
         "\\U0001F4A1",    // 💡 E0.6 light bulb
         "\\U0001F4A2",    // 💢 E0.6 anger symbol
         "\\U0001F4A3",    // 💣 E0.6 bomb
-        "\\U0001F4A4",    // 💤 E0.6 zzz
+        "\\U0001F4A4",    // 💤 E0.6 ZZZ
         "\\U0001F4A5",    // 💥 E0.6 collision
         "\\U0001F4A6",    // 💦 E0.6 sweat droplets
         "\\U0001F4A7",    // 💧 E0.6 droplet
@@ -837,7 +1065,7 @@ public class EmojiData {
         "\\U0001F528",    // 🔨 E0.6 hammer
         "\\U0001F529",    // 🔩 E0.6 nut and bolt
         "\\U0001F52A",    // 🔪 E0.6 kitchen knife
-        "\\U0001F52B",    // 🔫 E0.6 pistol
+        "\\U0001F52B",    // 🔫 E0.6 water pistol
         "\\U0001F52C",    // 🔬 E1.0 microscope
         "\\U0001F52D",    // 🔭 E1.0 telescope
         "\\U0001F52E",    // 🔮 E0.6 crystal ball
@@ -979,7 +1207,7 @@ public class EmojiData {
         "\\U0001F61E",    // 😞 E0.6 disappointed face
         "\\U0001F61F",    // 😟 E1.0 worried face
         "\\U0001F620",    // 😠 E0.6 angry face
-        "\\U0001F621",    // 😡 E0.6 pouting face
+        "\\U0001F621",    // 😡 E0.6 enraged face
         "\\U0001F622",    // 😢 E0.6 crying face
         "\\U0001F623",    // 😣 E0.6 persevering face
         "\\U0001F624",    // 😤 E0.6 face with steam from nose
@@ -999,8 +1227,9 @@ public class EmojiData {
         "\\U0001F632",    // 😲 E0.6 astonished face
         "\\U0001F633",    // 😳 E0.6 flushed face
         "\\U0001F634",    // 😴 E1.0 sleeping face
-        "\\U0001F635",    // 😵 E0.6 dizzy face
+        "\\U0001F635",    // 😵 E0.6 face with crossed-out eyes
         "\\U0001F636",    // 😶 E1.0 face without mouth
+        "\\U0001F636\\u200D\\U0001F32B",    // 😶‍🌫 E13.1 face in clouds
         "\\U0001F637",    // 😷 E0.6 face with medical mask
         "\\U0001F638",    // 😸 E0.6 grinning cat with smiling eyes
         "\\U0001F639",    // 😹 E0.6 cat with tears of joy
@@ -1013,6 +1242,8 @@ public class EmojiData {
         "\\U0001F640",    // 🙀 E0.6 weary cat
         "\\U0001F641",    // 🙁 E1.0 slightly frowning face
         "\\U0001F642",    // 🙂 E1.0 slightly smiling face
+        "\\U0001F642\\u200D\\u2194",    // 🙂‍↔ E15.1 head shaking horizontally
+        "\\U0001F642\\u200D\\u2195",    // 🙂‍↕ E15.1 head shaking vertically
         "\\U0001F643",    // 🙃 E1.0 upside-down face
         "\\U0001F644",    // 🙄 E1.0 face with rolling eyes
         "\\U0001F645",    // 🙅 E0.6 person gesturing NO
@@ -1190,17 +1421,59 @@ public class EmojiData {
         "\\U0001F6B5\\u200D\\u2642",    // 🚵‍♂ E4.0 man mountain biking
         "\\U0001F6B6",    // 🚶 E0.6 person walking
         "\\U0001F6B6\\U0001F3FB\\u200D\\u2640",    // 🚶🏻‍♀ E4.0 woman walking: light skin tone
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2640\\u200D\\u27A1",    // 🚶🏻‍♀‍➡ E15.1 woman walking facing right: light skin tone
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🚶🏻‍♀‍➡️ E15.1 woman walking facing right: light skin tone
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🚶🏻‍♀️‍➡ E15.1 woman walking facing right: light skin tone
         "\\U0001F6B6\\U0001F3FB\\u200D\\u2642",    // 🚶🏻‍♂ E4.0 man walking: light skin tone
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2642\\u200D\\u27A1",    // 🚶🏻‍♂‍➡ E15.1 man walking facing right: light skin tone
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🚶🏻‍♂‍➡️ E15.1 man walking facing right: light skin tone
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🚶🏻‍♂️‍➡ E15.1 man walking facing right: light skin tone
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u27A1",    // 🚶🏻‍➡ E15.1 person walking facing right: light skin tone
         "\\U0001F6B6\\U0001F3FC\\u200D\\u2640",    // 🚶🏼‍♀ E4.0 woman walking: medium-light skin tone
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2640\\u200D\\u27A1",    // 🚶🏼‍♀‍➡ E15.1 woman walking facing right: medium-light skin tone
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🚶🏼‍♀‍➡️ E15.1 woman walking facing right: medium-light skin tone
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🚶🏼‍♀️‍➡ E15.1 woman walking facing right: medium-light skin tone
         "\\U0001F6B6\\U0001F3FC\\u200D\\u2642",    // 🚶🏼‍♂ E4.0 man walking: medium-light skin tone
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2642\\u200D\\u27A1",    // 🚶🏼‍♂‍➡ E15.1 man walking facing right: medium-light skin tone
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🚶🏼‍♂‍➡️ E15.1 man walking facing right: medium-light skin tone
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🚶🏼‍♂️‍➡ E15.1 man walking facing right: medium-light skin tone
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u27A1",    // 🚶🏼‍➡ E15.1 person walking facing right: medium-light skin tone
         "\\U0001F6B6\\U0001F3FD\\u200D\\u2640",    // 🚶🏽‍♀ E4.0 woman walking: medium skin tone
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2640\\u200D\\u27A1",    // 🚶🏽‍♀‍➡ E15.1 woman walking facing right: medium skin tone
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🚶🏽‍♀‍➡️ E15.1 woman walking facing right: medium skin tone
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🚶🏽‍♀️‍➡ E15.1 woman walking facing right: medium skin tone
         "\\U0001F6B6\\U0001F3FD\\u200D\\u2642",    // 🚶🏽‍♂ E4.0 man walking: medium skin tone
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2642\\u200D\\u27A1",    // 🚶🏽‍♂‍➡ E15.1 man walking facing right: medium skin tone
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🚶🏽‍♂‍➡️ E15.1 man walking facing right: medium skin tone
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🚶🏽‍♂️‍➡ E15.1 man walking facing right: medium skin tone
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u27A1",    // 🚶🏽‍➡ E15.1 person walking facing right: medium skin tone
         "\\U0001F6B6\\U0001F3FE\\u200D\\u2640",    // 🚶🏾‍♀ E4.0 woman walking: medium-dark skin tone
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2640\\u200D\\u27A1",    // 🚶🏾‍♀‍➡ E15.1 woman walking facing right: medium-dark skin tone
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🚶🏾‍♀‍➡️ E15.1 woman walking facing right: medium-dark skin tone
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🚶🏾‍♀️‍➡ E15.1 woman walking facing right: medium-dark skin tone
         "\\U0001F6B6\\U0001F3FE\\u200D\\u2642",    // 🚶🏾‍♂ E4.0 man walking: medium-dark skin tone
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2642\\u200D\\u27A1",    // 🚶🏾‍♂‍➡ E15.1 man walking facing right: medium-dark skin tone
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🚶🏾‍♂‍➡️ E15.1 man walking facing right: medium-dark skin tone
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🚶🏾‍♂️‍➡ E15.1 man walking facing right: medium-dark skin tone
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u27A1",    // 🚶🏾‍➡ E15.1 person walking facing right: medium-dark skin tone
         "\\U0001F6B6\\U0001F3FF\\u200D\\u2640",    // 🚶🏿‍♀ E4.0 woman walking: dark skin tone
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2640\\u200D\\u27A1",    // 🚶🏿‍♀‍➡ E15.1 woman walking facing right: dark skin tone
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🚶🏿‍♀‍➡️ E15.1 woman walking facing right: dark skin tone
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🚶🏿‍♀️‍➡ E15.1 woman walking facing right: dark skin tone
         "\\U0001F6B6\\U0001F3FF\\u200D\\u2642",    // 🚶🏿‍♂ E4.0 man walking: dark skin tone
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2642\\u200D\\u27A1",    // 🚶🏿‍♂‍➡ E15.1 man walking facing right: dark skin tone
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🚶🏿‍♂‍➡️ E15.1 man walking facing right: dark skin tone
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🚶🏿‍♂️‍➡ E15.1 man walking facing right: dark skin tone
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u27A1",    // 🚶🏿‍➡ E15.1 person walking facing right: dark skin tone
         "\\U0001F6B6\\u200D\\u2640",    // 🚶‍♀ E4.0 woman walking
+        "\\U0001F6B6\\u200D\\u2640\\u200D\\u27A1",    // 🚶‍♀‍➡ E15.1 woman walking facing right
+        "\\U0001F6B6\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🚶‍♀‍➡️ E15.1 woman walking facing right
+        "\\U0001F6B6\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🚶‍♀️‍➡ E15.1 woman walking facing right
         "\\U0001F6B6\\u200D\\u2642",    // 🚶‍♂ E4.0 man walking
+        "\\U0001F6B6\\u200D\\u2642\\u200D\\u27A1",    // 🚶‍♂‍➡ E15.1 man walking facing right
+        "\\U0001F6B6\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🚶‍♂‍➡️ E15.1 man walking facing right
+        "\\U0001F6B6\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🚶‍♂️‍➡ E15.1 man walking facing right
+        "\\U0001F6B6\\u200D\\u27A1",    // 🚶‍➡ E15.1 person walking facing right
         "\\U0001F6B7",    // 🚷 E1.0 no pedestrians
         "\\U0001F6B8",    // 🚸 E1.0 children crossing
         "\\U0001F6B9",    // 🚹 E0.6 men’s room
@@ -1227,6 +1500,10 @@ public class EmojiData {
         "\\U0001F6D5",    // 🛕 E12.0 hindu temple
         "\\U0001F6D6",    // 🛖 E13.0 hut
         "\\U0001F6D7",    // 🛗 E13.0 elevator
+        "\\U0001F6DC",    // 🛜 E15.0 wireless
+        "\\U0001F6DD",    // 🛝 E14.0 playground slide
+        "\\U0001F6DE",    // 🛞 E14.0 wheel
+        "\\U0001F6DF",    // 🛟 E14.0 ring buoy
         "\\U0001F6E0",    // 🛠 E0.7 hammer and wrench
         "\\U0001F6E1",    // 🛡 E0.7 shield
         "\\U0001F6E2",    // 🛢 E0.7 oil drum
@@ -1259,6 +1536,7 @@ public class EmojiData {
         "\\U0001F7E9",    // 🟩 E12.0 green square
         "\\U0001F7EA",    // 🟪 E12.0 purple square
         "\\U0001F7EB",    // 🟫 E12.0 brown square
+        "\\U0001F7F0",    // 🟰 E14.0 heavy equals sign
         "\\U0001F90C",    // 🤌 E13.0 pinched fingers
         "\\U0001F90D",    // 🤍 E12.0 white heart
         "\\U0001F90E",    // 🤎 E12.0 brown heart
@@ -1270,7 +1548,7 @@ public class EmojiData {
         "\\U0001F914",    // 🤔 E1.0 thinking face
         "\\U0001F915",    // 🤕 E1.0 face with head-bandage
         "\\U0001F916",    // 🤖 E1.0 robot
-        "\\U0001F917",    // 🤗 E1.0 hugging face
+        "\\U0001F917",    // 🤗 E1.0 smiling face with open hands
         "\\U0001F918",    // 🤘 E1.0 sign of the horns
         "\\U0001F919",    // 🤙 E3.0 call me hand
         "\\U0001F91A",    // 🤚 E3.0 raised back of hand
@@ -1452,6 +1730,7 @@ public class EmojiData {
         "\\U0001F976",    // 🥶 E11.0 cold face
         "\\U0001F977",    // 🥷 E13.0 ninja
         "\\U0001F978",    // 🥸 E13.0 disguised face
+        "\\U0001F979",    // 🥹 E14.0 face holding back tears
         "\\U0001F97A",    // 🥺 E11.0 pleading face
         "\\U0001F97B",    // 🥻 E12.0 sari
         "\\U0001F97C",    // 🥼 E11.0 lab coat
@@ -1558,6 +1837,7 @@ public class EmojiData {
         "\\U0001F9C9",    // 🧉 E12.0 mate
         "\\U0001F9CA",    // 🧊 E12.0 ice
         "\\U0001F9CB",    // 🧋 E13.0 bubble tea
+        "\\U0001F9CC",    // 🧌 E14.0 troll
         "\\U0001F9CD",    // 🧍 E12.0 person standing
         "\\U0001F9CD\\U0001F3FB\\u200D\\u2640",    // 🧍🏻‍♀ E12.0 woman standing: light skin tone
         "\\U0001F9CD\\U0001F3FB\\u200D\\u2642",    // 🧍🏻‍♂ E12.0 man standing: light skin tone
@@ -1573,17 +1853,59 @@ public class EmojiData {
         "\\U0001F9CD\\u200D\\u2642",    // 🧍‍♂ E12.0 man standing
         "\\U0001F9CE",    // 🧎 E12.0 person kneeling
         "\\U0001F9CE\\U0001F3FB\\u200D\\u2640",    // 🧎🏻‍♀ E12.0 woman kneeling: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2640\\u200D\\u27A1",    // 🧎🏻‍♀‍➡ E15.1 woman kneeling facing right: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🧎🏻‍♀‍➡️ E15.1 woman kneeling facing right: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🧎🏻‍♀️‍➡ E15.1 woman kneeling facing right: light skin tone
         "\\U0001F9CE\\U0001F3FB\\u200D\\u2642",    // 🧎🏻‍♂ E12.0 man kneeling: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2642\\u200D\\u27A1",    // 🧎🏻‍♂‍➡ E15.1 man kneeling facing right: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🧎🏻‍♂‍➡️ E15.1 man kneeling facing right: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🧎🏻‍♂️‍➡ E15.1 man kneeling facing right: light skin tone
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u27A1",    // 🧎🏻‍➡ E15.1 person kneeling facing right: light skin tone
         "\\U0001F9CE\\U0001F3FC\\u200D\\u2640",    // 🧎🏼‍♀ E12.0 woman kneeling: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2640\\u200D\\u27A1",    // 🧎🏼‍♀‍➡ E15.1 woman kneeling facing right: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🧎🏼‍♀‍➡️ E15.1 woman kneeling facing right: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🧎🏼‍♀️‍➡ E15.1 woman kneeling facing right: medium-light skin tone
         "\\U0001F9CE\\U0001F3FC\\u200D\\u2642",    // 🧎🏼‍♂ E12.0 man kneeling: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2642\\u200D\\u27A1",    // 🧎🏼‍♂‍➡ E15.1 man kneeling facing right: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🧎🏼‍♂‍➡️ E15.1 man kneeling facing right: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🧎🏼‍♂️‍➡ E15.1 man kneeling facing right: medium-light skin tone
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u27A1",    // 🧎🏼‍➡ E15.1 person kneeling facing right: medium-light skin tone
         "\\U0001F9CE\\U0001F3FD\\u200D\\u2640",    // 🧎🏽‍♀ E12.0 woman kneeling: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2640\\u200D\\u27A1",    // 🧎🏽‍♀‍➡ E15.1 woman kneeling facing right: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🧎🏽‍♀‍➡️ E15.1 woman kneeling facing right: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🧎🏽‍♀️‍➡ E15.1 woman kneeling facing right: medium skin tone
         "\\U0001F9CE\\U0001F3FD\\u200D\\u2642",    // 🧎🏽‍♂ E12.0 man kneeling: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2642\\u200D\\u27A1",    // 🧎🏽‍♂‍➡ E15.1 man kneeling facing right: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🧎🏽‍♂‍➡️ E15.1 man kneeling facing right: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🧎🏽‍♂️‍➡ E15.1 man kneeling facing right: medium skin tone
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u27A1",    // 🧎🏽‍➡ E15.1 person kneeling facing right: medium skin tone
         "\\U0001F9CE\\U0001F3FE\\u200D\\u2640",    // 🧎🏾‍♀ E12.0 woman kneeling: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2640\\u200D\\u27A1",    // 🧎🏾‍♀‍➡ E15.1 woman kneeling facing right: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🧎🏾‍♀‍➡️ E15.1 woman kneeling facing right: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🧎🏾‍♀️‍➡ E15.1 woman kneeling facing right: medium-dark skin tone
         "\\U0001F9CE\\U0001F3FE\\u200D\\u2642",    // 🧎🏾‍♂ E12.0 man kneeling: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2642\\u200D\\u27A1",    // 🧎🏾‍♂‍➡ E15.1 man kneeling facing right: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🧎🏾‍♂‍➡️ E15.1 man kneeling facing right: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🧎🏾‍♂️‍➡ E15.1 man kneeling facing right: medium-dark skin tone
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u27A1",    // 🧎🏾‍➡ E15.1 person kneeling facing right: medium-dark skin tone
         "\\U0001F9CE\\U0001F3FF\\u200D\\u2640",    // 🧎🏿‍♀ E12.0 woman kneeling: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2640\\u200D\\u27A1",    // 🧎🏿‍♀‍➡ E15.1 woman kneeling facing right: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🧎🏿‍♀‍➡️ E15.1 woman kneeling facing right: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🧎🏿‍♀️‍➡ E15.1 woman kneeling facing right: dark skin tone
         "\\U0001F9CE\\U0001F3FF\\u200D\\u2642",    // 🧎🏿‍♂ E12.0 man kneeling: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2642\\u200D\\u27A1",    // 🧎🏿‍♂‍➡ E15.1 man kneeling facing right: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🧎🏿‍♂‍➡️ E15.1 man kneeling facing right: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🧎🏿‍♂️‍➡ E15.1 man kneeling facing right: dark skin tone
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u27A1",    // 🧎🏿‍➡ E15.1 person kneeling facing right: dark skin tone
         "\\U0001F9CE\\u200D\\u2640",    // 🧎‍♀ E12.0 woman kneeling
+        "\\U0001F9CE\\u200D\\u2640\\u200D\\u27A1",    // 🧎‍♀‍➡ E15.1 woman kneeling facing right
+        "\\U0001F9CE\\u200D\\u2640\\u200D\\u27A1\\uFE0F",    // 🧎‍♀‍➡️ E15.1 woman kneeling facing right
+        "\\U0001F9CE\\u200D\\u2640\\uFE0F\\u200D\\u27A1",    // 🧎‍♀️‍➡ E15.1 woman kneeling facing right
         "\\U0001F9CE\\u200D\\u2642",    // 🧎‍♂ E12.0 man kneeling
+        "\\U0001F9CE\\u200D\\u2642\\u200D\\u27A1",    // 🧎‍♂‍➡ E15.1 man kneeling facing right
+        "\\U0001F9CE\\u200D\\u2642\\u200D\\u27A1\\uFE0F",    // 🧎‍♂‍➡️ E15.1 man kneeling facing right
+        "\\U0001F9CE\\u200D\\u2642\\uFE0F\\u200D\\u27A1",    // 🧎‍♂️‍➡ E15.1 man kneeling facing right
+        "\\U0001F9CE\\u200D\\u27A1",    // 🧎‍➡ E15.1 person kneeling facing right
         "\\U0001F9CF",    // 🧏 E12.0 deaf person
         "\\U0001F9CF\\U0001F3FB\\u200D\\u2640",    // 🧏🏻‍♀ E12.0 deaf woman: light skin tone
         "\\U0001F9CF\\U0001F3FB\\u200D\\u2642",    // 🧏🏻‍♂ E12.0 deaf man: light skin tone
@@ -1599,27 +1921,97 @@ public class EmojiData {
         "\\U0001F9CF\\u200D\\u2642",    // 🧏‍♂ E12.0 deaf man
         "\\U0001F9D0",    // 🧐 E5.0 face with monocle
         "\\U0001F9D1",    // 🧑 E5.0 person
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9AF\\u200D\\u27A1",    // 🧑🏻‍🦯‍➡ E15.1 person with white cane facing right: light skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BC\\u200D\\u27A1",    // 🧑🏻‍🦼‍➡ E15.1 person in motorized wheelchair facing right: light skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BD\\u200D\\u27A1",    // 🧑🏻‍🦽‍➡ E15.1 person in manual wheelchair facing right: light skin tone
         "\\U0001F9D1\\U0001F3FB\\u200D\\u2695",    // 🧑🏻‍⚕ E12.1 health worker: light skin tone
         "\\U0001F9D1\\U0001F3FB\\u200D\\u2696",    // 🧑🏻‍⚖ E12.1 judge: light skin tone
         "\\U0001F9D1\\U0001F3FB\\u200D\\u2708",    // 🧑🏻‍✈ E12.1 pilot: light skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏻‍❤‍💋‍🧑🏼 E13.1 kiss: person, person, light skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏻‍❤‍💋‍🧑🏽 E13.1 kiss: person, person, light skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏻‍❤‍💋‍🧑🏾 E13.1 kiss: person, person, light skin tone, medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏻‍❤‍💋‍🧑🏿 E13.1 kiss: person, person, light skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏻‍❤‍🧑🏼 E13.1 couple with heart: person, person, light skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏻‍❤‍🧑🏽 E13.1 couple with heart: person, person, light skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏻‍❤‍🧑🏾 E13.1 couple with heart: person, person, light skin tone, medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏻‍❤‍🧑🏿 E13.1 couple with heart: person, person, light skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9AF\\u200D\\u27A1",    // 🧑🏼‍🦯‍➡ E15.1 person with white cane facing right: medium-light skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BC\\u200D\\u27A1",    // 🧑🏼‍🦼‍➡ E15.1 person in motorized wheelchair facing right: medium-light skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BD\\u200D\\u27A1",    // 🧑🏼‍🦽‍➡ E15.1 person in manual wheelchair facing right: medium-light skin tone
         "\\U0001F9D1\\U0001F3FC\\u200D\\u2695",    // 🧑🏼‍⚕ E12.1 health worker: medium-light skin tone
         "\\U0001F9D1\\U0001F3FC\\u200D\\u2696",    // 🧑🏼‍⚖ E12.1 judge: medium-light skin tone
         "\\U0001F9D1\\U0001F3FC\\u200D\\u2708",    // 🧑🏼‍✈ E12.1 pilot: medium-light skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏼‍❤‍💋‍🧑🏻 E13.1 kiss: person, person, medium-light skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏼‍❤‍💋‍🧑🏽 E13.1 kiss: person, person, medium-light skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏼‍❤‍💋‍🧑🏾 E13.1 kiss: person, person, medium-light skin tone, medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏼‍❤‍💋‍🧑🏿 E13.1 kiss: person, person, medium-light skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏼‍❤‍🧑🏻 E13.1 couple with heart: person, person, medium-light skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏼‍❤‍🧑🏽 E13.1 couple with heart: person, person, medium-light skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏼‍❤‍🧑🏾 E13.1 couple with heart: person, person, medium-light skin tone, medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏼‍❤‍🧑🏿 E13.1 couple with heart: person, person, medium-light skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9AF\\u200D\\u27A1",    // 🧑🏽‍🦯‍➡ E15.1 person with white cane facing right: medium skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BC\\u200D\\u27A1",    // 🧑🏽‍🦼‍➡ E15.1 person in motorized wheelchair facing right: medium skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BD\\u200D\\u27A1",    // 🧑🏽‍🦽‍➡ E15.1 person in manual wheelchair facing right: medium skin tone
         "\\U0001F9D1\\U0001F3FD\\u200D\\u2695",    // 🧑🏽‍⚕ E12.1 health worker: medium skin tone
         "\\U0001F9D1\\U0001F3FD\\u200D\\u2696",    // 🧑🏽‍⚖ E12.1 judge: medium skin tone
         "\\U0001F9D1\\U0001F3FD\\u200D\\u2708",    // 🧑🏽‍✈ E12.1 pilot: medium skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏽‍❤‍💋‍🧑🏻 E13.1 kiss: person, person, medium skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏽‍❤‍💋‍🧑🏼 E13.1 kiss: person, person, medium skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏽‍❤‍💋‍🧑🏾 E13.1 kiss: person, person, medium skin tone, medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏽‍❤‍💋‍🧑🏿 E13.1 kiss: person, person, medium skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏽‍❤‍🧑🏻 E13.1 couple with heart: person, person, medium skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏽‍❤‍🧑🏼 E13.1 couple with heart: person, person, medium skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏽‍❤‍🧑🏾 E13.1 couple with heart: person, person, medium skin tone, medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏽‍❤‍🧑🏿 E13.1 couple with heart: person, person, medium skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9AF\\u200D\\u27A1",    // 🧑🏾‍🦯‍➡ E15.1 person with white cane facing right: medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BC\\u200D\\u27A1",    // 🧑🏾‍🦼‍➡ E15.1 person in motorized wheelchair facing right: medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BD\\u200D\\u27A1",    // 🧑🏾‍🦽‍➡ E15.1 person in manual wheelchair facing right: medium-dark skin tone
         "\\U0001F9D1\\U0001F3FE\\u200D\\u2695",    // 🧑🏾‍⚕ E12.1 health worker: medium-dark skin tone
         "\\U0001F9D1\\U0001F3FE\\u200D\\u2696",    // 🧑🏾‍⚖ E12.1 judge: medium-dark skin tone
         "\\U0001F9D1\\U0001F3FE\\u200D\\u2708",    // 🧑🏾‍✈ E12.1 pilot: medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏾‍❤‍💋‍🧑🏻 E13.1 kiss: person, person, medium-dark skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏾‍❤‍💋‍🧑🏼 E13.1 kiss: person, person, medium-dark skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏾‍❤‍💋‍🧑🏽 E13.1 kiss: person, person, medium-dark skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏾‍❤‍💋‍🧑🏿 E13.1 kiss: person, person, medium-dark skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏾‍❤‍🧑🏻 E13.1 couple with heart: person, person, medium-dark skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏾‍❤‍🧑🏼 E13.1 couple with heart: person, person, medium-dark skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏾‍❤‍🧑🏽 E13.1 couple with heart: person, person, medium-dark skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FF",    // 🧑🏾‍❤‍🧑🏿 E13.1 couple with heart: person, person, medium-dark skin tone, dark skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9AF\\u200D\\u27A1",    // 🧑🏿‍🦯‍➡ E15.1 person with white cane facing right: dark skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BC\\u200D\\u27A1",    // 🧑🏿‍🦼‍➡ E15.1 person in motorized wheelchair facing right: dark skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BD\\u200D\\u27A1",    // 🧑🏿‍🦽‍➡ E15.1 person in manual wheelchair facing right: dark skin tone
         "\\U0001F9D1\\U0001F3FF\\u200D\\u2695",    // 🧑🏿‍⚕ E12.1 health worker: dark skin tone
         "\\U0001F9D1\\U0001F3FF\\u200D\\u2696",    // 🧑🏿‍⚖ E12.1 judge: dark skin tone
         "\\U0001F9D1\\U0001F3FF\\u200D\\u2708",    // 🧑🏿‍✈ E12.1 pilot: dark skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏿‍❤‍💋‍🧑🏻 E13.1 kiss: person, person, dark skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏿‍❤‍💋‍🧑🏼 E13.1 kiss: person, person, dark skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏿‍❤‍💋‍🧑🏽 E13.1 kiss: person, person, dark skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏿‍❤‍💋‍🧑🏾 E13.1 kiss: person, person, dark skin tone, medium-dark skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FB",    // 🧑🏿‍❤‍🧑🏻 E13.1 couple with heart: person, person, dark skin tone, light skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FC",    // 🧑🏿‍❤‍🧑🏼 E13.1 couple with heart: person, person, dark skin tone, medium-light skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FD",    // 🧑🏿‍❤‍🧑🏽 E13.1 couple with heart: person, person, dark skin tone, medium skin tone
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\u200D\\U0001F9D1\\U0001F3FE",    // 🧑🏿‍❤‍🧑🏾 E13.1 couple with heart: person, person, dark skin tone, medium-dark skin tone
+        "\\U0001F9D1\\u200D\\U0001F9AF\\u200D\\u27A1",    // 🧑‍🦯‍➡ E15.1 person with white cane facing right
+        "\\U0001F9D1\\u200D\\U0001F9BC\\u200D\\u27A1",    // 🧑‍🦼‍➡ E15.1 person in motorized wheelchair facing right
+        "\\U0001F9D1\\u200D\\U0001F9BD\\u200D\\u27A1",    // 🧑‍🦽‍➡ E15.1 person in manual wheelchair facing right
         "\\U0001F9D1\\u200D\\u2695",    // 🧑‍⚕ E12.1 health worker
         "\\U0001F9D1\\u200D\\u2696",    // 🧑‍⚖ E12.1 judge
         "\\U0001F9D1\\u200D\\u2708",    // 🧑‍✈ E12.1 pilot
         "\\U0001F9D2",    // 🧒 E5.0 child
         "\\U0001F9D3",    // 🧓 E5.0 older person
-        "\\U0001F9D4",    // 🧔 E5.0 man: beard
+        "\\U0001F9D4",    // 🧔 E5.0 person: beard
+        "\\U0001F9D4\\U0001F3FB\\u200D\\u2640",    // 🧔🏻‍♀ E13.1 woman: light skin tone, beard
+        "\\U0001F9D4\\U0001F3FB\\u200D\\u2642",    // 🧔🏻‍♂ E13.1 man: light skin tone, beard
+        "\\U0001F9D4\\U0001F3FC\\u200D\\u2640",    // 🧔🏼‍♀ E13.1 woman: medium-light skin tone, beard
+        "\\U0001F9D4\\U0001F3FC\\u200D\\u2642",    // 🧔🏼‍♂ E13.1 man: medium-light skin tone, beard
+        "\\U0001F9D4\\U0001F3FD\\u200D\\u2640",    // 🧔🏽‍♀ E13.1 woman: medium skin tone, beard
+        "\\U0001F9D4\\U0001F3FD\\u200D\\u2642",    // 🧔🏽‍♂ E13.1 man: medium skin tone, beard
+        "\\U0001F9D4\\U0001F3FE\\u200D\\u2640",    // 🧔🏾‍♀ E13.1 woman: medium-dark skin tone, beard
+        "\\U0001F9D4\\U0001F3FE\\u200D\\u2642",    // 🧔🏾‍♂ E13.1 man: medium-dark skin tone, beard
+        "\\U0001F9D4\\U0001F3FF\\u200D\\u2640",    // 🧔🏿‍♀ E13.1 woman: dark skin tone, beard
+        "\\U0001F9D4\\U0001F3FF\\u200D\\u2642",    // 🧔🏿‍♂ E13.1 man: dark skin tone, beard
+        "\\U0001F9D4\\u200D\\u2640",    // 🧔‍♀ E13.1 woman: beard
+        "\\U0001F9D4\\u200D\\u2642",    // 🧔‍♂ E13.1 man: beard
         "\\U0001F9D5",    // 🧕 E5.0 woman with headscarf
         "\\U0001F9D6",    // 🧖 E5.0 person in steamy room
         "\\U0001F9D6\\U0001F3FB\\u200D\\u2640",    // 🧖🏻‍♀ E5.0 woman in steamy room: light skin tone
@@ -1768,9 +2160,14 @@ public class EmojiData {
         "\\U0001FA72",    // 🩲 E12.0 briefs
         "\\U0001FA73",    // 🩳 E12.0 shorts
         "\\U0001FA74",    // 🩴 E13.0 thong sandal
+        "\\U0001FA75",    // 🩵 E15.0 light blue heart
+        "\\U0001FA76",    // 🩶 E15.0 grey heart
+        "\\U0001FA77",    // 🩷 E15.0 pink heart
         "\\U0001FA78",    // 🩸 E12.0 drop of blood
         "\\U0001FA79",    // 🩹 E12.0 adhesive bandage
         "\\U0001FA7A",    // 🩺 E12.0 stethoscope
+        "\\U0001FA7B",    // 🩻 E14.0 x-ray
+        "\\U0001FA7C",    // 🩼 E14.0 crutch
         "\\U0001FA80",    // 🪀 E12.0 yo-yo
         "\\U0001FA81",    // 🪁 E12.0 kite
         "\\U0001FA82",    // 🪂 E12.0 parachute
@@ -1778,6 +2175,8 @@ public class EmojiData {
         "\\U0001FA84",    // 🪄 E13.0 magic wand
         "\\U0001FA85",    // 🪅 E13.0 piñata
         "\\U0001FA86",    // 🪆 E13.0 nesting dolls
+        "\\U0001FA87",    // 🪇 E15.0 maracas
+        "\\U0001FA88",    // 🪈 E15.0 flute
         "\\U0001FA90",    // 🪐 E12.0 ringed planet
         "\\U0001FA91",    // 🪑 E12.0 chair
         "\\U0001FA92",    // 🪒 E12.0 razor
@@ -1803,6 +2202,13 @@ public class EmojiData {
         "\\U0001FAA6",    // 🪦 E13.0 headstone
         "\\U0001FAA7",    // 🪧 E13.0 placard
         "\\U0001FAA8",    // 🪨 E13.0 rock
+        "\\U0001FAA9",    // 🪩 E14.0 mirror ball
+        "\\U0001FAAA",    // 🪪 E14.0 identification card
+        "\\U0001FAAB",    // 🪫 E14.0 low battery
+        "\\U0001FAAC",    // 🪬 E14.0 hamsa
+        "\\U0001FAAD",    // 🪭 E15.0 folding hand fan
+        "\\U0001FAAE",    // 🪮 E15.0 hair pick
+        "\\U0001FAAF",    // 🪯 E15.0 khanda
         "\\U0001FAB0",    // 🪰 E13.0 fly
         "\\U0001FAB1",    // 🪱 E13.0 worm
         "\\U0001FAB2",    // 🪲 E13.0 beetle
@@ -1810,9 +2216,22 @@ public class EmojiData {
         "\\U0001FAB4",    // 🪴 E13.0 potted plant
         "\\U0001FAB5",    // 🪵 E13.0 wood
         "\\U0001FAB6",    // 🪶 E13.0 feather
+        "\\U0001FAB7",    // 🪷 E14.0 lotus
+        "\\U0001FAB8",    // 🪸 E14.0 coral
+        "\\U0001FAB9",    // 🪹 E14.0 empty nest
+        "\\U0001FABA",    // 🪺 E14.0 nest with eggs
+        "\\U0001FABB",    // 🪻 E15.0 hyacinth
+        "\\U0001FABC",    // 🪼 E15.0 jellyfish
+        "\\U0001FABD",    // 🪽 E15.0 wing
+        "\\U0001FABF",    // 🪿 E15.0 goose
         "\\U0001FAC0",    // 🫀 E13.0 anatomical heart
         "\\U0001FAC1",    // 🫁 E13.0 lungs
         "\\U0001FAC2",    // 🫂 E13.0 people hugging
+        "\\U0001FAC3",    // 🫃 E14.0 pregnant man
+        "\\U0001FAC4",    // 🫄 E14.0 pregnant person
+        "\\U0001FAC5",    // 🫅 E14.0 person with crown
+        "\\U0001FACE",    // 🫎 E15.0 moose
+        "\\U0001FACF",    // 🫏 E15.0 donkey
         "\\U0001FAD0",    // 🫐 E13.0 blueberries
         "\\U0001FAD1",    // 🫑 E13.0 bell pepper
         "\\U0001FAD2",    // 🫒 E13.0 olive
@@ -1820,6 +2239,29 @@ public class EmojiData {
         "\\U0001FAD4",    // 🫔 E13.0 tamale
         "\\U0001FAD5",    // 🫕 E13.0 fondue
         "\\U0001FAD6",    // 🫖 E13.0 teapot
+        "\\U0001FAD7",    // 🫗 E14.0 pouring liquid
+        "\\U0001FAD8",    // 🫘 E14.0 beans
+        "\\U0001FAD9",    // 🫙 E14.0 jar
+        "\\U0001FADA",    // 🫚 E15.0 ginger root
+        "\\U0001FADB",    // 🫛 E15.0 pea pod
+        "\\U0001FAE0",    // 🫠 E14.0 melting face
+        "\\U0001FAE1",    // 🫡 E14.0 saluting face
+        "\\U0001FAE2",    // 🫢 E14.0 face with open eyes and hand over mouth
+        "\\U0001FAE3",    // 🫣 E14.0 face with peeking eye
+        "\\U0001FAE4",    // 🫤 E14.0 face with diagonal mouth
+        "\\U0001FAE5",    // 🫥 E14.0 dotted line face
+        "\\U0001FAE6",    // 🫦 E14.0 biting lip
+        "\\U0001FAE7",    // 🫧 E14.0 bubbles
+        "\\U0001FAE8",    // 🫨 E15.0 shaking face
+        "\\U0001FAF0",    // 🫰 E14.0 hand with index finger and thumb crossed
+        "\\U0001FAF1",    // 🫱 E14.0 rightwards hand
+        "\\U0001FAF2",    // 🫲 E14.0 leftwards hand
+        "\\U0001FAF3",    // 🫳 E14.0 palm down hand
+        "\\U0001FAF4",    // 🫴 E14.0 palm up hand
+        "\\U0001FAF5",    // 🫵 E14.0 index pointing at the viewer
+        "\\U0001FAF6",    // 🫶 E14.0 heart hands
+        "\\U0001FAF7",    // 🫷 E15.0 leftwards pushing hand
+        "\\U0001FAF8",    // 🫸 E15.0 rightwards pushing hand
         "\\u203C",    // ‼ E0.6 double exclamation mark
         "\\u2049",    // ⁉ E0.6 exclamation question mark
         "\\u2122",    // ™ E0.6 trade mark
@@ -1928,6 +2370,7 @@ public class EmojiData {
         "\\u26CF",    // ⛏ E0.7 pick
         "\\u26D1",    // ⛑ E0.7 rescue worker’s helmet
         "\\u26D3",    // ⛓ E0.7 chains
+        "\\u26D3\\u200D\\U0001F4A5",    // ⛓‍💥 E15.1 broken chain
         "\\u26D4",    // ⛔ E0.6 no entry
         "\\u26E9",    // ⛩ E0.7 shinto shrine
         "\\u26EA",    // ⛪ E0.6 church
@@ -1979,12 +2422,14 @@ public class EmojiData {
         "\\u2747",    // ❇ E0.6 sparkle
         "\\u274C",    // ❌ E0.6 cross mark
         "\\u274E",    // ❎ E0.6 cross mark button
-        "\\u2753",    // ❓ E0.6 question mark
+        "\\u2753",    // ❓ E0.6 red question mark
         "\\u2754",    // ❔ E0.6 white question mark
         "\\u2755",    // ❕ E0.6 white exclamation mark
-        "\\u2757",    // ❗ E0.6 exclamation mark
+        "\\u2757",    // ❗ E0.6 red exclamation mark
         "\\u2763",    // ❣ E1.0 heart exclamation
         "\\u2764",    // ❤ E0.6 red heart
+        "\\u2764\\u200D\\U0001F525",    // ❤‍🔥 E13.1 heart on fire
+        "\\u2764\\u200D\\U0001FA79",    // ❤‍🩹 E13.1 mending heart
         "\\u2795",    // ➕ E0.6 plus
         "\\u2796",    // ➖ E0.6 minus
         "\\u2797",    // ➗ E0.6 divide
@@ -2510,6 +2955,16 @@ public class EmojiData {
         "\\U0001F487\\U0001F3FD",    // E1.0   [1] (💇🏽)
         "\\U0001F487\\U0001F3FE",    // E1.0   [1] (💇🏾)
         "\\U0001F487\\U0001F3FF",    // E1.0   [1] (💇🏿)
+        "\\U0001F48F\\U0001F3FB",    // E13.1  [1] (💏🏻)
+        "\\U0001F48F\\U0001F3FC",    // E13.1  [1] (💏🏼)
+        "\\U0001F48F\\U0001F3FD",    // E13.1  [1] (💏🏽)
+        "\\U0001F48F\\U0001F3FE",    // E13.1  [1] (💏🏾)
+        "\\U0001F48F\\U0001F3FF",    // E13.1  [1] (💏🏿)
+        "\\U0001F491\\U0001F3FB",    // E13.1  [1] (💑🏻)
+        "\\U0001F491\\U0001F3FC",    // E13.1  [1] (💑🏼)
+        "\\U0001F491\\U0001F3FD",    // E13.1  [1] (💑🏽)
+        "\\U0001F491\\U0001F3FE",    // E13.1  [1] (💑🏾)
+        "\\U0001F491\\U0001F3FF",    // E13.1  [1] (💑🏿)
         "\\U0001F4AA\\U0001F3FB",    // E1.0   [1] (💪🏻)
         "\\U0001F4AA\\U0001F3FC",    // E1.0   [1] (💪🏼)
         "\\U0001F4AA\\U0001F3FD",    // E1.0   [1] (💪🏽)
@@ -2650,6 +3105,11 @@ public class EmojiData {
         "\\U0001F91C\\U0001F3FD",    // E3.0   [1] (🤜🏽)
         "\\U0001F91C\\U0001F3FE",    // E3.0   [1] (🤜🏾)
         "\\U0001F91C\\U0001F3FF",    // E3.0   [1] (🤜🏿)
+        "\\U0001F91D\\U0001F3FB",    // E14.0  [1] (🤝🏻)
+        "\\U0001F91D\\U0001F3FC",    // E14.0  [1] (🤝🏼)
+        "\\U0001F91D\\U0001F3FD",    // E14.0  [1] (🤝🏽)
+        "\\U0001F91D\\U0001F3FE",    // E14.0  [1] (🤝🏾)
+        "\\U0001F91D\\U0001F3FF",    // E14.0  [1] (🤝🏿)
         "\\U0001F91E\\U0001F3FB",    // E3.0   [1] (🤞🏻)
         "\\U0001F91E\\U0001F3FC",    // E3.0   [1] (🤞🏼)
         "\\U0001F91E\\U0001F3FD",    // E3.0   [1] (🤞🏽)
@@ -2835,6 +3295,66 @@ public class EmojiData {
         "\\U0001F9DD\\U0001F3FD",    // E5.0   [1] (🧝🏽)
         "\\U0001F9DD\\U0001F3FE",    // E5.0   [1] (🧝🏾)
         "\\U0001F9DD\\U0001F3FF",    // E5.0   [1] (🧝🏿)
+        "\\U0001FAC3\\U0001F3FB",    // E14.0  [1] (🫃🏻)
+        "\\U0001FAC3\\U0001F3FC",    // E14.0  [1] (🫃🏼)
+        "\\U0001FAC3\\U0001F3FD",    // E14.0  [1] (🫃🏽)
+        "\\U0001FAC3\\U0001F3FE",    // E14.0  [1] (🫃🏾)
+        "\\U0001FAC3\\U0001F3FF",    // E14.0  [1] (🫃🏿)
+        "\\U0001FAC4\\U0001F3FB",    // E14.0  [1] (🫄🏻)
+        "\\U0001FAC4\\U0001F3FC",    // E14.0  [1] (🫄🏼)
+        "\\U0001FAC4\\U0001F3FD",    // E14.0  [1] (🫄🏽)
+        "\\U0001FAC4\\U0001F3FE",    // E14.0  [1] (🫄🏾)
+        "\\U0001FAC4\\U0001F3FF",    // E14.0  [1] (🫄🏿)
+        "\\U0001FAC5\\U0001F3FB",    // E14.0  [1] (🫅🏻)
+        "\\U0001FAC5\\U0001F3FC",    // E14.0  [1] (🫅🏼)
+        "\\U0001FAC5\\U0001F3FD",    // E14.0  [1] (🫅🏽)
+        "\\U0001FAC5\\U0001F3FE",    // E14.0  [1] (🫅🏾)
+        "\\U0001FAC5\\U0001F3FF",    // E14.0  [1] (🫅🏿)
+        "\\U0001FAF0\\U0001F3FB",    // E14.0  [1] (🫰🏻)
+        "\\U0001FAF0\\U0001F3FC",    // E14.0 [1] (🫰🏼)
+        "\\U0001FAF0\\U0001F3FD",    // E14.0  [1] (🫰🏽)
+        "\\U0001FAF0\\U0001F3FE",    // E14.0  [1] (🫰🏾)
+        "\\U0001FAF0\\U0001F3FF",    // E14.0  [1] (🫰🏿)
+        "\\U0001FAF1\\U0001F3FB",    // E14.0  [1] (🫱🏻)
+        "\\U0001FAF1\\U0001F3FC",    // E14.0  [1] (🫱🏼)
+        "\\U0001FAF1\\U0001F3FD",    // E14.0  [1] (🫱🏽)
+        "\\U0001FAF1\\U0001F3FE",    // E14.0  [1] (🫱🏾)
+        "\\U0001FAF1\\U0001F3FF",    // E14.0  [1] (🫱🏿)
+        "\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫲🏻)
+        "\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫲🏼)
+        "\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫲🏽)
+        "\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫲🏾)
+        "\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫲🏿)
+        "\\U0001FAF3\\U0001F3FB",    // E14.0  [1] (🫳🏻)
+        "\\U0001FAF3\\U0001F3FC",    // E14.0  [1] (🫳🏼)
+        "\\U0001FAF3\\U0001F3FD",    // E14.0  [1] (🫳🏽)
+        "\\U0001FAF3\\U0001F3FE",    // E14.0  [1] (🫳🏾)
+        "\\U0001FAF3\\U0001F3FF",    // E14.0  [1] (🫳🏿)
+        "\\U0001FAF4\\U0001F3FB",    // E14.0  [1] (🫴🏻)
+        "\\U0001FAF4\\U0001F3FC",    // E14.0  [1] (🫴🏼)
+        "\\U0001FAF4\\U0001F3FD",    // E14.0  [1] (🫴🏽)
+        "\\U0001FAF4\\U0001F3FE",    // E14.0  [1] (🫴🏾)
+        "\\U0001FAF4\\U0001F3FF",    // E14.0  [1] (🫴🏿)
+        "\\U0001FAF5\\U0001F3FB",    // E14.0  [1] (🫵🏻)
+        "\\U0001FAF5\\U0001F3FC",    // E14.0  [1] (🫵🏼)
+        "\\U0001FAF5\\U0001F3FD",    // E14.0  [1] (🫵🏽)
+        "\\U0001FAF5\\U0001F3FE",    // E14.0  [1] (🫵🏾)
+        "\\U0001FAF5\\U0001F3FF",    // E14.0  [1] (🫵🏿)
+        "\\U0001FAF6\\U0001F3FB",    // E14.0  [1] (🫶🏻)
+        "\\U0001FAF6\\U0001F3FC",    // E14.0  [1] (🫶🏼)
+        "\\U0001FAF6\\U0001F3FD",    // E14.0  [1] (🫶🏽)
+        "\\U0001FAF6\\U0001F3FE",    // E14.0  [1] (🫶🏾)
+        "\\U0001FAF6\\U0001F3FF",    // E14.0  [1] (🫶🏿)
+        "\\U0001FAF7\\U0001F3FB",    // E15.0  [1] (🫷🏻)
+        "\\U0001FAF7\\U0001F3FC",    // E15.0  [1] (🫷🏼)
+        "\\U0001FAF7\\U0001F3FD",    // E15.0  [1] (🫷🏽)
+        "\\U0001FAF7\\U0001F3FE",    // E15.0  [1] (🫷🏾)
+        "\\U0001FAF7\\U0001F3FF",    // E15.0  [1] (🫷🏿)
+        "\\U0001FAF8\\U0001F3FB",    // E15.0  [1] (🫸🏻)
+        "\\U0001FAF8\\U0001F3FC",    // E15.0  [1] (🫸🏼)
+        "\\U0001FAF8\\U0001F3FD",    // E15.0  [1] (🫸🏽)
+        "\\U0001FAF8\\U0001F3FE",    // E15.0  [1] (🫸🏾)
+        "\\U0001FAF8\\U0001F3FF",    // E15.0  [1] (🫸🏿)
         "\\u261D\\U0001F3FB",    // E1.0   [1] (☝🏻)
         "\\u261D\\U0001F3FC",    // E1.0   [1] (☝🏼)
         "\\u261D\\U0001F3FD",    // E1.0   [1] (☝🏽)
@@ -3313,12 +3833,18 @@ public class EmojiData {
         "\\u23E9\\uFE0F",    // (6.0) BLACK RIGHT-POINTING DOUBLE TRIANGLE
         "\\u23EA\\uFE0E",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE
         "\\u23EA\\uFE0F",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE
+        "\\u23EB\\uFE0E",    // (6.0) BLACK UP-POINTING DOUBLE TRIANGLE
+        "\\u23EB\\uFE0F",    // (6.0) BLACK UP-POINTING DOUBLE TRIANGLE
+        "\\u23EC\\uFE0E",    // (6.0) BLACK DOWN-POINTING DOUBLE TRIANGLE
+        "\\u23EC\\uFE0F",    // (6.0) BLACK DOWN-POINTING DOUBLE TRIANGLE
         "\\u23ED\\uFE0E",    // (6.0) BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
         "\\u23ED\\uFE0F",    // (6.0) BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
         "\\u23EE\\uFE0E",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
         "\\u23EE\\uFE0F",    // (6.0) BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR
         "\\u23EF\\uFE0E",    // (6.0) BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR
         "\\u23EF\\uFE0F",    // (6.0) BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR
+        "\\u23F0\\uFE0E",    // (6.0) ALARM CLOCK
+        "\\u23F0\\uFE0F",    // (6.0) ALARM CLOCK
         "\\u23F1\\uFE0E",    // (6.0) STOPWATCH
         "\\u23F1\\uFE0F",    // (6.0) STOPWATCH
         "\\u23F2\\uFE0E",    // (6.0) TIMER CLOCK
@@ -3479,6 +4005,8 @@ public class EmojiData {
         "\\u26C5\\uFE0F",    // (5.2) SUN BEHIND CLOUD
         "\\u26C8\\uFE0E",    // (5.2) THUNDER CLOUD AND RAIN
         "\\u26C8\\uFE0F",    // (5.2) THUNDER CLOUD AND RAIN
+        "\\u26CE\\uFE0E",    // (6.0) OPHIUCHUS
+        "\\u26CE\\uFE0F",    // (6.0) OPHIUCHUS
         "\\u26CF\\uFE0E",    // (5.2) PICK
         "\\u26CF\\uFE0F",    // (5.2) PICK
         "\\u26D1\\uFE0E",    // (5.2) HELMET WITH WHITE CROSS
@@ -3515,10 +4043,16 @@ public class EmojiData {
         "\\u26FD\\uFE0F",    // (5.2) FUEL PUMP
         "\\u2702\\uFE0E",    // (1.1) BLACK SCISSORS
         "\\u2702\\uFE0F",    // (1.1) BLACK SCISSORS
+        "\\u2705\\uFE0E",    // (6.0) WHITE HEAVY CHECK MARK
+        "\\u2705\\uFE0F",    // (6.0) WHITE HEAVY CHECK MARK
         "\\u2708\\uFE0E",    // (1.1) AIRPLANE
         "\\u2708\\uFE0F",    // (1.1) AIRPLANE
         "\\u2709\\uFE0E",    // (1.1) ENVELOPE
         "\\u2709\\uFE0F",    // (1.1) ENVELOPE
+        "\\u270A\\uFE0E",    // (6.0) RAISED FIST
+        "\\u270A\\uFE0F",    // (6.0) RAISED FIST
+        "\\u270B\\uFE0E",    // (6.0) RAISED HAND
+        "\\u270B\\uFE0F",    // (6.0) RAISED HAND
         "\\u270C\\uFE0E",    // (1.1) VICTORY HAND
         "\\u270C\\uFE0F",    // (1.1) VICTORY HAND
         "\\u270D\\uFE0E",    // (1.1) WRITING HAND
@@ -3535,6 +4069,8 @@ public class EmojiData {
         "\\u271D\\uFE0F",    // (1.1) LATIN CROSS
         "\\u2721\\uFE0E",    // (1.1) STAR OF DAVID
         "\\u2721\\uFE0F",    // (1.1) STAR OF DAVID
+        "\\u2728\\uFE0E",    // (6.0) SPARKLES
+        "\\u2728\\uFE0F",    // (6.0) SPARKLES
         "\\u2733\\uFE0E",    // (1.1) EIGHT SPOKED ASTERISK
         "\\u2733\\uFE0F",    // (1.1) EIGHT SPOKED ASTERISK
         "\\u2734\\uFE0E",    // (1.1) EIGHT POINTED BLACK STAR
@@ -3543,16 +4079,34 @@ public class EmojiData {
         "\\u2744\\uFE0F",    // (1.1) SNOWFLAKE
         "\\u2747\\uFE0E",    // (1.1) SPARKLE
         "\\u2747\\uFE0F",    // (1.1) SPARKLE
+        "\\u274C\\uFE0E",    // (6.0) CROSS MARK
+        "\\u274C\\uFE0F",    // (6.0) CROSS MARK
+        "\\u274E\\uFE0E",    // (6.0) NEGATIVE SQUARED CROSS MARK
+        "\\u274E\\uFE0F",    // (6.0) NEGATIVE SQUARED CROSS MARK
         "\\u2753\\uFE0E",    // (6.0) BLACK QUESTION MARK ORNAMENT
         "\\u2753\\uFE0F",    // (6.0) BLACK QUESTION MARK ORNAMENT
+        "\\u2754\\uFE0E",    // (6.0) WHITE QUESTION MARK ORNAMENT
+        "\\u2754\\uFE0F",    // (6.0) WHITE QUESTION MARK ORNAMENT
+        "\\u2755\\uFE0E",    // (6.0) WHITE EXCLAMATION MARK ORNAMENT
+        "\\u2755\\uFE0F",    // (6.0) WHITE EXCLAMATION MARK ORNAMENT
         "\\u2757\\uFE0E",    // (5.2) HEAVY EXCLAMATION MARK SYMBOL
         "\\u2757\\uFE0F",    // (5.2) HEAVY EXCLAMATION MARK SYMBOL
         "\\u2763\\uFE0E",    // (1.1) HEAVY HEART EXCLAMATION MARK ORNAMENT
         "\\u2763\\uFE0F",    // (1.1) HEAVY HEART EXCLAMATION MARK ORNAMENT
         "\\u2764\\uFE0E",    // (1.1) HEAVY BLACK HEART
         "\\u2764\\uFE0F",    // (1.1) HEAVY BLACK HEART
+        "\\u2795\\uFE0E",    // (6.0) HEAVY PLUS SIGN
+        "\\u2795\\uFE0F",    // (6.0) HEAVY PLUS SIGN
+        "\\u2796\\uFE0E",    // (6.0) HEAVY MINUS SIGN
+        "\\u2796\\uFE0F",    // (6.0) HEAVY MINUS SIGN
+        "\\u2797\\uFE0E",    // (6.0) HEAVY DIVISION SIGN
+        "\\u2797\\uFE0F",    // (6.0) HEAVY DIVISION SIGN
         "\\u27A1\\uFE0E",    // (1.1) BLACK RIGHTWARDS ARROW
         "\\u27A1\\uFE0F",    // (1.1) BLACK RIGHTWARDS ARROW
+        "\\u27B0\\uFE0E",    // (6.0) CURLY LOOP
+        "\\u27B0\\uFE0F",    // (6.0) CURLY LOOP
+        "\\u27BF\\uFE0E",    // (6.0) DOUBLE CURLY LOOP
+        "\\u27BF\\uFE0F",    // (6.0) DOUBLE CURLY LOOP
         "\\u2934\\uFE0E",    // (3.2) ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS
         "\\u2934\\uFE0F",    // (3.2) ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS
         "\\u2935\\uFE0E",    // (3.2) ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS
@@ -3586,18 +4140,38 @@ public class EmojiData {
     /// "👨‍👩‍👧‍👧".
     ///
     public static let ZWJSequencesPatterns:[String] = [
+        "\\U0001F344\\u200D\\U0001F7EB",    // E15.1  [1] (🍄‍🟫)
+        "\\U0001F34B\\u200D\\U0001F7E9",    // E15.1  [1] (🍋‍🟩)
         "\\U0001F3C3\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏻‍♀️)
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏻‍♀️‍➡️)
         "\\U0001F3C3\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏻‍♂️)
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏻‍♂️‍➡️)
+        "\\U0001F3C3\\U0001F3FB\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏻‍➡️)
         "\\U0001F3C3\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏼‍♀️)
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏼‍♀️‍➡️)
         "\\U0001F3C3\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏼‍♂️)
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏼‍♂️‍➡️)
+        "\\U0001F3C3\\U0001F3FC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏼‍➡️)
         "\\U0001F3C3\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏽‍♀️)
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏽‍♀️‍➡️)
         "\\U0001F3C3\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏽‍♂️)
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏽‍♂️‍➡️)
+        "\\U0001F3C3\\U0001F3FD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏽‍➡️)
         "\\U0001F3C3\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏾‍♀️)
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏾‍♀️‍➡️)
         "\\U0001F3C3\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏾‍♂️)
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏾‍♂️‍➡️)
+        "\\U0001F3C3\\U0001F3FE\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏾‍➡️)
         "\\U0001F3C3\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃🏿‍♀️)
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏿‍♀️‍➡️)
         "\\U0001F3C3\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃🏿‍♂️)
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏿‍♂️‍➡️)
+        "\\U0001F3C3\\U0001F3FF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃🏿‍➡️)
         "\\U0001F3C3\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏃‍♀️)
+        "\\U0001F3C3\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃‍♀️‍➡️)
         "\\U0001F3C3\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏃‍♂️)
+        "\\U0001F3C3\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃‍♂️‍➡️)
+        "\\U0001F3C3\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🏃‍➡️)
         "\\U0001F3C4\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄🏻‍♀️)
         "\\U0001F3C4\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🏄🏻‍♂️)
         "\\U0001F3C4\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🏄🏼‍♀️)
@@ -3651,6 +4225,8 @@ public class EmojiData {
         "\\U0001F3F4\\u200D\\u2620\\uFE0F",    // E11.0  [1] (🏴‍☠️)
         "\\U0001F408\\u200D\\u2B1B",    // E13.0  [1] (🐈‍⬛)
         "\\U0001F415\\u200D\\U0001F9BA",    // E12.0  [1] (🐕‍🦺)
+        "\\U0001F426\\u200D\\U0001F525",    // E15.1  [1] (🐦‍🔥)
+        "\\U0001F426\\u200D\\u2B1B",    // E15.0  [1] (🐦‍⬛)
         "\\U0001F43B\\u200D\\u2744\\uFE0F",    // E13.0  [1] (🐻‍❄️)
         "\\U0001F441\\uFE0F\\u200D\\U0001F5E8\\uFE0F",    // E2.0   [1] (👁️‍🗨️)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F33E",    // E4.0   [1] (👨🏻‍🌾)
@@ -3672,15 +4248,28 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.1  [1] (👨🏻‍🤝‍👨🏾)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏻‍🤝‍👨🏿)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏻‍🦯)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏻‍🦯‍➡️)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏻‍🦰)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏻‍🦱)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏻‍🦲)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏻‍🦳)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏻‍🦼)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏻‍🦼‍➡️)
         "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏻‍🦽)
+        "\\U0001F468\\U0001F3FB\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏻‍🦽‍➡️)
         "\\U0001F468\\U0001F3FB\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏻‍⚕️)
         "\\U0001F468\\U0001F3FB\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏻‍⚖️)
         "\\U0001F468\\U0001F3FB\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏻‍✈️)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏻‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏻‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏻‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏻‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏻‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏻‍❤️‍💋‍👨🏿)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F33E",    // E4.0   [1] (👨🏼‍🌾)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F373",    // E4.0   [1] (👨🏼‍🍳)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F37C",    // E13.0  [1] (👨🏼‍🍼)
@@ -3700,15 +4289,28 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.1 [1] (👨🏼‍🤝‍👨🏾)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏼‍🤝‍👨🏿)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏼‍🦯)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏼‍🦯‍➡️)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏼‍🦰)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏼‍🦱)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏼‍🦲)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏼‍🦳)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏼‍🦼)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1 [1] (👨🏼‍🦼‍➡️)
         "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏼‍🦽)
+        "\\U0001F468\\U0001F3FC\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏼‍🦽‍➡️)
         "\\U0001F468\\U0001F3FC\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏼‍⚕️)
         "\\U0001F468\\U0001F3FC\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏼‍⚖️)
         "\\U0001F468\\U0001F3FC\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏼‍✈️)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👨🏼‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏼‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👨🏼‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏼‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👨🏼‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏼‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏼‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1 [1] (👨🏼‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏼‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏼‍❤️‍💋‍👨🏿)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F33E",    // E4.0   [1] (👨🏽‍🌾)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F373",    // E4.0   [1] (👨🏽‍🍳)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F37C",    // E13.0  [1] (👨🏽‍🍼)
@@ -3728,15 +4330,28 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.1  [1] (👨🏽‍🤝‍👨🏾)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏽‍🤝‍👨🏿)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏽‍🦯)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏽‍🦯‍➡️)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏽‍🦰)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏽‍🦱)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏽‍🦲)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏽‍🦳)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏽‍🦼)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏽‍🦼‍➡️)
         "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏽‍🦽)
+        "\\U0001F468\\U0001F3FD\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏽‍🦽‍➡️)
         "\\U0001F468\\U0001F3FD\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏽‍⚕️)
         "\\U0001F468\\U0001F3FD\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏽‍⚖️)
         "\\U0001F468\\U0001F3FD\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏽‍✈️)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏽‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏽‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏽‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏽‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏽‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1 [1] (👨🏽‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏽‍❤️‍💋‍👨🏿)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F33E",    // E4.0   [1] (👨🏾‍🌾)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F373",    // E4.0   [1] (👨🏾‍🍳)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F37C",    // E13.0  [1] (👨🏾‍🍼)
@@ -3756,15 +4371,28 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0  [1] (👨🏾‍🤝‍👨🏽)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FF",    // E12.1  [1] (👨🏾‍🤝‍👨🏿)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏾‍🦯)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏾‍🦯‍➡️)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏾‍🦰)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏾‍🦱)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏾‍🦲)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏾‍🦳)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏾‍🦼)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏾‍🦼‍➡️)
         "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏾‍🦽)
+        "\\U0001F468\\U0001F3FE\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏾‍🦽‍➡️)
         "\\U0001F468\\U0001F3FE\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏾‍⚕️)
         "\\U0001F468\\U0001F3FE\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏾‍⚖️)
         "\\U0001F468\\U0001F3FE\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏾‍✈️)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👨🏾‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏾‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👨🏾‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏾‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👨🏾‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏾‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏾‍❤️‍💋‍👨🏿)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F33E",    // E4.0   [1] (👨🏿‍🌾)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F373",    // E4.0   [1] (👨🏿‍🍳)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F37C",    // E13.0  [1] (👨🏿‍🍼)
@@ -3784,15 +4412,28 @@ public class EmojiData {
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FD",    // E12.0  [1] (👨🏿‍🤝‍👨🏽)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F468\\U0001F3FE",    // E12.0  [1] (👨🏿‍🤝‍👨🏾)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9AF",    // E12.0  [1] (👨🏿‍🦯)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏿‍🦯‍➡️)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B0",    // E11.0  [1] (👨🏿‍🦰)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B1",    // E11.0  [1] (👨🏿‍🦱)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B2",    // E11.0  [1] (👨🏿‍🦲)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9B3",    // E11.0  [1] (👨🏿‍🦳)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BC",    // E12.0  [1] (👨🏿‍🦼)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏿‍🦼‍➡️)
         "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BD",    // E12.0  [1] (👨🏿‍🦽)
+        "\\U0001F468\\U0001F3FF\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨🏿‍🦽‍➡️)
         "\\U0001F468\\U0001F3FF\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨🏿‍⚕️)
         "\\U0001F468\\U0001F3FF\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨🏿‍⚖️)
         "\\U0001F468\\U0001F3FF\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨🏿‍✈️)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏿‍❤️‍👨🏻)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👨🏿‍❤️‍👨🏼)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏿‍❤️‍👨🏽)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👨🏿‍❤️‍👨🏾)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏿‍❤️‍👨🏿)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏻)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏼)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏽)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏾)
+        "\\U0001F468\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👨🏿‍❤️‍💋‍👨🏿)
         "\\U0001F468\\u200D\\U0001F33E",    // E4.0   [1] (👨‍🌾)
         "\\U0001F468\\u200D\\U0001F373",    // E4.0   [1] (👨‍🍳)
         "\\U0001F468\\u200D\\U0001F37C",    // E13.0  [1] (👨‍🍼)
@@ -3823,12 +4464,15 @@ public class EmojiData {
         "\\U0001F468\\u200D\\U0001F680",    // E4.0   [1] (👨‍🚀)
         "\\U0001F468\\u200D\\U0001F692",    // E4.0   [1] (👨‍🚒)
         "\\U0001F468\\u200D\\U0001F9AF",    // E12.0  [1] (👨‍🦯)
+        "\\U0001F468\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨‍🦯‍➡️)
         "\\U0001F468\\u200D\\U0001F9B0",    // E11.0  [1] (👨‍🦰)
         "\\U0001F468\\u200D\\U0001F9B1",    // E11.0  [1] (👨‍🦱)
         "\\U0001F468\\u200D\\U0001F9B2",    // E11.0  [1] (👨‍🦲)
         "\\U0001F468\\u200D\\U0001F9B3",    // E11.0  [1] (👨‍🦳)
         "\\U0001F468\\u200D\\U0001F9BC",    // E12.0  [1] (👨‍🦼)
+        "\\U0001F468\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨‍🦼‍➡️)
         "\\U0001F468\\u200D\\U0001F9BD",    // E12.0  [1] (👨‍🦽)
+        "\\U0001F468\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👨‍🦽‍➡️)
         "\\U0001F468\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👨‍⚕️)
         "\\U0001F468\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👨‍⚖️)
         "\\U0001F468\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👨‍✈️)
@@ -3857,15 +4501,38 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.1  [1] (👩🏻‍🤝‍👩🏾)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏻‍🤝‍👩🏿)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏻‍🦯)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏻‍🦯‍➡️)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏻‍🦰)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏻‍🦱)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏻‍🦲)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏻‍🦳)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏻‍🦼)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏻‍🦼‍➡️)
         "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏻‍🦽)
+        "\\U0001F469\\U0001F3FB\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏻‍🦽‍➡️)
         "\\U0001F469\\U0001F3FB\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏻‍⚕️)
         "\\U0001F469\\U0001F3FB\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏻‍⚖️)
         "\\U0001F469\\U0001F3FB\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏻‍✈️)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1 [1] (👩🏻‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏻‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏻‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏻‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏻‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1 [1] (👩🏻‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏻‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1 [1] (👩🏻‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏻‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏻‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏻‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏻‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏻‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏻‍❤️‍💋‍👩🏿)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F33E",    // E4.0   [1] (👩🏼‍🌾)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F373",    // E4.0   [1] (👩🏼‍🍳)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F37C",    // E13.0  [1] (👩🏼‍🍼)
@@ -3889,15 +4556,38 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.1[1] (👩🏼‍🤝‍👩🏾)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏼‍🤝‍👩🏿)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏼‍🦯)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏼‍🦯‍➡️)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏼‍🦰)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏼‍🦱)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏼‍🦲)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏼‍🦳)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏼‍🦼)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1[1] (👩🏼‍🦼‍➡️)
         "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏼‍🦽)
+        "\\U0001F469\\U0001F3FC\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏼‍🦽‍➡️)
         "\\U0001F469\\U0001F3FC\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏼‍⚕️)
         "\\U0001F469\\U0001F3FC\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏼‍⚖️)
         "\\U0001F469\\U0001F3FC\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏼‍✈️)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👩🏼‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏼‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1 [1] (👩🏼‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1  [1] (👩🏼‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏼‍❤️‍💋‍👩🏿)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F33E",    // E4.0   [1] (👩🏽‍🌾)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F373",    // E4.0   [1] (👩🏽‍🍳)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F37C",    // E13.0  [1] (👩🏽‍🍼)
@@ -3921,15 +4611,38 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.1  [1] (👩🏽‍🤝‍👩🏾)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏽‍🤝‍👩🏿)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏽‍🦯)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏽‍🦯‍➡️)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏽‍🦰)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏽‍🦱)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏽‍🦲)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏽‍🦳)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏽‍🦼)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏽‍🦼‍➡️)
         "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏽‍🦽)
+        "\\U0001F469\\U0001F3FD\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏽‍🦽‍➡️)
         "\\U0001F469\\U0001F3FD\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏽‍⚕️)
         "\\U0001F469\\U0001F3FD\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏽‍⚖️)
         "\\U0001F469\\U0001F3FD\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏽‍✈️)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1 [1] (👩🏽‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏽‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏽‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏽‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏽‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏽‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏽‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏽‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏽‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏽‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏽‍❤️‍💋‍👩🏿)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F33E",    // E4.0   [1] (👩🏾‍🌾)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F373",    // E4.0   [1] (👩🏾‍🍳)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F37C",    // E13.0  [1] (👩🏾‍🍼)
@@ -3953,15 +4666,38 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // E12.0  [1] (👩🏾‍🤝‍👩🏽)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FF",    // E12.1  [1] (👩🏾‍🤝‍👩🏿)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏾‍🦯)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏾‍🦯‍➡️)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏾‍🦰)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏾‍🦱)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏾‍🦲)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏾‍🦳)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏾‍🦼)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1[1] (👩🏾‍🦼‍➡️)
         "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏾‍🦽)
+        "\\U0001F469\\U0001F3FE\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏾‍🦽‍➡️)
         "\\U0001F469\\U0001F3FE\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏾‍⚕️)
         "\\U0001F469\\U0001F3FE\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏾‍⚖️)
         "\\U0001F469\\U0001F3FE\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏾‍✈️)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1[1] (👩🏾‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1[1] (👩🏾‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏾‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏾‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1 [1] (👩🏾‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏾‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1  [1] (👩🏾‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1[1] (👩🏾‍❤️‍💋‍👩🏿)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F33E",    // E4.0   [1] (👩🏿‍🌾)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F373",    // E4.0   [1] (👩🏿‍🍳)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F37C",    // E13.0  [1] (👩🏿‍🍼)
@@ -3985,15 +4721,38 @@ public class EmojiData {
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FD",    // E12.0  [1] (👩🏿‍🤝‍👩🏽)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F469\\U0001F3FE",    // E12.0  [1] (👩🏿‍🤝‍👩🏾)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9AF",    // E12.0  [1] (👩🏿‍🦯)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏿‍🦯‍➡️)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B0",    // E11.0  [1] (👩🏿‍🦰)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B1",    // E11.0  [1] (👩🏿‍🦱)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B2",    // E11.0  [1] (👩🏿‍🦲)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9B3",    // E11.0  [1] (👩🏿‍🦳)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BC",    // E12.0  [1] (👩🏿‍🦼)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏿‍🦼‍➡️)
         "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BD",    // E12.0  [1] (👩🏿‍🦽)
+        "\\U0001F469\\U0001F3FF\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩🏿‍🦽‍➡️)
         "\\U0001F469\\U0001F3FF\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩🏿‍⚕️)
         "\\U0001F469\\U0001F3FF\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩🏿‍⚖️)
         "\\U0001F469\\U0001F3FF\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩🏿‍✈️)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏿‍❤️‍👨🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FC",    // E13.1[1] (👩🏿‍❤️‍👨🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏿‍❤️‍👨🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FE",    // E13.1[1] (👩🏿‍❤️‍👨🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍👨🏿)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FB",    // E13.1 [1] (👩🏿‍❤️‍👩🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏿‍❤️‍👩🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FD",    // E13.1[1] (👩🏿‍❤️‍👩🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏿‍❤️‍👩🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍👩🏿)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FB",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FC",    // E13.1 [1] (👩🏿‍❤️‍💋‍👨🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FD",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FE",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F468\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍💋‍👨🏿)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FB",    // E13.1  [1] (👩🏿‍❤️‍💋‍👩🏻)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FC",    // E13.1[1] (👩🏿‍❤️‍💋‍👩🏼)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FD",    // E13.1  [1] (👩🏿‍❤️‍💋‍👩🏽)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FE",    // E13.1[1] (👩🏿‍❤️‍💋‍👩🏾)
+        "\\U0001F469\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F469\\U0001F3FF",    // E13.1  [1] (👩🏿‍❤️‍💋‍👩🏿)
         "\\U0001F469\\u200D\\U0001F33E",    // E4.0   [1] (👩‍🌾)
         "\\U0001F469\\u200D\\U0001F373",    // E4.0   [1] (👩‍🍳)
         "\\U0001F469\\u200D\\U0001F37C",    // E13.0  [1] (👩‍🍼)
@@ -4019,12 +4778,15 @@ public class EmojiData {
         "\\U0001F469\\u200D\\U0001F680",    // E4.0   [1] (👩‍🚀)
         "\\U0001F469\\u200D\\U0001F692",    // E4.0   [1] (👩‍🚒)
         "\\U0001F469\\u200D\\U0001F9AF",    // E12.0  [1] (👩‍🦯)
+        "\\U0001F469\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩‍🦯‍➡️)
         "\\U0001F469\\u200D\\U0001F9B0",    // E11.0  [1] (👩‍🦰)
         "\\U0001F469\\u200D\\U0001F9B1",    // E11.0  [1] (👩‍🦱)
         "\\U0001F469\\u200D\\U0001F9B2",    // E11.0  [1] (👩‍🦲)
         "\\U0001F469\\u200D\\U0001F9B3",    // E11.0  [1] (👩‍🦳)
         "\\U0001F469\\u200D\\U0001F9BC",    // E12.0  [1] (👩‍🦼)
+        "\\U0001F469\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩‍🦼‍➡️)
         "\\U0001F469\\u200D\\U0001F9BD",    // E12.0  [1] (👩‍🦽)
+        "\\U0001F469\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (👩‍🦽‍➡️)
         "\\U0001F469\\u200D\\u2695\\uFE0F",    // E4.0   [1] (👩‍⚕️)
         "\\U0001F469\\u200D\\u2696\\uFE0F",    // E4.0   [1] (👩‍⚖️)
         "\\U0001F469\\u200D\\u2708\\uFE0F",    // E4.0   [1] (👩‍✈️)
@@ -4154,6 +4916,11 @@ public class EmojiData {
         "\\U0001F575\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵🏿‍♂️)
         "\\U0001F575\\uFE0F\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🕵️‍♀️)
         "\\U0001F575\\uFE0F\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🕵️‍♂️)
+        "\\U0001F62E\\u200D\\U0001F4A8",    // E13.1  [1] (😮‍💨)
+        "\\U0001F635\\u200D\\U0001F4AB",    // E13.1  [1] (😵‍💫)
+        "\\U0001F636\\u200D\\U0001F32B\\uFE0F",    // E13.1  [1] (😶‍🌫️)
+        "\\U0001F642\\u200D\\u2194\\uFE0F",    // E15.1  [1] (🙂‍↔️)
+        "\\U0001F642\\u200D\\u2195\\uFE0F",    // E15.1  [1] (🙂‍↕️)
         "\\U0001F645\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅🏻‍♀️)
         "\\U0001F645\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🙅🏻‍♂️)
         "\\U0001F645\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🙅🏼‍♀️)
@@ -4263,17 +5030,35 @@ public class EmojiData {
         "\\U0001F6B5\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚵‍♀️)
         "\\U0001F6B5\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚵‍♂️)
         "\\U0001F6B6\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏻‍♀️)
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏻‍♀️‍➡️)
         "\\U0001F6B6\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏻‍♂️)
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏻‍♂️‍➡️)
+        "\\U0001F6B6\\U0001F3FB\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏻‍➡️)
         "\\U0001F6B6\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏼‍♀️)
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏼‍♀️‍➡️)
         "\\U0001F6B6\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏼‍♂️)
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏼‍♂️‍➡️)
+        "\\U0001F6B6\\U0001F3FC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏼‍➡️)
         "\\U0001F6B6\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏽‍♀️)
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏽‍♀️‍➡️)
         "\\U0001F6B6\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏽‍♂️)
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏽‍♂️‍➡️)
+        "\\U0001F6B6\\U0001F3FD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏽‍➡️)
         "\\U0001F6B6\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏾‍♀️)
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏾‍♀️‍➡️)
         "\\U0001F6B6\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏾‍♂️)
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏾‍♂️‍➡️)
+        "\\U0001F6B6\\U0001F3FE\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏾‍➡️)
         "\\U0001F6B6\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶🏿‍♀️)
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏿‍♀️‍➡️)
         "\\U0001F6B6\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶🏿‍♂️)
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏿‍♂️‍➡️)
+        "\\U0001F6B6\\U0001F3FF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶🏿‍➡️)
         "\\U0001F6B6\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🚶‍♀️)
+        "\\U0001F6B6\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶‍♀️‍➡️)
         "\\U0001F6B6\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🚶‍♂️)
+        "\\U0001F6B6\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶‍♂️‍➡️)
+        "\\U0001F6B6\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🚶‍➡️)
         "\\U0001F926\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦🏻‍♀️)
         "\\U0001F926\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (🤦🏻‍♂️)
         "\\U0001F926\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (🤦🏼‍♀️)
@@ -4397,17 +5182,35 @@ public class EmojiData {
         "\\U0001F9CD\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧍‍♀️)
         "\\U0001F9CD\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧍‍♂️)
         "\\U0001F9CE\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏻‍♀️)
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏻‍♀️‍➡️)
         "\\U0001F9CE\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏻‍♂️)
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏻‍♂️‍➡️)
+        "\\U0001F9CE\\U0001F3FB\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏻‍➡️)
         "\\U0001F9CE\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏼‍♀️)
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏼‍♀️‍➡️)
         "\\U0001F9CE\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏼‍♂️)
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏼‍♂️‍➡️)
+        "\\U0001F9CE\\U0001F3FC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏼‍➡️)
         "\\U0001F9CE\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏽‍♀️)
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏽‍♀️‍➡️)
         "\\U0001F9CE\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏽‍♂️)
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏽‍♂️‍➡️)
+        "\\U0001F9CE\\U0001F3FD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏽‍➡️)
         "\\U0001F9CE\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏾‍♀️)
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏾‍♀️‍➡️)
         "\\U0001F9CE\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏾‍♂️)
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏾‍♂️‍➡️)
+        "\\U0001F9CE\\U0001F3FE\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏾‍➡️)
         "\\U0001F9CE\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎🏿‍♀️)
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏿‍♀️‍➡️)
         "\\U0001F9CE\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎🏿‍♂️)
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏿‍♂️‍➡️)
+        "\\U0001F9CE\\U0001F3FF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎🏿‍➡️)
         "\\U0001F9CE\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧎‍♀️)
+        "\\U0001F9CE\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎‍♀️‍➡️)
         "\\U0001F9CE\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧎‍♂️)
+        "\\U0001F9CE\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎‍♂️‍➡️)
+        "\\U0001F9CE\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧎‍➡️)
         "\\U0001F9CF\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏🏻‍♀️)
         "\\U0001F9CF\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E12.0  [1] (🧏🏻‍♂️)
         "\\U0001F9CF\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E12.0  [1] (🧏🏼‍♀️)
@@ -4441,15 +5244,26 @@ public class EmojiData {
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.1  [1] (🧑🏻‍🤝‍🧑🏾)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏻‍🤝‍🧑🏿)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏻‍🦯)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏻‍🦯‍➡️)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏻‍🦰)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏻‍🦱)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏻‍🦲)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏻‍🦳)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏻‍🦼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏻‍🦼‍➡️)
         "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏻‍🦽)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏻‍🦽‍➡️)
         "\\U0001F9D1\\U0001F3FB\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏻‍⚕️)
         "\\U0001F9D1\\U0001F3FB\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏻‍⚖️)
         "\\U0001F9D1\\U0001F3FB\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏻‍✈️)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏻‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1  [1] (🧑🏻‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏻‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1  [1] (🧑🏻‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏻‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏻‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏻‍❤️‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FB\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏻‍❤️‍🧑🏿)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏼‍🌾)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F373",    // E12.1  [1] (🧑🏼‍🍳)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏼‍🍼)
@@ -4471,15 +5285,26 @@ public class EmojiData {
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.1[1] (🧑🏼‍🤝‍🧑🏾)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏼‍🤝‍🧑🏿)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏼‍🦯)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏼‍🦯‍➡️)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏼‍🦰)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏼‍🦱)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏼‍🦲)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏼‍🦳)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏼‍🦼)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1[1] (🧑🏼‍🦼‍➡️)
         "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏼‍🦽)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1 [1] (🧑🏼‍🦽‍➡️)
         "\\U0001F9D1\\U0001F3FC\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏼‍⚕️)
         "\\U0001F9D1\\U0001F3FC\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏼‍⚖️)
         "\\U0001F9D1\\U0001F3FC\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏼‍✈️)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏼‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏼‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏼‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏼‍❤️‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FC\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏼‍❤️‍🧑🏿)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏽‍🌾)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F373",    // E12.1  [1] (🧑🏽‍🍳)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏽‍🍼)
@@ -4501,15 +5326,26 @@ public class EmojiData {
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.1  [1] (🧑🏽‍🤝‍🧑🏾)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏽‍🤝‍🧑🏿)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏽‍🦯)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏽‍🦯‍➡️)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏽‍🦰)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏽‍🦱)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏽‍🦲)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏽‍🦳)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏽‍🦼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏽‍🦼‍➡️)
         "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏽‍🦽)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏽‍🦽‍➡️)
         "\\U0001F9D1\\U0001F3FD\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏽‍⚕️)
         "\\U0001F9D1\\U0001F3FD\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏽‍⚖️)
         "\\U0001F9D1\\U0001F3FD\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏽‍✈️)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1  [1] (🧑🏽‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏽‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏽‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1  [1] (🧑🏽‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏽‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏽‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏽‍❤️‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FD\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏽‍❤️‍🧑🏿)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏾‍🌾)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F373",    // E12.1  [1] (🧑🏾‍🍳)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏾‍🍼)
@@ -4531,15 +5367,26 @@ public class EmojiData {
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.0  [1] (🧑🏾‍🤝‍🧑🏾)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.1  [1] (🧑🏾‍🤝‍🧑🏿)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏾‍🦯)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏾‍🦯‍➡️)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏾‍🦰)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏾‍🦱)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏾‍🦲)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏾‍🦳)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏾‍🦼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1[1] (🧑🏾‍🦼‍➡️)
         "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏾‍🦽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏾‍🦽‍➡️)
         "\\U0001F9D1\\U0001F3FE\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏾‍⚕️)
         "\\U0001F9D1\\U0001F3FE\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏾‍⚖️)
         "\\U0001F9D1\\U0001F3FE\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏾‍✈️)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏾‍❤️‍💋‍🧑🏿)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏾‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏾‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏾‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FE\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FF",    // E13.1[1] (🧑🏾‍❤️‍🧑🏿)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F33E",    // E12.1  [1] (🧑🏿‍🌾)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F373",    // E12.1  [1] (🧑🏿‍🍳)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F37C",    // E13.0  [1] (🧑🏿‍🍼)
@@ -4561,15 +5408,26 @@ public class EmojiData {
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FE",    // E12.0  [1] (🧑🏿‍🤝‍🧑🏾)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F91D\\u200D\\U0001F9D1\\U0001F3FF",    // E12.0  [1] (🧑🏿‍🤝‍🧑🏿)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9AF",    // E12.1  [1] (🧑🏿‍🦯)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏿‍🦯‍➡️)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B0",    // E12.1  [1] (🧑🏿‍🦰)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B1",    // E12.1  [1] (🧑🏿‍🦱)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B2",    // E12.1  [1] (🧑🏿‍🦲)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9B3",    // E12.1  [1] (🧑🏿‍🦳)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BC",    // E12.1  [1] (🧑🏿‍🦼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏿‍🦼‍➡️)
         "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BD",    // E12.1  [1] (🧑🏿‍🦽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑🏿‍🦽‍➡️)
         "\\U0001F9D1\\U0001F3FF\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑🏿‍⚕️)
         "\\U0001F9D1\\U0001F3FF\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑🏿‍⚖️)
         "\\U0001F9D1\\U0001F3FF\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑🏿‍✈️)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1  [1] (🧑🏿‍❤️‍💋‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏿‍❤️‍💋‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1  [1] (🧑🏿‍❤️‍💋‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F48B\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏿‍❤️‍💋‍🧑🏾)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FB",    // E13.1[1] (🧑🏿‍❤️‍🧑🏻)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FC",    // E13.1[1] (🧑🏿‍❤️‍🧑🏼)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FD",    // E13.1[1] (🧑🏿‍❤️‍🧑🏽)
+        "\\U0001F9D1\\U0001F3FF\\u200D\\u2764\\uFE0F\\u200D\\U0001F9D1\\U0001F3FE",    // E13.1[1] (🧑🏿‍❤️‍🧑🏾)
         "\\U0001F9D1\\u200D\\U0001F33E",    // E12.1  [1] (🧑‍🌾)
         "\\U0001F9D1\\u200D\\U0001F373",    // E12.1  [1] (🧑‍🍳)
         "\\U0001F9D1\\u200D\\U0001F37C",    // E13.0  [1] (🧑‍🍼)
@@ -4587,15 +5445,34 @@ public class EmojiData {
         "\\U0001F9D1\\u200D\\U0001F692",    // E12.1  [1] (🧑‍🚒)
         "\\U0001F9D1\\u200D\\U0001F91D\\u200D\\U0001F9D1",    // E12.0  [1] (🧑‍🤝‍🧑)
         "\\U0001F9D1\\u200D\\U0001F9AF",    // E12.1  [1] (🧑‍🦯)
+        "\\U0001F9D1\\u200D\\U0001F9AF\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑‍🦯‍➡️)
         "\\U0001F9D1\\u200D\\U0001F9B0",    // E12.1  [1] (🧑‍🦰)
         "\\U0001F9D1\\u200D\\U0001F9B1",    // E12.1  [1] (🧑‍🦱)
         "\\U0001F9D1\\u200D\\U0001F9B2",    // E12.1  [1] (🧑‍🦲)
         "\\U0001F9D1\\u200D\\U0001F9B3",    // E12.1  [1] (🧑‍🦳)
         "\\U0001F9D1\\u200D\\U0001F9BC",    // E12.1  [1] (🧑‍🦼)
+        "\\U0001F9D1\\u200D\\U0001F9BC\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑‍🦼‍➡️)
         "\\U0001F9D1\\u200D\\U0001F9BD",    // E12.1  [1] (🧑‍🦽)
+        "\\U0001F9D1\\u200D\\U0001F9BD\\u200D\\u27A1\\uFE0F",    // E15.1  [1] (🧑‍🦽‍➡️)
+        "\\U0001F9D1\\u200D\\U0001F9D1\\u200D\\U0001F9D2",    // E15.1  [1] (🧑‍🧑‍🧒)
+        "\\U0001F9D1\\u200D\\U0001F9D1\\u200D\\U0001F9D2\\u200D\\U0001F9D2",    // E15.1  [1] (🧑‍🧑‍🧒‍🧒)
+        "\\U0001F9D1\\u200D\\U0001F9D2",    // E15.1  [1] (🧑‍🧒)
+        "\\U0001F9D1\\u200D\\U0001F9D2\\u200D\\U0001F9D2",    // E15.1  [1] (🧑‍🧒‍🧒)
         "\\U0001F9D1\\u200D\\u2695\\uFE0F",    // E12.1  [1] (🧑‍⚕️)
         "\\U0001F9D1\\u200D\\u2696\\uFE0F",    // E12.1  [1] (🧑‍⚖️)
         "\\U0001F9D1\\u200D\\u2708\\uFE0F",    // E12.1  [1] (🧑‍✈️)
+        "\\U0001F9D4\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏻‍♀️)
+        "\\U0001F9D4\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏻‍♂️)
+        "\\U0001F9D4\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏼‍♀️)
+        "\\U0001F9D4\\U0001F3FC\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏼‍♂️)
+        "\\U0001F9D4\\U0001F3FD\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏽‍♀️)
+        "\\U0001F9D4\\U0001F3FD\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏽‍♂️)
+        "\\U0001F9D4\\U0001F3FE\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏾‍♀️)
+        "\\U0001F9D4\\U0001F3FE\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏾‍♂️)
+        "\\U0001F9D4\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔🏿‍♀️)
+        "\\U0001F9D4\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔🏿‍♂️)
+        "\\U0001F9D4\\u200D\\u2640\\uFE0F",    // E13.1  [1] (🧔‍♀️)
+        "\\U0001F9D4\\u200D\\u2642\\uFE0F",    // E13.1  [1] (🧔‍♂️)
         "\\U0001F9D6\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖🏻‍♀️)
         "\\U0001F9D6\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧖🏻‍♂️)
         "\\U0001F9D6\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧖🏼‍♀️)
@@ -4696,6 +5573,27 @@ public class EmojiData {
         "\\U0001F9DE\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧞‍♂️)
         "\\U0001F9DF\\u200D\\u2640\\uFE0F",    // E5.0   [1] (🧟‍♀️)
         "\\U0001F9DF\\u200D\\u2642\\uFE0F",    // E5.0   [1] (🧟‍♂️)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏻‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏻‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏻‍🫲🏾)
+        "\\U0001FAF1\\U0001F3FB\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏻‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏼‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏼‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏼‍🫲🏾)
+        "\\U0001FAF1\\U0001F3FC\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏼‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏽‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏽‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏽‍🫲🏾)
+        "\\U0001FAF1\\U0001F3FD\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏽‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏾‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏾‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏾‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FE\\u200D\\U0001FAF2\\U0001F3FF",    // E14.0  [1] (🫱🏾‍🫲🏿)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FB",    // E14.0  [1] (🫱🏿‍🫲🏻)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FC",    // E14.0  [1] (🫱🏿‍🫲🏼)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FD",    // E14.0  [1] (🫱🏿‍🫲🏽)
+        "\\U0001FAF1\\U0001F3FF\\u200D\\U0001FAF2\\U0001F3FE",    // E14.0  [1] (🫱🏿‍🫲🏾)
+        "\\u26D3\\uFE0F\\u200D\\U0001F4A5",    // E15.1  [1] (⛓️‍💥)
         "\\u26F9\\U0001F3FB\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏻‍♀️)
         "\\u26F9\\U0001F3FB\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹🏻‍♂️)
         "\\u26F9\\U0001F3FC\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏼‍♀️)
@@ -4707,7 +5605,9 @@ public class EmojiData {
         "\\u26F9\\U0001F3FF\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹🏿‍♀️)
         "\\u26F9\\U0001F3FF\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹🏿‍♂️)
         "\\u26F9\\uFE0F\\u200D\\u2640\\uFE0F",    // E4.0   [1] (⛹️‍♀️)
-        "\\u26F9\\uFE0F\\u200D\\u2642\\uFE0F"     // E4.0   [1] (⛹️‍♂️)
+        "\\u26F9\\uFE0F\\u200D\\u2642\\uFE0F",    // E4.0   [1] (⛹️‍♂️)
+        "\\u2764\\uFE0F\\u200D\\U0001F525",    // E13.1  [1] (❤️‍🔥)
+        "\\u2764\\uFE0F\\u200D\\U0001FA79"     // E13.1  [1] (❤️‍🩹)
     ]
     
     private init() {

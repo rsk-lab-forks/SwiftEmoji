@@ -26,7 +26,7 @@ namespace :emoji do
 //
 // DO NOT EDIT. This file was auto-generated from the Unicode data files located at:
 //
-//    https://www.unicode.org/Public/emoji/13.0/
+//    https://www.unicode.org/Public/emoji/15.1/
 //
 // To regenerate it, use the rake tasks in the SwiftEmoji project.
 //
@@ -34,7 +34,7 @@ namespace :emoji do
 ///
 /// A Swift-ified version of Unicode's Emoji data files, located at:
 ///
-///   https://www.unicode.org/Public/emoji/13.0/
+///   https://www.unicode.org/Public/emoji/15.1/
 ///
 public class EmojiData {
     
