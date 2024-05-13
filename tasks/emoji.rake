@@ -76,7 +76,7 @@ public class EmojiData {
 }
 SWIFT
     
-    source_file = File.join($ROOT_DIR, "Sources", "EmojiData.swift")
+    source_file = File.join($ROOT_DIR, "Sources/SwiftEmoji", "EmojiData.swift")
     File.open(source_file, "w") { |f|
       f << swift_source_code
     }
